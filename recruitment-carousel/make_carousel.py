@@ -262,12 +262,12 @@ ph = cover_crop(load("barakah-team.jpg"), W - 128, 520, (0.5, 0.5))
 img.paste(ph, (64, 90))
 d.rectangle((64, 90, W - 64, 610), outline=GOLD, width=4)
 y = 680
-d.text((64, y), "I AM STILL RECRUITING", font=font(SANS_B, 26), fill=GOLD); y += 40
+d.text((64, y), "THIS IS YOUR SIGN", font=font(SANS_B, 26), fill=GOLD); y += 40
 gold_rule(d, 64, y); y += 34
-y = draw_par(d, "12 years in, I still want to see people grow.", font(SERIF, 74), 64, y, W - 128, NAVY, lh=1.08)
+y = draw_par(d, "If you're serious about growing, I want you on my team.", font(SERIF, 68), 64, y, W - 128, NAVY, lh=1.08)
 y += 26
-y = draw_par(d, "If you are a salesperson looking for a team that will push you, back you and tell you the truth, let's talk. DM me \"GROW\" and I'll reach out.",
-             font(SANS, 32), 64, y, W - 128, (90, 90, 90), lh=1.35)
+y = draw_par(d, "I don't recruit numbers. I build people. 12 years in, I'm still doing it, and I'm looking for realtors who are done playing small. If that's you, DM me \"GROW\". I'll reply personally.",
+             font(SANS, 31), 64, y, W - 128, (90, 90, 90), lh=1.35)
 lh = logo(img, "barakah-logo.png", 64, H - 215, 110)
 logo(img, "propnex-logo.png", 64 + 110 + 36, H - 215 + lh // 2 - 20, 190)
 footer(d, 12, dark_bg=False)

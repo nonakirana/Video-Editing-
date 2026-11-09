@@ -22,6 +22,6 @@ Instagram carousel for Nona Kirana / Barakah Homes on recruitment and team-build
 | 09 | Lesson 05: listen and agree, even before you understand | PropNex lobby |
 | 10 | Lesson 06: lead by example, with integrity | — |
 | 11 | Today: Barakah Homes at PropNex | PropNex office |
-| 12 | CTA: still recruiting, DM "GROW" | Barakah Homes team portrait |
+| 12 | CTA: if you're serious about growing, I want you on my team. DM "GROW" | Barakah Homes team portrait |
 
 To change wording, edit the strings in `make_carousel.py` and re-run it.
