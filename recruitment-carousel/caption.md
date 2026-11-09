@@ -19,7 +19,7 @@ Here's the twist. After all the goodbyes, I'm not tired of this. I'm more excite
 
 Still growing. Still recruiting. We are just getting started. 🌱
 
-I don't recruit numbers. I build people. If you're a realtor who's done playing small and wants a team that will push you, back you and tell you the truth, this is your sign. DM me "GROW". I'll reply personally.
+I'm looking for realtors who are serious about growing sustainably. Not fast and alone, but steady, surrounded by people who genuinely want to see you win. If that's the environment you've been looking for, DM me "GROW". I'll reply personally.
 
 #BarakahHomes #PropNex #RealEstateSingapore #PropertyAgentSG #RecruitingAgents #TeamLeader #12Years #GrowWithUs #NonaKirana #AbangAbangEjenRumah #KakakKakakEjenRumah
 
