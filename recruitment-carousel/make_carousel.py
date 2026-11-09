@@ -1,4 +1,4 @@
-"""Generate the 'Still Recruiting After 11 Years' Instagram carousel.
+"""Generate the '12 Years of Building Teams' Instagram carousel.
 
 Run:  python3 make_carousel.py
 Output: slides/01.png ... slides/12.png  (1080x1350, IG portrait)
@@ -156,19 +156,19 @@ logo(img, "barakah-logo.png", 64, 70, 150, white=True)
 fh = font(SERIF, 84)
 y = 690
 fk = font(SANS_B, 26)
-d.text((64, y), "11 YEARS OF RECRUITING", font=fk, fill=GOLD)
+d.text((64, y), "12 YEARS OF BUILDING TEAMS", font=fk, fill=GOLD)
 sw = "SWIPE  →"
 d.text((W - 64 - d.textlength(sw, font=fk), y), sw, font=fk, fill=GOLD); y += 40
 gold_rule(d, 64, y); y += 32
-for line in ["People come.", "People go.", "I'm still here,", "still building."]:
+for line in ["Still growing.", "Still recruiting.", "Still just", "getting started."]:
     d.text((64, y), line, font=fh, fill=WHITE); y += round(84 * 1.04)
 y += 24
-draw_par(d, "What 11 years of growing teams taught me about people, patience and leading well.", font(SANS, 30), 64, y, W - 128, MUTED, lh=1.35)
+draw_par(d, "12 years of building teams, and what they taught me about leading people forward.", font(SANS, 30), 64, y, W - 128, MUTED, lh=1.35)
 footer(d, 1)
 save(img, 1)
 
 # 02 — how it started
-text_slide(2, "How it started", "11 years ago I recruited my first agent.",
+text_slide(2, "How it started", "12 years ago I recruited my first agent.",
     "No system, no playbook. Just a belief that if I helped people win, we would all win together. That was the start of #TeamNona.",
     photo_strip="teamnona-lunch.jpg", strip_h=600, focus=(0.5, 0.3), hl_size=68)
 
@@ -254,7 +254,7 @@ d.rectangle((64, 90, W - 64, 610), outline=GOLD, width=4)
 y = 680
 d.text((64, y), "I AM STILL RECRUITING", font=font(SANS_B, 26), fill=GOLD); y += 40
 gold_rule(d, 64, y); y += 34
-y = draw_par(d, "11 years in, I still want to see people grow.", font(SERIF, 74), 64, y, W - 128, NAVY, lh=1.08)
+y = draw_par(d, "12 years in, I still want to see people grow.", font(SERIF, 74), 64, y, W - 128, NAVY, lh=1.08)
 y += 26
 y = draw_par(d, "If you are a salesperson looking for a team that will push you, back you and tell you the truth, let's talk. DM me \"GROW\" and I'll reach out.",
              font(SANS, 32), 64, y, W - 128, (90, 90, 90), lh=1.35)

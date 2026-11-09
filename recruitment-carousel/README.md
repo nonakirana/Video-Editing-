@@ -1,4 +1,4 @@
-# Recruitment carousel: "11 years of recruiting"
+# Recruitment carousel: "12 years of building teams"
 
 Instagram carousel for Nona Kirana / Barakah Homes on recruitment and team-building lessons.
 
@@ -11,8 +11,8 @@ Instagram carousel for Nona Kirana / Barakah Homes on recruitment and team-build
 
 | # | Slide | Photo |
 |---|-------|-------|
-| 01 | Cover: People come. People go. I'm still here, still building. | Studio shoot with clapperboard |
-| 02 | How it started: first agent 11 years ago | #TeamNona lunch |
+| 01 | Cover: Still growing. Still recruiting. Still just getting started. | Studio shoot with clapperboard |
+| 02 | How it started: first agent 12 years ago | #TeamNona lunch |
 | 03 | The journey: TeamNona → NK & Associates → NKD → NK District → Barakah Homes | Studio group shoot |
 | 04 | The honest part: people come and go | ERA days group photo |
 | 05 | Lesson 01: manage expectations early | Team at the brick-wall venue |
