@@ -223,7 +223,7 @@ text_slide(8, "Lesson 04", "Make the decision that won't please everyone.",
 
 text_slide(9, "Lesson 05", "Be willing to listen and agree, even before you fully understand.",
     "Trust is built in the moments you choose to back your people first and ask your questions after.",
-    photo_strip="propnex-lobby.jpg", focus=(0.5, 0.3), hl_size=62)
+    photo_strip="propnex-lobby.jpg", strip_h=520, focus=(0.5, 0.25), hl_size=62)
 
 text_slide(10, "Lesson 06", "Lead by example, and with integrity.",
     "Your team will never do what you say. They will do what you do. Especially when you think nobody is watching.",
