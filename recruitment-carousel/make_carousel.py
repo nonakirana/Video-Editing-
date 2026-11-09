@@ -248,7 +248,7 @@ save(img, 11)
 # 12 — CTA
 img = Image.new("RGBA", (W, H), CREAM + (255,))
 d = ImageDraw.Draw(img)
-ph = cover_crop(load("team-dinner.jpg"), W - 128, 520, (0.5, 0.4))
+ph = cover_crop(load("barakah-team.jpg"), W - 128, 520, (0.5, 0.5))
 img.paste(ph, (64, 90))
 d.rectangle((64, 90, W - 64, 610), outline=GOLD, width=4)
 y = 680
