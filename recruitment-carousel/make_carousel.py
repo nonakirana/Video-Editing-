@@ -229,18 +229,27 @@ text_slide(10, "Lesson 06", "Lead by example, and with integrity.",
     "Your team will never do what you say. They will do what you do. Especially when you think nobody is watching.",
     bg=CREAM, hl_size=76)
 
-# 11 — today: Barakah Homes
-base = cover_crop(load("propnex-office.jpg"), W, H, (0.55, 0.5))
-img = gradient_overlay(base, top_alpha=60, bottom_alpha=240, start=0.3)
+# 11 — today: Barakah Homes. Full-width photo (nobody cropped) fading into navy.
+img = Image.new("RGBA", (W, H), NAVY + (255,))
+ph = load("propnex-office.jpg").convert("RGB")
+ph = ph.resize((W, round(ph.height * W / ph.width)), Image.LANCZOS)   # 1080 x ~608, whole photo
+PH = ph.height
+img.paste(ph, (0, 0))
+fade = Image.new("RGBA", (W, H), NAVY + (0,))
+fd = ImageDraw.Draw(fade)
+fd.rectangle((0, 0, W, PH), fill=NAVY + (30,))
+for i in range(120):
+    fd.line((0, PH - 120 + i, W, PH - 120 + i), fill=NAVY + (30 + int(225 * (i / 120) ** 1.3),))
+img = Image.alpha_composite(img, fade)
 d = ImageDraw.Draw(img)
-y = 760
+y = PH + 40
 d.text((64, y), "TODAY", font=font(SANS_B, 26), fill=GOLD); y += 40
-gold_rule(d, 64, y); y += 30
+gold_rule(d, 64, y); y += 32
 y = draw_par(d, "Barakah Homes, at PropNex.", font(SERIF, 76), 64, y, W - 128, WHITE, lh=1.1)
 y += 24
 y = draw_par(d, "A new name, the same mission: build a team where people grow, earn well, and do this business with barakah.",
              font(SANS, 32), 64, y, W - 128, MUTED, lh=1.35)
-y += 40
+y += 48
 h = logo(img, "barakah-logo.png", 64, y, 120, white=True)
 logo(img, "propnex-logo.png", 64 + 120 + 40, y + h // 2 - 22, 210, white=True)
 footer(d, 11)
