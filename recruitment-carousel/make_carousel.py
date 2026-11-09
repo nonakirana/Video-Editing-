@@ -143,9 +143,8 @@ def text_slide(n, kicker, headline, body=None, bg=NAVY, hl_size=84, photo_strip=
 
 # 01 — cover: full-width photo on top, fading into navy, text below
 img = Image.new("RGBA", (W, H), NAVY + (255,))
-ph = load("gathering.jpg").convert("RGB")
-ph = ph.resize((W, round(ph.height * W / ph.width)), Image.LANCZOS)   # full width, nothing cropped
-PH = ph.height
+PH = 740
+ph = cover_crop(load("gathering.jpg"), W, PH, (0.5, 0.9))   # full width; trims only the ceiling
 img.paste(ph, (0, 0))
 fade = Image.new("RGBA", (W, H), NAVY + (0,))
 fd = ImageDraw.Draw(fade)
