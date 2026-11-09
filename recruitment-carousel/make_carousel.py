@@ -161,7 +161,7 @@ d.text((64, y), "12 YEARS OF BUILDING TEAMS", font=fk, fill=GOLD)
 sw = "SWIPE  →"
 d.text((W - 64 - d.textlength(sw, font=fk), y), sw, font=fk, fill=GOLD); y += 40
 gold_rule(d, 64, y); y += 32
-for line in ["Still growing.", "Still recruiting.", "Still just", "getting started."]:
+for line in ["Still growing.", "Still recruiting.", "We are just", "getting started."]:
     d.text((64, y), line, font=fh, fill=WHITE); y += round(84 * 1.04)
 y += 24
 draw_par(d, "12 years of building teams, and what they taught me about leading people forward.", font(SANS, 30), 64, y, W - 128, MUTED, lh=1.35)

@@ -20,7 +20,7 @@ Truth bomb: people come and people go. Some stayed a season. Some stayed a decad
 5️⃣ Back your people first, ask your questions after. That's how trust is built.
 6️⃣ Lead by example. They don't follow what you say. They copy what you do.
 
-And after all that? I'm still recruiting. Still growing. Still just getting started. 🌱
+And after all that? I'm still recruiting. Still growing. We are just getting started. 🌱
 
 If you want a team that pushes you, backs you and tells you the truth, DM me "GROW". Let's build something with barakah.
 
@@ -31,6 +31,6 @@ If you want a team that pushes you, backs you and tells you the truth, DM me "GR
 ## Posting notes
 
 - Format: 12 slides, 1080×1350 (4:5 portrait), post in order 01 → 12.
-- Alt text for the first slide: "Large group photo of the extended Barakah Homes team and families in a living room. Text: Still growing. Still recruiting. Still just getting started."
+- Alt text for the first slide: "Large group photo of the extended Barakah Homes team and families in a living room. Text: Still growing. Still recruiting. We are just getting started."
 - Handle used on every slide footer: @nonakirana. Change `HANDLE` in `make_carousel.py` if you post from a different account.
 - Suggested first comment: pin the recruitment CTA ("DM me GROW") so it stays visible under the caption.
