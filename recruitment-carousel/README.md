@@ -11,7 +11,7 @@ Instagram carousel for Nona Kirana / Barakah Homes on recruitment and team-build
 
 | # | Slide | Photo |
 |---|-------|-------|
-| 01 | Cover: Still growing. Still recruiting. Still just getting started. | Studio shoot with clapperboard |
+| 01 | Cover: Still growing. Still recruiting. Still just getting started. | Team gathering group photo |
 | 02 | How it started: first agent 12 years ago | #TeamNona lunch |
 | 03 | The journey: TeamNona → NK & Associates → NKD → NK District → Barakah Homes | Studio group shoot |
 | 04 | The honest part: people come and go | ERA days group photo |

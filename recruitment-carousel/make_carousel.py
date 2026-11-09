@@ -141,20 +141,22 @@ def text_slide(n, kicker, headline, body=None, bg=NAVY, hl_size=84, photo_strip=
 
 # ================= SLIDES =================
 
-# 01 — cover
-base = cover_crop(load("studio-clapper.jpg"), W, H, (0.5, 0.45))
-img = gradient_overlay(base, top_alpha=110, bottom_alpha=250, start=0.3)
-# soft navy band behind the text block (fades in over 90px above y=660)
-band = Image.new("RGBA", (W, H), NAVY + (0,))
-bd = ImageDraw.Draw(band)
-for i in range(90):
-    bd.line((0, 570 + i, W, 570 + i), fill=NAVY + (int(130 * i / 90),))
-bd.rectangle((0, 660, W, H), fill=NAVY + (130,))
-img = Image.alpha_composite(img, band)
+# 01 — cover: full-width photo on top, fading into navy, text below
+img = Image.new("RGBA", (W, H), NAVY + (255,))
+ph = load("gathering.jpg").convert("RGB")
+ph = ph.resize((W, round(ph.height * W / ph.width)), Image.LANCZOS)   # full width, nothing cropped
+PH = ph.height
+img.paste(ph, (0, 0))
+fade = Image.new("RGBA", (W, H), NAVY + (0,))
+fd = ImageDraw.Draw(fade)
+fd.rectangle((0, 0, W, PH), fill=NAVY + (45,))                          # light tint so the logo reads
+for i in range(160):                                                    # fade the photo bottom into navy
+    fd.line((0, PH - 160 + i, W, PH - 160 + i), fill=NAVY + (45 + int(210 * (i / 160) ** 1.3),))
+img = Image.alpha_composite(img, fade)
 d = ImageDraw.Draw(img)
-logo(img, "barakah-logo.png", 64, 70, 150, white=True)
+logo(img, "barakah-logo.png", 64, 60, 140, white=True)
 fh = font(SERIF, 84)
-y = 690
+y = PH - 24
 fk = font(SANS_B, 26)
 d.text((64, y), "12 YEARS OF BUILDING TEAMS", font=fk, fill=GOLD)
 sw = "SWIPE  →"
