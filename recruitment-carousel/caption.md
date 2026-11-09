@@ -1,28 +1,25 @@
 # Instagram caption
 
-12 years. 5 team names. Hundreds of conversations that started with "so, tell me why you want to do real estate."
+Nobody warns you about this part of building a team: you will say goodbye far more often than you say welcome.
 
-I recruited my first agent 12 years ago with zero system and a lot of nerve. We called ourselves #TeamNona.
+12 years ago I recruited my first agent. I had no system, no office, and honestly no idea what I was doing. I just had a feeling that if I helped people win, we would all win. That feeling became #TeamNona.
 
-Then the name on the door kept changing:
-TeamNona → Nona Kirana & Associates → NKD → Nona Kirana District → Barakah Homes @ PropNex.
+Then life kept renaming us. TeamNona. Nona Kirana & Associates. NKD. Nona Kirana District. And today, Barakah Homes @ PropNex. Five names on the door, one heartbeat behind it.
 
-Different names. Same heartbeat.
+If I could send a voice note to the 12-years-ago me, it would say:
 
-Truth bomb: people come and people go. Some stayed a season. Some stayed a decade. Some left, grew up somewhere else, and came back. Every one of them made me a better leader, whether they meant to or not. 😅
+🎙️ "Say the expectations out loud. The ones you keep in your head become resentment later."
+🎙️ "When they give you hard feedback, don't defend. Listen. They're still talking because they still care."
+🎙️ "You'll have to be soft and firm with the same person in the same week. Both are love."
+🎙️ "Some decisions will make you unpopular for a while. Make them anyway. The team comes first."
+🎙️ "Back your people before you fully understand the situation. Ask questions after. That's trust."
+🎙️ "They won't follow what you say. They'll copy what you do. So do it right, even when nobody's watching."
 
-12 years of building teams boiled down to 6 lines:
+Here's the twist. After all the goodbyes, I'm not tired of this. I'm more excited than I was on day one, because now I know what to look for and how to grow it.
 
-1️⃣ Manage expectations early. Unspoken expectations are future resentment.
-2️⃣ Take feedback like a pro. If they're still telling you the truth, they still care.
-3️⃣ Empathy and firmness aren't opposites. Both are love.
-4️⃣ Some decisions will not please everyone. Make them anyway, for the team.
-5️⃣ Back your people first, ask your questions after. That's how trust is built.
-6️⃣ Lead by example. They don't follow what you say. They copy what you do.
+Still growing. Still recruiting. We are just getting started. 🌱
 
-And after all that? I'm still recruiting. Still growing. We are just getting started. 🌱
-
-If you want a team that pushes you, backs you and tells you the truth, DM me "GROW". Let's build something with barakah.
+If you're a salesperson who wants a team that will push you, back you and tell you the truth, DM me "GROW". Let's build something with barakah.
 
 #BarakahHomes #PropNex #RealEstateSingapore #PropertyAgentSG #RecruitingAgents #TeamLeader #12Years #GrowWithUs #NonaKirana #AbangAbangEjenRumah #KakakKakakEjenRumah
 
