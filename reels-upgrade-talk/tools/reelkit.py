@@ -436,6 +436,41 @@ def mix_sfx(events, dur, out_wav, gain_db=-16):
     import wave
     w = wave.open(out_wav, "w"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767).astype(np.int16).tobytes()); w.close()
 
+
+PAUSES = [tuple(map(float, l.split())) for l in open(os.path.join(SP, "dl", "sil_-27.txt")) if l.strip()]
+def _fix_word(t):
+    key = t.lower()
+    return FIX.get(key, t)
+
+def snap_segments(spec):
+    """Snap clip boundaries into real pauses, merge clips separated by <1 s of source, keep an index map."""
+    snapped = []
+    for s in spec:
+        if s["kind"] != "clip": snapped.append(dict(s)); continue
+        a, b = s["s"], s["e"]
+        cand = [p for p in PAUSES if a - 0.8 <= p[1] <= a + 0.25]
+        a2 = (max(cand, key=lambda p: p[1])[1] - 0.10) if cand else a - 0.15
+        cand = [p for p in PAUSES if b - 0.25 <= p[0] <= b + 1.2]
+        text = s.get("text", "")
+        if cand:
+            p = min(cand, key=lambda p: p[0]); b2 = p[0] + min(0.30, 0.6 * (p[1] - p[0]))
+            if p[0] > b + 0.4:  # words were spoken between the old end and the pause: add them to the caption text
+                extra = [_fix_word(w["word"]) for w in WORDS if b - 0.05 < w["start"] < p[0] and w["word"]]
+                extra = [w for w in extra if w]
+                if extra: text = (text + " " + " ".join(extra)).strip()
+        else:
+            b2 = b + 0.3
+        snapped.append(dict(s, s=round(a2, 3), e=round(b2, 3), text=text, orig_s=a, orig_e=b))
+    merged, index_map = [], []
+    for i, s in enumerate(snapped):
+        if merged and s["kind"] == "clip" and merged[-1]["kind"] == "clip" and -1.0 <= s["s"] - merged[-1]["e"] < 1.0:
+            m = merged[-1]
+            m["e"] = s["e"]; m["text"] = (m.get("text", "") + " " + s.get("text", "")).strip(); m["push"] = max(m.get("push", 0), s.get("push", 0))
+            index_map.append((len(merged) - 1, s["s"], s["e"]))
+        else:
+            merged.append(dict(s)); index_map.append((len(merged) - 1, s.get("s", 0), s.get("e", 0)))
+    return merged, index_map
+
 # ---------- base video ----------
 GRADE = "colorbalance=gm=-0.12:gs=-0.06:gh=-0.04:rm=0.03,eq=contrast=1.06:saturation=1.02:brightness=0.01,vignette=PI/5"
 def run(cmd):
@@ -445,6 +480,7 @@ def run(cmd):
 def build_segments(spec, workdir):
     """spec: list of dicts kind=clip(s,e,zoom,push) | still(t,dur,zoom,dark). Returns segments with offsets, total dur."""
     os.makedirs(workdir, exist_ok=True)
+    spec, index_map = snap_segments(spec)
     segs, off, files = [], 0.0, []
     for i, s in enumerate(spec):
         fn = os.path.join(workdir, f"seg{i:02d}.mov")
@@ -459,7 +495,7 @@ def build_segments(spec, workdir):
             zoomexpr = f"{z}+{push}*t/{dur:.3f}"
             vf = (f"fps={FPS},scale=w='trunc(iw*({zoomexpr})/2)*2':h='trunc(ih*({zoomexpr})/2)*2':eval=frame,"
                   f"crop={W}:{H}:(iw-{W})/2:(ih-{H})*0.35,{GRADE},format=yuv420p")
-            af = f"volume={s.get('gain', 1.0)},afade=t=in:d=0.03,afade=t=out:st={max(0, dur - 0.04):.3f}:d=0.04"
+            af = f"volume={s.get('gain', 1.0)},afade=t=in:d=0.05,afade=t=out:st={max(0, dur - 0.08):.3f}:d=0.08"
             run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s['s']:.3f}", "-i", SRC, "-t", f"{dur:.3f}", "-vf", vf, "-af", af,
                  "-c:v", "libx264", "-preset", "fast", "-crf", "15", "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2", fn])
         else:
@@ -476,7 +512,10 @@ def build_segments(spec, workdir):
     open(lst, "w").write("".join(f"file '{f}'\n" for f in files))
     base = os.path.join(workdir, "base.mov")
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", base])
-    return segs, off, base
+    for i, (ni, a, b) in enumerate(index_map):
+        sg = segs[ni]
+        print(f"  seg{i:02d} -> part {ni}  {sg['kind']} {sg.get('s', sg.get('t', 0)):.2f}-{sg.get('e', 0):.2f}  own {a:.2f}-{b:.2f}  out {sg['off']:.1f}", flush=True)
+    return segs, off, base, index_map
 
 def finish(base, overlay_gen, total, sfx_events, out_mp4, workdir, music=None):
     """overlay_gen(t) -> RGBA frame. Pipes frames to ffmpeg, overlays, processes audio, muxes."""
@@ -596,10 +635,13 @@ def progressive(build, states, anchor, align="center", hold_fade=True):
 
 def run_reel(name, spec, make_els, out):
     wd = os.path.join(SP, "work", name)
-    segs, total, base = build_segments(spec, wd)
-    T = lambda i, src: segs[i]["off"] + (src - segs[i]["s"])
-    E = lambda i: segs[i]["off"] + segs[i]["dur"]
-    S = lambda i: segs[i]["off"]
+    segs, total, base, imap = build_segments(spec, wd)
+    def T(i, src):
+        ni = imap[i][0]; return segs[ni]["off"] + (src - segs[ni]["s"])
+    def S(i):
+        ni, a, b = imap[i]; return segs[ni]["off"] + ((a - segs[ni]["s"]) if segs[ni]["kind"] == "clip" else 0)
+    def E(i):
+        ni, a, b = imap[i]; return segs[ni]["off"] + ((b - segs[ni]["s"]) if segs[ni]["kind"] == "clip" else segs[ni]["dur"])
     print("total", round(total, 1), flush=True)
     els, sfxe = make_els(segs, T, E, S)
     caps = make_captions(segs)

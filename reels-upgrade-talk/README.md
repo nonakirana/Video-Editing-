@@ -6,11 +6,13 @@ Short-form series cut from one 7 min 53 s vertical talk (Malay, DJI Osmo Pocket 
 
 | # | File | Length | Hook |
 |---|------|--------|------|
-| 1 | `reel1-kakak-downgrade.mp4` | 78 s | Dia telefon nak DOWNGRADE. Saya suruh dia UPGRADE. |
-| 2 | `reel2-dua-pakcik.mp4` | 75 s | $30k vs $1.7 juta. Dua pakcik, umur sama. |
-| 3 | `reel3-kenapa-takut-upgrade.mp4` | 70 s | Kenapa orang kita takut nak upgrade? |
-| 4 | `reel4-3-soalan-sebelum-beli-kondo.mp4` | 76 s | 3 soalan sebelum beli kondo. |
-| 5 | `reel5-data-bukan-teka.mp4` | 24 s | Kondo ni boleh beli ke tidak? Jangan teka. (bonus) |
+| 1 | `reel1-kakak-downgrade.mp4` | 82 s | Dia telefon nak DOWNGRADE. Saya suruh dia UPGRADE. |
+| 2 | `reel2-dua-pakcik.mp4` | 77 s | $30k vs $1.7 juta. Dua pakcik, umur sama. |
+| 3 | `reel3-kenapa-takut-upgrade.mp4` | 73 s | Kenapa orang kita takut nak upgrade? |
+| 4 | `reel4-3-soalan-sebelum-beli-kondo.mp4` | 81 s | 3 soalan sebelum beli kondo. |
+| 5 | `reel5-data-bukan-teka.mp4` | 25 s | Kondo ni boleh beli ke tidak? Jangan teka. (bonus) |
+
+Every cut is placed inside a real pause detected in the audio (`tools/pauses-video1.txt`), after the sentence has finished, and cuts that fell inside continuous speech are merged into one take.
 
 No music bed is baked in, so you can add a trending track in Instagram or TikTok at upload time. Sound effects (whooshes, pops, ka-ching, counter ticks, outro sting) are included.
 
