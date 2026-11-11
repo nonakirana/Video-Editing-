@@ -1,4 +1,4 @@
-"""Generate the 'Buy first, or sell first?' Instagram carousel (8 slides, 1080x1350).
+"""Generate the 'Sell first or buy first? Wrong question.' Instagram carousel (8 slides, 1080x1350).
 
 Run:  python3 make_carousel.py
 Photos: photos/nona-*.jpg (portrait crops; swap for your own portraits, 3:4 works best)
@@ -143,7 +143,13 @@ def point_cards(d, y, items, gap=16):
         lines = wrap(d, text, f, W - 128 - 150)
         h = 40 + len(lines) * 42
         rrect(d, (64, y, W - 64, y + h), 32, fill=CREAM)
-        (check_icon if ok else cross_icon)(d, 64 + 66, y + h / 2)
+        if isinstance(ok, str):
+            cx, cy = 64 + 66, y + h / 2
+            d.ellipse((cx - 24, cy - 24, cx + 24, cy + 24), fill=GOLD_L)
+            fnum = font(SANS_B, 26)
+            d.text((cx - d.textlength(ok, font=fnum) / 2, cy - 16), ok, font=fnum, fill=NAVY)
+        else:
+            (check_icon if ok else cross_icon)(d, 64 + 66, y + h / 2)
         ty = y + 20
         for line in lines:
             d.text((64 + 128, ty), line, font=f, fill=INK); ty += 42
@@ -178,144 +184,118 @@ def save(img, n):
 
 # 01 — cover
 img = background(); d = ImageDraw.Draw(img); header(d, 1)
-polaroid(img, "nona-clapper.jpg", 810, 380, pw=400, angle=-6)
-y = headline(d, 660, bold=["Buy first,"], italic=["or sell first?"], size=118)
-d.text((64, y + 18), "Read this before you decide on your next move.", font=font(SANS_SB, 31), fill=MUTED)
-my_take(img, None, "Get the sequence wrong and you put pressure on both your finances and your decisions.")
+polaroid(img, "nona-desk-consult.jpg", 800, 395, pw=340, angle=-6)
+y = headline(d, 596, bold=["Sell first or", "buy first?"], italic=["Wrong question."], size=100)
+d.text((64, y + 16), "Here's the one I ask every upgrading family instead.", font=font(SANS_SB, 31), fill=MUTED)
+my_take(img, None, "Most upgrading stress isn't about the price. It's about the timing between the two homes.")
 footer(d, 1, right="Swipe  →")
 save(img, 1)
 
-# 02 — option 1
+# 02 — the real question: the gap
 img = background(); d = ImageDraw.Draw(img); header(d, 2)
-y = headline(d, 120, kicker="Option 1:", bold=["Buy first,"], italic=["sell later"], size=92)
-y = point_cards(d, y + 24, [
-    (True,  "Take your time to search, renovate and move in. No rush."),
-    (False, "You service two housing loans until the first home is sold."),
-    (False, "You need a substantial down payment for the second property."),
-    (False, "You pay the Additional Buyer's Stamp Duty upfront, and claim it back later only if you qualify."),
+polaroid(img, "nona-walkthrough.jpg", 880, 330, pw=260, angle=5)
+y = headline(d, 120, kicker="The real question:", bold=["Can you"], italic=["afford the gap?"], size=92)
+y = par(d, "Between selling one home and settling into the next, three gaps open up.", font(SANS_SB, 31), 64, y + 24, 620, MUTED, lh=1.35)
+y = point_cards(d, y + 36, [
+    ("1", "Cash gap: the down payment and stamp duty on the new home, due before your sale proceeds arrive."),
+    ("2", "Loan gap: the months you may be servicing two mortgages at the same time."),
+    ("3", "Time gap: where your family lives if the keys don't line up."),
 ])
-b = my_take(img, None, "Before you buy, ask yourself honestly: if my current home takes longer to sell, can I comfortably carry both?", bottom=H - 190)
-d.text((64, b + 18), "ABSD remission is subject to eligibility and conditions.", font=font(SANS, 24), fill=MUTED)
+my_take(img, None, "Whichever order you choose, you're really choosing which gap you can live with.")
 footer(d, 2)
 save(img, 2)
 
-# 03 — option 2
+# 03 — if you buy first
 img = background(); d = ImageDraw.Draw(img); header(d, 3)
-y = headline(d, 120, kicker="Option 2:", bold=["Sell first,"], italic=["buy later"], size=92)
+y = headline(d, 120, kicker="If you buy first", bold=["Buying first"], italic=["buys you time."], size=92)
 y = point_cards(d, y + 24, [
-    (True,  "Sell calmly, at the price you actually want."),
-    (False, "You may need to rent in between if the right home doesn't show up in time."),
-    (False, "Prices can move up while you are still searching."),
+    (True,  "Works when you have the cash and loan room to hold two homes for a few months."),
+    (True,  "Works when you can't disrupt school runs, or a parent's care, with a move in between."),
+    (False, "ABSD is paid upfront. Married couples can claim it back, only if the first home sells in time."),
+    (False, "Costs you two mortgages and two sets of bills until the sale completes."),
 ])
-# +$30,000 vs +$50,000 tiles
-ty = y + 10
-rrect(d, (64, ty, 500, ty + 120), 26, fill=CREAM)
-rrect(d, (580, ty, W - 64, ty + 120), 26, fill=DEEP, outline=WHITE, width=3)
-fbig = font(DISPLAY, 60)
-d.text((64 + (436 - d.textlength("+$30,000", font=fbig)) / 2, ty + 28), "+$30,000", font=fbig, fill=NAVY)
-d.text((580 + (436 - d.textlength("+$50,000", font=fbig)) / 2, ty + 28), "+$50,000", font=fbig, fill=WHITE)
-d.text((540 - d.textlength("vs", font=font(SANS_B, 28)) / 2, ty + 46), "vs", font=font(SANS_B, 28), fill=GOLD_L)
-d.text((64, ty + 132), "Gained on your sale", font=font(SANS, 22), fill=MUTED)
-d.text((580, ty + 132), "Added to your next home", font=font(SANS, 22), fill=MUTED)
-my_take(img, None, "An extra $30,000 on your sale means little if your next home now costs $50,000 more.")
+b = my_take(img, None, "Buy first only if you can still sleep when your old home takes three months longer to sell than planned.", bottom=H - 190)
+d.text((64, b + 18), "ABSD remission is subject to IRAS eligibility and conditions.", font=font(SANS, 24), fill=MUTED)
 footer(d, 3)
 save(img, 3)
 
-# 04 — what I usually advise
+# 04 — if you sell first
 img = background(); d = ImageDraw.Draw(img); header(d, 4)
-d.text((64, 150), "What I usually advise", font=font(SERIF_IT, 72), fill=GOLD_L)
-y = headline(d, 250, bold=["Do both"], italic=["almost at the same time,"], bold2=["if possible."], size=96, iszie=92)
-polaroid(img, "nona-pink.jpg", 820, 715, pw=330, angle=4)
-# sell / buy timelines
-ty = 690
-for i, (lab, dashed) in enumerate([("Sell", False), ("Buy", True)]):
-    yy = ty + i * 150
-    d.text((64, yy), lab, font=font(SANS_SB, 30), fill=MUTED)
-    ly = yy + 70
-    d.ellipse((64, ly - 12, 88, ly + 12), fill=WHITE)
-    if dashed:
-        for x in range(96, 520, 26): d.ellipse((x, ly - 4, x + 8, ly + 4), fill=WHITE)
-    else:
-        d.line((88, ly, 520, ly), fill=WHITE, width=6)
-    d.polygon([(520, ly - 16), (552, ly), (520, ly + 16)], fill=WHITE)
-    cx = 300 if not dashed else 400
-    d.ellipse((cx - 26, ly - 26, cx + 26, ly + 26), fill=WHITE)
-    d.text((cx - d.textlength(str(i + 1), font=font(SANS_B, 30)) / 2, ly - 20), str(i + 1), font=font(SANS_B, 30), fill=NAVY)
-my_take(img, None, "Start both processes together, but commit to each in a carefully planned order.")
+y = headline(d, 120, kicker="If you sell first", bold=["Selling first"], italic=["buys you clarity."], size=92)
+y = point_cards(d, y + 24, [
+    (True,  "Works when you need the sale proceeds to fund the next down payment."),
+    (True,  "Works when you want a clean, confirmed budget before you fall in love with a unit."),
+    (False, "Costs you temporary housing, two moves and storage, unless you negotiate an extension of stay with your buyer."),
+    (False, "Costs you price risk. The home you want may cost more by the time your sale completes."),
+])
+my_take(img, None, "Selling first is the calmer route, as long as you've already planned where you'll live in between.")
 footer(d, 4)
 save(img, 4)
 
-# 05 — know your numbers (reconstructed: slide 5 of the reference was not provided)
+# 05 — an overlap, not a gap
 img = background(); d = ImageDraw.Draw(img); header(d, 5)
-y = headline(d, 130, bold=["Know your numbers"], italic=["before you commit"], size=92)
-d.text((64, y + 14), "Your sequence should follow your finances, not your feelings.", font=font(SANS_SB, 31), fill=MUTED)
-y = point_cards(d, y + 90, [
-    (True, "Loan eligibility: get your In-Principle Approval before you view."),
-    (True, "CPF: how much goes back to your account after the sale, with accrued interest."),
-    (True, "Cash on hand for the down payment, stamp duties and renovation."),
-    (True, "A time buffer, in case either side takes longer than planned."),
-])
-my_take(img, None, "Your numbers decide your sequence. Not the other way around.")
+y = headline(d, 120, kicker="What I aim for with my clients", bold=["An overlap,"], italic=["not a gap."], size=96)
+y = par(d, "Secure your buyer first. Then commit to your purchase, with completion dates that let the proceeds land before the payment is due.", font(SANS, 31), 64, y + 24, 600, MUTED, lh=1.35)
+polaroid(img, "nona-condo-viewing.jpg", 895, 800, pw=270, angle=4)
+by = y + 60
+rrect(d, (64, by, 600, by + 60), 30, fill=CREAM)
+d.text((96, by + 14), "SELL", font=font(SANS_B, 26), fill=NAVY)
+d.text((190, by + 17), "offer  →  exercise  →  complete", font=font(SANS, 23), fill=INK)
+rrect(d, (330, by + 84, 720, by + 144), 30, fill=DEEP, outline=GOLD_L, width=3)
+d.text((362, by + 98), "BUY", font=font(SANS_B, 26), fill=WHITE)
+d.text((446, by + 101), "exercise  →  complete", font=font(SANS, 23), fill=MUTED)
+# the overlap band
+d.rectangle((330, by - 12, 600, by + 156), outline=GOLD_L, width=2)
+d.text((330, by + 166), "the overlap", font=font(SANS_SB, 22), fill=GOLD_L)
+# milestones
+ly = by + 270
+xs = [100, 280, 460, 640]
+d.line((xs[0], ly, xs[-1], ly), fill=WHITE, width=4)
+for x, lab in zip(xs, ["Offer on\nyour sale", "Exercise\nyour purchase", "Sale\ncompletes", "Purchase\ncompletes"]):
+    d.ellipse((x - 14, ly - 14, x + 14, ly + 14), fill=NAVY, outline=WHITE, width=4)
+    for i, line in enumerate(lab.split("\n")):
+        f = font(SANS_SB, 21)
+        d.text((x - d.textlength(line, font=f) / 2, ly + 28 + i * 26), line, font=f, fill=MUTED)
+my_take(img, None, "The money from your sale should arrive before the money for your purchase is due. Everything else is detail.")
 footer(d, 5)
 save(img, 5)
 
-# 06 — start selling and searching together
+# 06 — four numbers
 img = background(); d = ImageDraw.Draw(img); header(d, 6)
-y = headline(d, 130, bold=["Start selling and"], italic=["searching together"], size=90)
-y = par(d, "Market your current home while you view your next one.", font(SANS_SB, 36), 64, y + 40, W - 128, WHITE, lh=1.3)
-y = par(d, "You'll learn what your home can really fetch, and what your budget can really buy.", font(SANS, 31), 64, y + 18, W - 128, MUTED, lh=1.35)
-# balance scale
-cx, top = W // 2, 650
-d.ellipse((cx - 12, top - 12, cx + 12, top + 12), fill=WHITE)
-d.line((cx, top, cx, top + 220), fill=WHITE, width=6)
-d.line((cx - 140, top + 220, cx + 140, top + 220), fill=WHITE, width=6)
-lx, rx = cx - 330, cx + 330
-d.line((lx, top + 60, cx, top, rx, top - 30), fill=WHITE, width=6, joint="curve")   # slightly tipped
-for px, py in ((lx, top + 60), (rx, top - 30)):
-    d.line((px, py, px, py + 60), fill=WHITE, width=6)
-    d.line((px - 90, py + 60, px + 90, py + 60), fill=WHITE, width=6)
-    d.chord((px - 90, py + 10, px + 90, py + 110), 0, 180, outline=WHITE, width=6)
-d.text((lx - 90, top + 180), "Selling price", font=font(SANS_SB, 28), fill=MUTED)
-d.text((rx - 150, top + 180), "Next home price", font=font(SANS_SB, 28), fill=MUTED)
-my_take(img, None, "Balance your realistic selling price against your next home's price and growth potential. Count the cost of waiting, too.")
+y = headline(d, 120, kicker="Before anyone signs", bold=["Four numbers"], italic=["I check first."], size=92)
+y = point_cards(d, y + 24, [
+    ("1", "Net proceeds: sale price, minus the outstanding loan, CPF refund with accrued interest, and fees."),
+    ("2", "Loan room: your In-Principle Approval from the bank. Not an estimate."),
+    ("3", "Cash needed: down payment, Buyer's Stamp Duty, legal fees and renovation."),
+    ("4", "Monthly commitment after the move, with a buffer for interest rates moving."),
+])
+my_take(img, None, "If it doesn't work on paper, it won't work in real life. And paper is much cheaper.")
 footer(d, 6)
 save(img, 6)
 
-# 07 — coordinate your timeline
+# 07 — three mistakes
 img = background(); d = ImageDraw.Draw(img); header(d, 7)
-y = headline(d, 130, bold=["Coordinate your"], italic=["timeline carefully"], size=90)
-y = par(d, "It's not only about selling and buying.", font(SANS_SB, 36), 64, y + 40, W - 128, WHITE, lh=1.3)
-y = par(d, "Plan when your sale proceeds come in, when you collect keys, when you renovate, and when you move.", font(SANS, 31), 64, y + 18, W - 128, MUTED, lh=1.35)
-steps = ["Sale proceeds", "Keys", "Renovate", "Move in"]
-pills = ["Money in", "Payment", "Payment", None]
-ly = 850; xs = [150, 410, 670, 930]
-d.line((xs[0], ly, xs[-1], ly), fill=WHITE, width=6)
-for x, s, p in zip(xs, steps, pills):
-    d.ellipse((x - 24, ly - 24, x + 24, ly + 24), fill=NAVY, outline=WHITE, width=6)
-    f = font(SANS_SB, 28)
-    d.text((x - d.textlength(s, font=f) / 2, ly - 80), s, font=f, fill=WHITE)
-    if p:
-        fp = font(SANS_B, 26); tw = d.textlength(p, font=fp)
-        box = (x - tw / 2 - 26, ly + 56, x + tw / 2 + 26, ly + 112)
-        if p == "Money in": rrect(d, box, 28, fill=CREAM); col = NAVY
-        else: rrect(d, box, 28, fill=DEEP, outline=WHITE, width=3); col = WHITE
-        d.text((x - tw / 2, ly + 70), p, font=fp, fill=col)
-my_take(img, None, "You may have enough money overall. But will it be in your hands when each payment is due?")
+y = headline(d, 120, kicker="I see these every month", bold=["Three upgrading"], italic=["mistakes."], size=92)
+y = point_cards(d, y + 24, [
+    (False, "Viewing new launches before knowing what your current home can realistically fetch."),
+    (False, "Assuming your home will sell in a month. Plan for three, and be pleasantly surprised."),
+    (False, "Forgetting the in-between costs: temporary rental, two moves, storage, overlapping bills."),
+])
+my_take(img, None, "None of these are about choosing the wrong home. They're about choosing the wrong order.")
 footer(d, 7)
 save(img, 7)
 
 # 08 — CTA
 img = background(); d = ImageDraw.Draw(img); header(d, 8)
-y = headline(d, 150, bold=["Plan your", "next move with"], italic=["confidence."], size=104)
-d.text((64, y + 18), "Every family's situation is different.", font=font(SANS_SB, 31), fill=MUTED)
-polaroid(img, "nona-white.jpg", 800, 900, pw=400, angle=-4)
-rrect(d, (64, 860, 520, 1080), 30, fill=CREAM)
-yy = par(d, "DM me \"MOVE\" and I'll map out your sequence with you.", font(SANS_B, 31), 96, 892, 392, INK, lh=1.3)
-d.line((96, yy + 30, 176, yy + 30), fill=INK, width=4)
-d.polygon([(166, yy + 18), (184, yy + 30), (166, yy + 42)], fill=INK)
-# logos, bottom-left above footer
+y = headline(d, 150, bold=["Plan the order,"], italic=["then the home."], size=100)
+d.text((64, y + 18), "Every family's timeline, cash and CPF are different.", font=font(SANS_SB, 31), fill=MUTED)
+polaroid(img, "nona-cafe-consult.jpg", 800, 880, pw=400, angle=-4)
+rrect(d, (64, 820, 520, 1080), 30, fill=CREAM)
+yy = par(d, "DM me \"SEQUENCE\" and we'll map out your order together, before you sign anything.", font(SANS_B, 30), 96, 850, 392, INK, lh=1.3)
+d.line((96, yy + 26, 176, yy + 26), fill=INK, width=4)
+d.polygon([(166, yy + 14), (184, yy + 26), (166, yy + 38)], fill=INK)
 lg = Image.open(LG("barakah-logo.png")).convert("RGBA"); lg = lg.crop(lg.getbbox())
-s = 96 / lg.width; lg = lg.resize((96, round(lg.height * s)), Image.LANCZOS)
+sc = 96 / lg.width; lg = lg.resize((96, round(lg.height * sc)), Image.LANCZOS)
 a = lg.split()[3]; lw = Image.new("RGBA", lg.size, WHITE + (255,)); lw.putalpha(a)
 img.alpha_composite(lw, (64, 1118))
 footer(d, 8)

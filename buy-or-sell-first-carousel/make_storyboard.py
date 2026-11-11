@@ -6,8 +6,8 @@ TH = round(TW * 1350 / 1080); G, TOP = 24, 70
 sheet = Image.new("RGB", (G + COLS * (TW + G), TOP + ROWS * (TH + G + 36)), (246, 241, 232))
 d = ImageDraw.Draw(sheet)
 f = ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-SemiBold.otf", 22)
-d.text((G, 22), "Storyboard: Buy first, or sell first?  (8 slides, 1080x1350)", font=f, fill=(27, 42, 63))
-labels = ["Cover", "Option 1: buy first", "Option 2: sell first", "Do both", "Know your numbers", "Sell + search together", "Coordinate timeline", "CTA"]
+d.text((G, 22), "Storyboard: Sell first or buy first? Wrong question.  (8 slides, 1080x1350)", font=f, fill=(27, 42, 63))
+labels = ["Cover", "Can you afford the gap?", "If you buy first", "If you sell first", "An overlap, not a gap", "Four numbers", "Three mistakes", "CTA"]
 for i in range(8):
     im = Image.open(os.path.join(HERE, "slides", f"{i+1:02d}.png")).resize((TW, TH), Image.LANCZOS)
     c, r = i % COLS, i // COLS

@@ -1,28 +1,30 @@
 # Instagram caption
 
-Buy first, or sell first? 🏡
+Sell first or buy first? Honestly, that's the wrong question. 🏡
 
-It's the question I get asked most by families planning their next move. And honestly, there's no one right answer. There's only the right sequence for your numbers and your timeline.
+The question I ask every upgrading family is: can you afford the gap?
 
-Here's how I walk my clients through it:
+Between selling one home and settling into the next, three gaps open up. A cash gap, when the new down payment is due before your sale proceeds arrive. A loan gap, when you're servicing two mortgages. And a time gap, when the keys don't line up and the family needs somewhere to live.
 
-1️⃣ Buy first, sell later: you get time to search, renovate and move in. But you carry two loans, a big down payment, and ABSD upfront until your first home is sold.
+Buying first buys you time. Selling first buys you clarity. Both are fine. What hurts is choosing without knowing which gap you're signing up for.
 
-2️⃣ Sell first, buy later: you sell calmly at the price you want. But you may need to rent in between, and prices can move while you search. An extra $30k on your sale means little if your next home costs $50k more.
+What I aim for with my clients is an overlap, not a gap: secure your buyer first, then commit to your purchase, with completion dates that let the sale proceeds land before the purchase payment is due.
 
-3️⃣ What I usually advise: do both, almost at the same time. Market your current home while you view your next one. Know your numbers before you commit. Then coordinate the timeline carefully, so the money is in your hands when each payment is due.
+Before anyone signs, I check four numbers. Net proceeds after the loan and CPF refund. Loan room from an actual In-Principle Approval. Cash needed for down payment, stamp duty, legal fees and renovation. And the monthly commitment after the move, with a buffer.
 
-Every family's situation is different. If you're planning your next move and want someone to map out the sequence with you, DM me "MOVE" and I'll reply personally. 💬
+If it doesn't work on paper, it won't work in real life. And paper is much cheaper.
+
+Planning an upgrade? DM me "SEQUENCE" and we'll map out your order together, before you fall in love with a unit. 💬
 
 Save this for when you need it. 🔖
 
-#BarakahHomes #PropNex #RealEstateSingapore #HDBUpgrade #SellFirstOrBuyFirst #PropertyPlanning #SingaporeProperty #HomeUpgrade #NonaKirana #PropertyAgentSG #ABSD #FinancialPlanning
+#BarakahHomes #PropNex #RealEstateSingapore #HDBUpgrade #UpgradingHome #PropertyPlanning #SingaporeProperty #SellFirstOrBuyFirst #NonaKirana #PropertyAgentSG #ABSD #FinancialPlanning
 
 ---
 
 ## Posting notes
 
 - Format: 8 slides, 1080×1350 (4:5 portrait), post in order 01 → 08.
-- ABSD remission note is on slide 02. Keep it, or add "ABSD remission is subject to eligibility and conditions" to the caption if you shorten the slide.
-- Alt text for slide 01: "Nona Kirana seated in a director's chair holding a clapperboard. Text: Buy first, or sell first? Read this before you decide on your next move."
-- Suggested first comment: pin the CTA ("DM me MOVE") so it stays visible.
+- Slide 03 carries the note "ABSD remission is subject to IRAS eligibility and conditions". Keep it.
+- Alt text for slide 01: "Nona Kirana at a desk, writing notes during a client consultation. Text: Sell first or buy first? Wrong question."
+- Suggested first comment: pin the CTA ("DM me SEQUENCE") so it stays visible.
