@@ -163,12 +163,9 @@ def polaroid(img, photo, x, y, pw=430, angle=-5, caption="Nona"):
     s = max(iw / ph.width, ih / ph.height)
     ph = ph.resize((round(ph.width * s), round(ph.height * s)), Image.LANCZOS)
     ph = ph.crop(((ph.width - iw) // 2, (ph.height - ih) // 2, (ph.width - iw) // 2 + iw, (ph.height - ih) // 2 + ih))
-    fh = ih + 44 + 92
+    fh = ih + 44 + 56
     card = Image.new("RGBA", (pw, fh), CREAM + (255,))
     card.paste(ph, (22, 22))
-    cd = ImageDraw.Draw(card)
-    cf = font(SERIF, 40)
-    cd.text(((pw - cd.textlength(caption, font=cf)) / 2, ih + 22 + 22), caption, font=cf, fill=INK)
     card = card.rotate(angle, expand=True, resample=Image.BICUBIC)
     shadow = Image.new("RGBA", card.size, (0, 0, 0, 0))
     shadow.paste((0, 0, 0, 120), (0, 0), card.split()[3])
@@ -186,8 +183,8 @@ def save(img, n):
 img = background(); d = ImageDraw.Draw(img); header(d, 1)
 polaroid(img, "nona-desk-consult.jpg", 800, 395, pw=340, angle=-6)
 y = headline(d, 596, bold=["Sell first or", "buy first?"], italic=["Wrong question."], size=100)
-d.text((64, y + 16), "Here's the one I ask every upgrading family instead.", font=font(SANS_SB, 31), fill=MUTED)
-my_take(img, None, "Most upgrading stress isn't about the price. It's about the timing between the two homes.")
+d.text((64, y + 16), "Here's the question that actually matters.", font=font(SANS_SB, 31), fill=MUTED)
+my_take(img, None, "Upgrading stress is rarely about price. It's about timing.")
 footer(d, 1, right="Swipe  →")
 save(img, 1)
 
@@ -195,13 +192,13 @@ save(img, 1)
 img = background(); d = ImageDraw.Draw(img); header(d, 2)
 polaroid(img, "nona-walkthrough.jpg", 880, 330, pw=260, angle=5)
 y = headline(d, 120, kicker="The real question:", bold=["Can you"], italic=["afford the gap?"], size=92)
-y = par(d, "Between selling one home and settling into the next, three gaps open up.", font(SANS_SB, 31), 64, y + 24, 620, MUTED, lh=1.35)
+y = par(d, "Three gaps open up between two homes.", font(SANS_SB, 31), 64, y + 24, 620, MUTED, lh=1.35)
 y = point_cards(d, y + 36, [
-    ("1", "Cash gap: the down payment and stamp duty on the new home, due before your sale proceeds arrive."),
-    ("2", "Loan gap: the months you may be servicing two mortgages at the same time."),
-    ("3", "Time gap: where your family lives if the keys don't line up."),
+    ("1", "Cash gap: new down payment due before your sale money arrives."),
+    ("2", "Loan gap: months of paying two mortgages."),
+    ("3", "Time gap: where you live if the keys don't line up."),
 ])
-my_take(img, None, "Whichever order you choose, you're really choosing which gap you can live with.")
+my_take(img, None, "Choosing the order is really choosing which gap you can live with.")
 footer(d, 2)
 save(img, 2)
 
@@ -209,12 +206,12 @@ save(img, 2)
 img = background(); d = ImageDraw.Draw(img); header(d, 3)
 y = headline(d, 120, kicker="If you buy first", bold=["Buying first"], italic=["buys you time."], size=92)
 y = point_cards(d, y + 24, [
-    (True,  "Works when you have the cash and loan room to hold two homes for a few months."),
-    (True,  "Works when you can't disrupt school runs, or a parent's care, with a move in between."),
-    (False, "ABSD is paid upfront. Married couples can claim it back, only if the first home sells in time."),
-    (False, "Costs you two mortgages and two sets of bills until the sale completes."),
+    (True,  "You can hold two homes for a few months."),
+    (True,  "No move in between. No disruption for the kids."),
+    (False, "ABSD upfront. Refundable only if the first home sells in time."),
+    (False, "Two mortgages until your sale completes."),
 ])
-b = my_take(img, None, "Buy first only if you can still sleep when your old home takes three months longer to sell than planned.", bottom=H - 190)
+b = my_take(img, None, "Buy first only if a slow sale won't cost you sleep.", bottom=H - 190)
 d.text((64, b + 18), "ABSD remission is subject to IRAS eligibility and conditions.", font=font(SANS, 24), fill=MUTED)
 footer(d, 3)
 save(img, 3)
@@ -223,19 +220,19 @@ save(img, 3)
 img = background(); d = ImageDraw.Draw(img); header(d, 4)
 y = headline(d, 120, kicker="If you sell first", bold=["Selling first"], italic=["buys you clarity."], size=92)
 y = point_cards(d, y + 24, [
-    (True,  "Works when you need the sale proceeds to fund the next down payment."),
-    (True,  "Works when you want a clean, confirmed budget before you fall in love with a unit."),
-    (False, "Costs you temporary housing, two moves and storage, unless you negotiate an extension of stay with your buyer."),
-    (False, "Costs you price risk. The home you want may cost more by the time your sale completes."),
+    (True,  "Your sale funds the next down payment."),
+    (True,  "A confirmed budget before you fall for a unit."),
+    (False, "Temporary housing and two moves, unless you negotiate an extension of stay."),
+    (False, "Prices may rise while you search."),
 ])
-my_take(img, None, "Selling first is the calmer route, as long as you've already planned where you'll live in between.")
+my_take(img, None, "The calmer route, if you've planned where to live in between.")
 footer(d, 4)
 save(img, 4)
 
 # 05 — an overlap, not a gap
 img = background(); d = ImageDraw.Draw(img); header(d, 5)
 y = headline(d, 120, kicker="What I aim for with my clients", bold=["An overlap,"], italic=["not a gap."], size=96)
-y = par(d, "Secure your buyer first. Then commit to your purchase, with completion dates that let the proceeds land before the payment is due.", font(SANS, 31), 64, y + 24, 600, MUTED, lh=1.35)
+y = par(d, "Secure your buyer. Then commit to your purchase, with dates that line up.", font(SANS, 31), 64, y + 24, 600, MUTED, lh=1.35)
 polaroid(img, "nona-condo-viewing.jpg", 895, 800, pw=270, angle=4)
 by = y + 60
 rrect(d, (64, by, 600, by + 60), 30, fill=CREAM)
@@ -256,7 +253,7 @@ for x, lab in zip(xs, ["Offer on\nyour sale", "Exercise\nyour purchase", "Sale\n
     for i, line in enumerate(lab.split("\n")):
         f = font(SANS_SB, 21)
         d.text((x - d.textlength(line, font=f) / 2, ly + 28 + i * 26), line, font=f, fill=MUTED)
-my_take(img, None, "The money from your sale should arrive before the money for your purchase is due. Everything else is detail.")
+my_take(img, None, "Sale money in before purchase money is due. Everything else is detail.")
 footer(d, 5)
 save(img, 5)
 
@@ -264,12 +261,12 @@ save(img, 5)
 img = background(); d = ImageDraw.Draw(img); header(d, 6)
 y = headline(d, 120, kicker="Before anyone signs", bold=["Four numbers"], italic=["I check first."], size=92)
 y = point_cards(d, y + 24, [
-    ("1", "Net proceeds: sale price, minus the outstanding loan, CPF refund with accrued interest, and fees."),
-    ("2", "Loan room: your In-Principle Approval from the bank. Not an estimate."),
-    ("3", "Cash needed: down payment, Buyer's Stamp Duty, legal fees and renovation."),
-    ("4", "Monthly commitment after the move, with a buffer for interest rates moving."),
+    ("1", "Net proceeds, after the loan, CPF refund and fees."),
+    ("2", "Loan room, from an actual In-Principle Approval."),
+    ("3", "Cash needed: down payment, stamp duty, legal, renovation."),
+    ("4", "Monthly commitment after the move, with a buffer."),
 ])
-my_take(img, None, "If it doesn't work on paper, it won't work in real life. And paper is much cheaper.")
+my_take(img, None, "If it doesn't work on paper, it won't work in real life.")
 footer(d, 6)
 save(img, 6)
 
@@ -277,21 +274,21 @@ save(img, 6)
 img = background(); d = ImageDraw.Draw(img); header(d, 7)
 y = headline(d, 120, kicker="I see these every month", bold=["Three upgrading"], italic=["mistakes."], size=92)
 y = point_cards(d, y + 24, [
-    (False, "Viewing new launches before knowing what your current home can realistically fetch."),
-    (False, "Assuming your home will sell in a month. Plan for three, and be pleasantly surprised."),
-    (False, "Forgetting the in-between costs: temporary rental, two moves, storage, overlapping bills."),
+    (False, "Viewing new launches before knowing what your home can fetch."),
+    (False, "Assuming your home sells in a month. Plan for three."),
+    (False, "Forgetting the in-between costs: rental, two moves, storage."),
 ])
-my_take(img, None, "None of these are about choosing the wrong home. They're about choosing the wrong order.")
+my_take(img, None, "Not the wrong home. The wrong order.")
 footer(d, 7)
 save(img, 7)
 
 # 08 — CTA
 img = background(); d = ImageDraw.Draw(img); header(d, 8)
 y = headline(d, 150, bold=["Plan the order,"], italic=["then the home."], size=100)
-d.text((64, y + 18), "Every family's timeline, cash and CPF are different.", font=font(SANS_SB, 31), fill=MUTED)
+d.text((64, y + 18), "Every family's numbers are different.", font=font(SANS_SB, 31), fill=MUTED)
 polaroid(img, "nona-cafe-consult.jpg", 800, 880, pw=400, angle=-4)
 rrect(d, (64, 820, 520, 1080), 30, fill=CREAM)
-yy = par(d, "DM me \"SEQUENCE\" and we'll map out your order together, before you sign anything.", font(SANS_B, 30), 96, 850, 392, INK, lh=1.3)
+yy = par(d, "DM me \"SEQUENCE\" and we'll map out your order together.", font(SANS_B, 30), 96, 850, 392, INK, lh=1.3)
 d.line((96, yy + 26, 176, yy + 26), fill=INK, width=4)
 d.polygon([(166, yy + 14), (184, yy + 26), (166, yy + 38)], fill=INK)
 lg = Image.open(LG("barakah-logo.png")).convert("RGBA"); lg = lg.crop(lg.getbbox())

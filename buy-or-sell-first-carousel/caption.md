@@ -1,24 +1,22 @@
 # Instagram caption
 
-Sell first or buy first? Honestly, that's the wrong question. 🏡
+Sell first or buy first? Wrong question. 🏡
 
-The question I ask every upgrading family is: can you afford the gap?
+The real question: can you afford the gap?
 
-Between selling one home and settling into the next, three gaps open up. A cash gap, when the new down payment is due before your sale proceeds arrive. A loan gap, when you're servicing two mortgages. And a time gap, when the keys don't line up and the family needs somewhere to live.
+Between two homes, three gaps open up. A cash gap, when the new down payment is due before your sale money arrives. A loan gap, when you're paying two mortgages. A time gap, when the keys don't line up.
 
-Buying first buys you time. Selling first buys you clarity. Both are fine. What hurts is choosing without knowing which gap you're signing up for.
+Buying first buys you time. Selling first buys you clarity. Choosing the order is really choosing which gap you can live with.
 
-What I aim for with my clients is an overlap, not a gap: secure your buyer first, then commit to your purchase, with completion dates that let the sale proceeds land before the purchase payment is due.
+What I aim for with my clients is an overlap, not a gap. Secure your buyer, then commit to your purchase, with dates that line up.
 
-Before anyone signs, I check four numbers. Net proceeds after the loan and CPF refund. Loan room from an actual In-Principle Approval. Cash needed for down payment, stamp duty, legal fees and renovation. And the monthly commitment after the move, with a buffer.
+Before anyone signs, I check four numbers: net proceeds, loan room, cash needed, and the monthly commitment after the move. If it doesn't work on paper, it won't work in real life.
 
-If it doesn't work on paper, it won't work in real life. And paper is much cheaper.
+Planning an upgrade? DM me "SEQUENCE" and we'll map out your order together. 💬
 
-Planning an upgrade? DM me "SEQUENCE" and we'll map out your order together, before you fall in love with a unit. 💬
+Save this for later. 🔖
 
-Save this for when you need it. 🔖
-
-#BarakahHomes #PropNex #RealEstateSingapore #HDBUpgrade #UpgradingHome #PropertyPlanning #SingaporeProperty #SellFirstOrBuyFirst #NonaKirana #PropertyAgentSG #ABSD #FinancialPlanning
+#BarakahHomes #PropNex #RealEstateSingapore #HDBUpgrade #UpgradingHome #PropertyPlanning #SingaporeProperty #SellFirstOrBuyFirst #NonaKirana #PropertyAgentSG #ABSD
 
 ---
 
