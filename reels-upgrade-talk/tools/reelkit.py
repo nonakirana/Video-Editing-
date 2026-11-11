@@ -225,7 +225,7 @@ def counter_img(prefix, value, suffix, size=150):
     f = font(FD, size); s = f"{prefix}{value}{suffix}"
     return text_block([s], FD, size, GOLD + (255,), stroke=8, stroke_fill=INK + (255,))
 
-def checklist_img(items, ticked, w=760):
+def checklist_img(items, ticked, w=800):
     f = font(FB, 38); lh = 92; pad = 34
     h = pad * 2 + lh * len(items)
     img = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(img)

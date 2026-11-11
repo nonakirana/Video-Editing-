@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from reelkit import *
 OUT = "/home/user/Video-Editing-/reels-upgrade-talk/reel4-3-soalan-sebelum-beli-kondo.mp4"
-ITEMS = ["Boleh bertahan 7–10 tahun?", "Hutang rumah habis pada umur 55?", "Ada buffer untuk what-ifs?"]
+ITEMS = ["Boleh bertahan 7–10 tahun?", "Hutang habis bayar umur 55?", "Ada buffer untuk what-ifs?"]
 spec = [
  dict(kind="clip", s=233.1, e=236.5, zoom=1.0, text="Anda buat perkiraan, tengok hutang bank, kelayakan anda,"),
  dict(kind="clip", s=236.6, e=246.2, zoom=1.12, text="dan pastikan anda boleh duduk sekurang-kurangnya 7 hingga 10 tahun. Jangan dengar cakap orang: beli kondo 2 tahun, CPF dah habis, kena top up cash, pening kepala."),
@@ -25,9 +25,7 @@ def make_els(segs, T, E, S):
     # Barakah lower third + checklist phase 2
     els.append(Element(T(3, 273.4), E(3), slide_in(lower_third("Barakah Homes Realty", "Perancangan sebelum naik taraf"), (60, 1330), (-300, 0), "lt")))
     els.append(Element(T(3, 279.5), E(4), checklist(ITEMS, [-1, T(3, 282.0) - T(3, 279.5), T(4, 292.3) - T(3, 279.5)], (60, 1000), "lt"))); sfx += [(T(3, 282.05), "ding"), (T(4, 292.35), "ding")]
-    els.append(Element(T(4, 284.2), T(4, 291.5), popin(icon_card("shield", "Buffer", s=120), (1020, 820), "rt"))); sfx.append((T(4, 284.25), "pop"))
-    for i, (ic, t) in enumerate([("heart", 285.6), ("briefcase", 289.0)]):
-        els.append(Element(T(4, t), T(4, 291.5), popin(icon_img(ic, 90, WHITE), (960 - i * 110, 1020)))); sfx.append((T(4, t) + 0.05, "pop"))
+    els.append(Element(T(4, 284.2), T(4, 291.5), popin(icon_card("shield", "Buffer kecemasan", s=120), (1020, 780), "rt"))); sfx.append((T(4, 284.25), "pop"))
     # recap + save
     els.append(Element(T(7, 318.4), E(7), checklist(ITEMS, [-1, -1, -1], (60, 1000), "lt"))); sfx.append((T(7, 318.45), "ding"))
     els.append(Element(T(7, 321.5), E(7), popin(pill("Simpan post ini", size=38, bg=GOLD, fg=INK), (1020, 880), "rt"))); sfx.append((T(7, 321.55), "pop"))
