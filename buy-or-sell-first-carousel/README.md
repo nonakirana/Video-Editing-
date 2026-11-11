@@ -11,8 +11,8 @@ to check, and common mistakes. Navy, gold and cream scheme with Nona's consult p
 - `make_carousel.py` — regenerates the slides (`python3 make_carousel.py`).
 - `make_storyboard.py` — rebuilds `storyboard.png`.
 - `photos/` — source photos and the 3:4 portrait crops used in the polaroid frames
-  (`nona-desk-consult.jpg`, `nona-walkthrough.jpg`, `nona-condo-viewing.jpg`, `nona-cafe-consult.jpg`;
-  `nona-award.jpg` and `nona-desk-consult-2.jpg` are spares). Logos come from `../recruitment-carousel/photos/`.
+  (`nona-desk-consult.jpg`, `nona-walkthrough.jpg`, `nona-office-consult.jpg`, `nona-ipad-consult.jpg`;
+  `nona-award.jpg`, `nona-desk-consult-2.jpg`, `nona-condo-viewing.jpg` and `nona-cafe-consult.jpg` are spares). Logos come from `../recruitment-carousel/photos/`.
 - `buy-or-sell-first-carousel.zip` — slides, storyboard and caption bundled for download.
 
 ## Slide order
@@ -23,9 +23,9 @@ to check, and common mistakes. Navy, gold and cream scheme with Nona's consult p
 | 02 | The real question: can you afford the gap? Cash, loan and time gaps | Walkthrough (video frame) |
 | 03 | If you buy first: buying first buys you time. Works when / costs you, ABSD note | — |
 | 04 | If you sell first: selling first buys you clarity. Works when / costs you | — |
-| 05 | What I aim for: an overlap, not a gap. Sell/buy overlap and milestones | Condo viewing with client |
+| 05 | What I aim for: an overlap, not a gap. Sell/buy overlap and milestones | Office consult at Barakah Homes |
 | 06 | Four numbers I check first: net proceeds, loan room, cash needed, monthly commitment | — |
 | 07 | Three upgrading mistakes | — |
-| 08 | CTA: plan the order, then the home. DM "SEQUENCE" | Café consult with clients |
+| 08 | CTA: plan the order, then the home. DM "SEQUENCE" | iPad consult, profile |
 
 To change wording, edit the strings in `make_carousel.py` and re-run it.
