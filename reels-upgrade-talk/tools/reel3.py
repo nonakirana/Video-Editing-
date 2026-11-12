@@ -4,7 +4,7 @@ from reelkit import *
 OUT = "/home/user/Video-Editing-/reels-upgrade-talk/reel3-kenapa-takut-upgrade.mp4"
 spec = [
  dict(kind="clip", s=20.0, e=25.0, zoom=1.0, gain=5.0, text="Nona, kenapa masyarakat kita ini rata-rata takut nak upgrade ataupun nak naik taraf?"),
- dict(kind="clip", s=26.1, e=37.3, zoom=1.12, text="Memang orang Melayu kita ini berada, beralah, rendah diri, sopan santun. Jadi pada mereka ini, bila kita cakap tentang naik taraf atau upgrade, macam menunjuk. Show off."),
+ dict(kind="clip", s=26.1, e=37.3, zoom=1.12, text="Memang orang Melayu kita ini beradab, beralas, rendah diri, sopan santun. Jadi pada mereka ini, bila kita cakap tentang naik taraf atau upgrade, macam menunjuk. Show off."),
  dict(kind="clip", s=38.0, e=43.2, zoom=1.0, text="Itulah, dia nak lebih daripada orang lain, kan? Dan dia takut, besar periuk, besar keraknya."),
  dict(kind="clip", s=43.8, e=51.4, zoom=1.12, push=0.03, text="Tapi saya rasa, apabila kita fikir tentang keperluan kita di hari tua nanti, perancangan perumahan pada hari ini memainkan peranan yang besar."),
  dict(kind="clip", s=185.8, e=198.5, zoom=1.0, text="Jadi tak semua naik taraf itu tak baik. Memanglah dari segi size tak boleh lawan dengan HDB, tapi dari segi asset class, anda pindah ke satu kelas perumahan yang lebih tinggi daripada perumahan awam."),
@@ -17,7 +17,7 @@ def make_els(segs, T, E, S):
     els, sfx = [], []
     els.append(Element(0.0, E(0), typewriter("Kenapa orang kita takut nak upgrade?", (90, 1040), size=60, cps=30, maxw=900, kicker="Soalan"))); sfx += [(0.1 + i * 0.25, "tick") for i in range(8)]
     # three traits
-    for i, (w, t) in enumerate([("beralah", 30.4), ("rendah diri", 31.2), ("sopan santun", 32.0)]):
+    for i, (w, t) in enumerate([("beralas", 30.4), ("rendah diri", 31.2), ("sopan santun", 32.0)]):
         els.append(Element(T(1, t), T(1, 36.6), popin(pill(w, size=42, bg=WHITE, fg=NAVY), (60, 1000 + i * 110), "lt"))); sfx.append((T(1, t) + 0.05, "pop"))
     els.append(Element(T(1, 36.7), E(1), popin(stamp("SHOW OFF?", size=84, color=RED, fg=WHITE, angle=6), (540, 1150)))); sfx.append((T(1, 36.75), "thud"))
     els.append(Element(T(2, 41.9), E(2), popin(card("“Besar periuk, besar keraknya.”", size=54, serif=True, bg=NAVY, maxw=900, kicker="Peribahasa"), (540, 1140)))); sfx.append((T(2, 41.95), "whoosh"))
