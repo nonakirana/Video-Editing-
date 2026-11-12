@@ -14,7 +14,7 @@ spec = [
  dict(kind="clip", s=90.4, e=100.3, zoom=1.0, push=0.03, text="Bayangkan, pada ketika itu rumah 5 bilik di Jurong West rata-rata harganya dalam $650 ribu. Kalau Nona pindah ke rumah 4 bilik, $500 ribu memang boleh bayar habis, tak ada masalah."),
  dict(kind="clip", s=110.2, e=119.9, zoom=1.12, text="Jadi Nona belikan mereka kondo di kawasan Jurong West juga pada $1.1 juta. Bulan-bulan Abang bayar gunakan CPF, tak perlu top up sebarang cash, kerana duit CPF Abang cukup."),
  dict(kind="clip", s=120.0, e=132.5, zoom=1.0, push=0.04, text="6 tahun kemudian, kondonya sekarang nilainya $1.6 juta. $500 ribu daripada $1.1 juta. Jadi dalam masa 5 tahun, dia naik $500 ribu!"),
- dict(kind="clip", s=139.6, e=146.0, zoom=1.12, text="Jadi Kakak sekarang sangat gembira. Hari-hari boleh pandang swimming pool... Jem! Jem dia singgah saja!"),
+ dict(kind="clip", s=139.6, e=146.0, zoom=1.12, text="Jadi Kakak sekarang sangat gembira. Hari-hari boleh pandang swimming pool... Gym! Gym dia singgah saja!"),
  dict(kind="clip", s=154.8, e=162.5, zoom=1.0, push=0.03, text="Kalau Kakak patah balik, kurangnya Kakak ada $500 ribu lebih cash, disebabkan oleh capital appreciation kondo tersebut."),
  dict(kind="still", t=466.0, dur=3.4, zoom=1.0, dark=0.5),
 ]
@@ -26,7 +26,7 @@ def make_els(segs, T, E, S):
     els.append(Element(0.0, 3.4, popin(h1, (540, 1120)))); sfxe.append((0.05, "whoosh"))
     els.append(Element(0.7, 3.4, popin(h2, (540, 1290)))); sfxe.append((0.75, "whoosh"))
     # seg1: age + rooms
-    els.append(Element(T(1, 60.3), E(1), popin(pill("48 tahun", size=44), (1030, 760), "rt"))); sfxe.append((T(1, 60.35), "pop"))
+    els.append(Element(T(1, 60.3), E(1), popin(pill("48 tahun", size=44), (1030, 920), "rt"))); sfxe.append((T(1, 60.35), "pop"))
     els.append(Element(T(1, 64.4), E(1), popin(icon_card("hdb", "5 bilik"), (250, 1130))))
     els.append(Element(T(1, 64.4), E(1), popin(icon_img("arrow_right", 110, RED), (540, 1130), delay=0.15)))
     els.append(Element(T(1, 64.4), E(1), popin(icon_card("hdb", "4 bilik", s=130), (830, 1130), delay=0.3))); sfxe += [(T(1, 64.45), "pop"), (T(1, 64.75), "pop")]
