@@ -1,0 +1,19 @@
+{
+  "title": "The House Tour",
+  "subtitle": "presented by Barakah Homes Realty",
+  "cta": "DM 'TOUR' to view this home",
+  "handle": "Barakah Homes Realty  |  PropNex",
+  "_help": "All times are seconds into the ORIGINAL video. Types: caption (styles pop/shout/lower/tag/sticker), zoom, speed, freeze, cut, sfx. Sfx names: whoosh, boing, ding, pop, scratch, drumroll, sad, honk.",
+  "gags": [
+    {"type": "caption", "start": 1.0,  "end": 4.0,  "style": "lower", "text": "Welcome. Shoes off, dreams on."},
+    {"type": "caption", "start": 5.0,  "end": 8.0,  "style": "pop",   "text": "Yes, that is a real door.\nWe checked.", "sfx": "pop"},
+    {"type": "zoom",    "start": 9.0,  "end": 12.0, "factor": 1.8, "x": 0.5, "y": 0.4, "text": "Look at that light.\nLOOK AT IT.", "style": "shout", "sfx": "boing"},
+    {"type": "speed",   "start": 13.0, "end": 21.0, "factor": 6, "label": ">> skipping the corridor  (you're welcome)"},
+    {"type": "caption", "start": 22.0, "end": 25.0, "style": "sticker", "text": "Natural light: included"},
+    {"type": "freeze",  "at": 26.0, "hold": 2.2, "text": "wait.", "sfx": "scratch"},
+    {"type": "caption", "start": 26.0, "end": 29.5, "style": "tag", "text": "*agent pretends this was planned*"},
+    {"type": "cut",     "start": 30.0, "end": 33.0},
+    {"type": "sfx",     "at": 34.0, "name": "drumroll"},
+    {"type": "caption", "start": 35.5, "end": 38.5, "style": "pop", "text": "And THAT is the master bedroom.", "sfx": "ding"}
+  ]
+}
