@@ -1,0 +1,7065 @@
+[
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R01",
+  "slug": "dari-dj-ke-ejen-rumah",
+  "title": "Dulu jual suara, sekarang jual rumah",
+  "segments": [
+   [
+    168.26,
+    178.98
+   ],
+   [
+    200.25,
+    229.63
+   ]
+  ],
+  "breaks": [
+   178.28,
+   200.25
+  ],
+  "kicker": "13 tahun selepas radio",
+  "hook": [
+   "Dulu jual *suara*.",
+   "Sekarang jual *rumah*."
+  ],
+  "popups": [
+   {
+    "t": 176.0,
+    "text": "Jual Suara",
+    "style": "navy",
+    "sub": "Warna 94.2FM",
+    "dur": 1.7
+   },
+   {
+    "t": 177.9,
+    "text": "Jual Rumah",
+    "style": "gold",
+    "sub": "Barakah Homes"
+   },
+   {
+    "t": 215.2,
+    "text": "Kepuasan berbeza",
+    "style": "cream",
+    "size": 84,
+    "sub": "a different kind of fulfilment"
+   },
+   {
+    "t": 228.4,
+    "text": "Matlamat kehidupan",
+    "style": "gold",
+    "size": 80,
+    "sub": "life goals"
+   }
+  ],
+  "subs": [
+   {
+    "s": 168.26,
+    "e": 171.2,
+    "en": "Good afternoon, Tiji and Arzak."
+   },
+   {
+    "s": 171.7,
+    "e": 175.1,
+    "en": "No, today I'm here as a property agent."
+   },
+   {
+    "s": 175.1,
+    "e": 178.3,
+    "en": "Back then I sold my voice. Now I sell homes."
+   },
+   {
+    "s": 178.3,
+    "e": 179.0,
+    "en": "Masya Allah!"
+   },
+   {
+    "s": 200.25,
+    "e": 206.0,
+    "en": "I never expected it. 13 years ago I changed careers."
+   },
+   {
+    "s": 206.5,
+    "e": 214.7,
+    "en": "As a property agent I get to help so many people solve problems and reach their property dreams."
+   },
+   {
+    "s": 215.0,
+    "e": 216.2,
+    "en": "So the fulfilment is different."
+   },
+   {
+    "s": 216.25,
+    "e": 222.5,
+    "en": "On radio, our happiness came from making listeners happy."
+   },
+   {
+    "s": 222.8,
+    "e": 229.63,
+    "en": "As an agent, it comes from helping my clients reach their life goals."
+   }
+  ],
+  "words": [
+   {
+    "w": "Selamat",
+    "s": 168.26,
+    "e": 168.98,
+    "brk": false
+   },
+   {
+    "w": "petang,",
+    "s": 168.98,
+    "e": 169.54,
+    "brk": false
+   },
+   {
+    "w": "Tiji",
+    "s": 169.68,
+    "e": 170.12,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 170.12,
+    "e": 170.54,
+    "brk": false
+   },
+   {
+    "w": "Arzak",
+    "s": 170.54,
+    "e": 171.12,
+    "brk": false
+   },
+   {
+    "w": "Tak",
+    "s": 171.74,
+    "e": 172.34,
+    "brk": false
+   },
+   {
+    "w": "ada,",
+    "s": 172.34,
+    "e": 172.54,
+    "brk": false
+   },
+   {
+    "w": "hari",
+    "s": 172.62,
+    "e": 172.84,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 172.84,
+    "e": 173.07999999999998,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 173.07999999999998,
+    "e": 173.48,
+    "brk": false
+   },
+   {
+    "w": "datang",
+    "s": 173.48,
+    "e": 174.2,
+    "brk": false
+   },
+   {
+    "w": "sebagai",
+    "s": 174.2,
+    "e": 174.52,
+    "brk": false
+   },
+   {
+    "w": "ejen",
+    "s": 174.52,
+    "e": 174.82,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 174.82,
+    "e": 175.1,
+    "brk": false
+   },
+   {
+    "w": "Kalau",
+    "s": 175.1,
+    "e": 175.5,
+    "brk": false
+   },
+   {
+    "w": "dulu",
+    "s": 175.5,
+    "e": 175.8,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 175.8,
+    "e": 176.06,
+    "brk": false
+   },
+   {
+    "w": "jual",
+    "s": 176.06,
+    "e": 176.32,
+    "brk": false
+   },
+   {
+    "w": "suara",
+    "s": 176.32,
+    "e": 176.62,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 176.62,
+    "e": 176.94,
+    "brk": false
+   },
+   {
+    "w": "Sekarang",
+    "s": 176.94,
+    "e": 177.57999999999998,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 177.57999999999998,
+    "e": 177.72,
+    "brk": false
+   },
+   {
+    "w": "jual",
+    "s": 177.72,
+    "e": 177.86,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 177.86,
+    "e": 178.28,
+    "brk": false
+   },
+   {
+    "w": "Masya",
+    "s": 178.28,
+    "e": 178.86,
+    "brk": true
+   },
+   {
+    "w": "Allah",
+    "s": 178.86,
+    "e": 178.98,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 200.25,
+    "e": 200.51,
+    "brk": true
+   },
+   {
+    "w": "tak",
+    "s": 200.51,
+    "e": 202.53,
+    "brk": false
+   },
+   {
+    "w": "sangka",
+    "s": 202.53,
+    "e": 202.91,
+    "brk": false
+   },
+   {
+    "w": "kerana",
+    "s": 202.91,
+    "e": 203.29,
+    "brk": false
+   },
+   {
+    "w": "13",
+    "s": 203.29,
+    "e": 203.51,
+    "brk": false
+   },
+   {
+    "w": "tahun",
+    "s": 203.51,
+    "e": 203.91,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 203.91,
+    "e": 204.13,
+    "brk": false
+   },
+   {
+    "w": "berubah",
+    "s": 204.13,
+    "e": 204.97,
+    "brk": false
+   },
+   {
+    "w": "kerjaya",
+    "s": 204.97,
+    "e": 206.03,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 206.03,
+    "e": 206.55,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 206.55,
+    "e": 206.73,
+    "brk": false
+   },
+   {
+    "w": "rasa",
+    "s": 206.73,
+    "e": 207.01,
+    "brk": false
+   },
+   {
+    "w": "dalam",
+    "s": 207.01,
+    "e": 207.37,
+    "brk": false
+   },
+   {
+    "w": "kerjaya",
+    "s": 207.37,
+    "e": 207.77,
+    "brk": false
+   },
+   {
+    "w": "sebagai",
+    "s": 207.77,
+    "e": 207.99,
+    "brk": false
+   },
+   {
+    "w": "seorang",
+    "s": 207.99,
+    "e": 208.47,
+    "brk": false
+   },
+   {
+    "w": "ejen",
+    "s": 208.47,
+    "e": 208.89,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 208.89,
+    "e": 209.21,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 209.21,
+    "e": 209.87,
+    "brk": false
+   },
+   {
+    "w": "dapat",
+    "s": 209.87,
+    "e": 210.11,
+    "brk": false
+   },
+   {
+    "w": "bantu",
+    "s": 210.11,
+    "e": 210.39,
+    "brk": false
+   },
+   {
+    "w": "ramai",
+    "s": 210.39,
+    "e": 211.11,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 211.11,
+    "e": 211.31,
+    "brk": false
+   },
+   {
+    "w": "selesaikan",
+    "s": 211.31,
+    "e": 211.71,
+    "brk": false
+   },
+   {
+    "w": "masalah,",
+    "s": 211.71,
+    "e": 212.27,
+    "brk": false
+   },
+   {
+    "w": "capai",
+    "s": 212.71,
+    "e": 213.15,
+    "brk": false
+   },
+   {
+    "w": "impian",
+    "s": 213.15,
+    "e": 213.71,
+    "brk": false
+   },
+   {
+    "w": "hartanah",
+    "s": 213.71,
+    "e": 214.39,
+    "brk": false
+   },
+   {
+    "w": "mereka.",
+    "s": 214.39,
+    "e": 214.71,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 215.03,
+    "e": 215.21,
+    "brk": false
+   },
+   {
+    "w": "kepuasan",
+    "s": 215.21,
+    "e": 215.67,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 215.67,
+    "e": 215.79,
+    "brk": false
+   },
+   {
+    "w": "berbeza.",
+    "s": 215.79,
+    "e": 216.17,
+    "brk": false
+   },
+   {
+    "w": "Kalau",
+    "s": 216.25,
+    "e": 216.35,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 216.35,
+    "e": 216.51,
+    "brk": false
+   },
+   {
+    "w": "dulu",
+    "s": 216.51,
+    "e": 216.67,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 216.67,
+    "e": 216.83,
+    "brk": false
+   },
+   {
+    "w": "radio",
+    "s": 216.83,
+    "e": 217.03,
+    "brk": false
+   },
+   {
+    "w": "kebahagiaan",
+    "s": 217.03,
+    "e": 217.97,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 217.97,
+    "e": 218.19,
+    "brk": false
+   },
+   {
+    "w": "ialah",
+    "s": 218.19,
+    "e": 218.39,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 218.39,
+    "e": 218.57,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 218.57,
+    "e": 218.77,
+    "brk": false
+   },
+   {
+    "w": "dapat",
+    "s": 218.77,
+    "e": 219.09,
+    "brk": false
+   },
+   {
+    "w": "menggembirakan",
+    "s": 219.09,
+    "e": 219.83,
+    "brk": false
+   },
+   {
+    "w": "pendengar.",
+    "s": 219.83,
+    "e": 220.33,
+    "brk": false
+   },
+   {
+    "w": "Rasa",
+    "s": 220.55,
+    "e": 221.15,
+    "brk": false
+   },
+   {
+    "w": "puas",
+    "s": 221.15,
+    "e": 221.45,
+    "brk": false
+   },
+   {
+    "w": "kan",
+    "s": 221.45,
+    "e": 221.57,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 221.57,
+    "e": 221.77,
+    "brk": false
+   },
+   {
+    "w": "pendengar",
+    "s": 221.77,
+    "e": 222.03,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 222.03,
+    "e": 222.21,
+    "brk": false
+   },
+   {
+    "w": "happy.",
+    "s": 222.21,
+    "e": 222.51,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 222.79,
+    "e": 223.09,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 223.09,
+    "e": 223.27,
+    "brk": false
+   },
+   {
+    "w": "jadi",
+    "s": 223.27,
+    "e": 223.53,
+    "brk": false
+   },
+   {
+    "w": "ejen",
+    "s": 223.53,
+    "e": 223.85,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 223.85,
+    "e": 224.09,
+    "brk": false
+   },
+   {
+    "w": "ni,",
+    "s": 224.09,
+    "e": 224.25,
+    "brk": false
+   },
+   {
+    "w": "kepuasannya",
+    "s": 224.37,
+    "e": 224.87,
+    "brk": false
+   },
+   {
+    "w": "datang",
+    "s": 224.87,
+    "e": 225.19,
+    "brk": false
+   },
+   {
+    "w": "apabila",
+    "s": 225.19,
+    "e": 225.57,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 225.57,
+    "e": 225.71,
+    "brk": false
+   },
+   {
+    "w": "dapat",
+    "s": 225.71,
+    "e": 225.93,
+    "brk": false
+   },
+   {
+    "w": "membantu",
+    "s": 225.93,
+    "e": 226.69,
+    "brk": false
+   },
+   {
+    "w": "para",
+    "s": 226.69,
+    "e": 227.21,
+    "brk": false
+   },
+   {
+    "w": "pelanggan",
+    "s": 227.21,
+    "e": 227.51,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 227.51,
+    "e": 227.77,
+    "brk": false
+   },
+   {
+    "w": "mencapai",
+    "s": 227.77,
+    "e": 228.43,
+    "brk": false
+   },
+   {
+    "w": "matlamat",
+    "s": 228.43,
+    "e": 229.01,
+    "brk": false
+   },
+   {
+    "w": "kehidupan",
+    "s": 229.01,
+    "e": 229.35,
+    "brk": false
+   },
+   {
+    "w": "mereka.",
+    "s": 229.35,
+    "e": 229.63,
+    "brk": false
+   }
+  ],
+  "in": 168.26,
+  "out": 229.63,
+  "duration": 40.1
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R02",
+  "slug": "upgrade-tak-semestinya-private",
+  "title": "Upgrade tak semestinya private",
+  "segments": [
+   [
+    240.72,
+    242.66
+   ],
+   [
+    244.48,
+    281.5
+   ]
+  ],
+  "kicker": "Perlukah kita upgrade?",
+  "hook": [
+   "Upgrade tak semestinya",
+   "pindah ke *private*."
+  ],
+  "popups": [
+   {
+    "t": 246.7,
+    "text": "Tak semestinya private",
+    "style": "cream",
+    "size": 76,
+    "sub": "not necessarily private"
+   },
+   {
+    "t": 252.7,
+    "text": "3-bilik BTO",
+    "style": "gold",
+    "sub": "where many start"
+   },
+   {
+    "t": 271.3,
+    "text": "5-bilik?",
+    "style": "navy",
+    "sub": "can I afford it?"
+   },
+   {
+    "t": 278.1,
+    "text": "Jangan overstretch",
+    "style": "gold",
+    "size": 80,
+    "sub": "don't over-borrow"
+   }
+  ],
+  "subs": [
+   {
+    "s": 240.72,
+    "e": 242.66,
+    "en": "Why do people upgrade? What is it?"
+   },
+   {
+    "s": 244.48,
+    "e": 249.5,
+    "en": "When we talk about upgrading, it doesn't have to mean moving to private property."
+   },
+   {
+    "s": 250.0,
+    "e": 253.9,
+    "en": "Some people start with a 3-room BTO."
+   },
+   {
+    "s": 254.2,
+    "e": 261.9,
+    "en": "Then once the kids come, they need more space and comfort for the family, and they come to see me."
+   },
+   {
+    "s": 261.96,
+    "e": 272.4,
+    "en": "\"Nona, on my salary, single income, wife at home, can I get enough loan to upgrade to a 5-room?\""
+   },
+   {
+    "s": 272.6,
+    "e": 275.5,
+    "en": "That's where I do a detailed calculation,"
+   },
+   {
+    "s": 275.9,
+    "e": 281.5,
+    "en": "look at their budget, because we don't want them to overstretch or pay more than they can afford."
+   }
+  ],
+  "words": [
+   {
+    "w": "Kenapa",
+    "s": 240.72,
+    "e": 241.32,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 241.32,
+    "e": 241.5,
+    "brk": false
+   },
+   {
+    "w": "upgrade?",
+    "s": 241.5,
+    "e": 242.12,
+    "brk": false
+   },
+   {
+    "w": "Apakah",
+    "s": 242.22,
+    "e": 242.5,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 242.5,
+    "e": 242.66,
+    "brk": false
+   },
+   {
+    "w": "Bila",
+    "s": 244.48,
+    "e": 245.08,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 245.08,
+    "e": 245.54,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 245.54,
+    "e": 245.8,
+    "brk": false
+   },
+   {
+    "w": "tentang",
+    "s": 245.8,
+    "e": 246.08,
+    "brk": false
+   },
+   {
+    "w": "upgrade,",
+    "s": 246.08,
+    "e": 246.6,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 246.74,
+    "e": 246.78,
+    "brk": false
+   },
+   {
+    "w": "semestinya",
+    "s": 246.78,
+    "e": 247.4,
+    "brk": false
+   },
+   {
+    "w": "harus",
+    "s": 247.4,
+    "e": 248.1,
+    "brk": false
+   },
+   {
+    "w": "pindah",
+    "s": 248.1,
+    "e": 248.64,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 248.64,
+    "e": 248.76,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 248.76,
+    "e": 248.96,
+    "brk": false
+   },
+   {
+    "w": "private.",
+    "s": 248.96,
+    "e": 249.48,
+    "brk": false
+   },
+   {
+    "w": "Ada",
+    "s": 250.08,
+    "e": 250.28,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 250.28,
+    "e": 250.56,
+    "brk": false
+   },
+   {
+    "w": "itu,",
+    "s": 250.56,
+    "e": 250.8,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 251.04,
+    "e": 251.6,
+    "brk": false
+   },
+   {
+    "w": "bermula",
+    "s": 251.6,
+    "e": 252.32,
+    "brk": false
+   },
+   {
+    "w": "dengan",
+    "s": 252.32,
+    "e": 252.48,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 252.48,
+    "e": 252.74,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 252.74,
+    "e": 253.12,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 253.12,
+    "e": 253.42,
+    "brk": false
+   },
+   {
+    "w": "BTO.",
+    "s": 253.42,
+    "e": 253.86,
+    "brk": false
+   },
+   {
+    "w": "Kemudian",
+    "s": 254.26,
+    "e": 254.86,
+    "brk": false
+   },
+   {
+    "w": "apabila",
+    "s": 254.86,
+    "e": 255.2,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 255.2,
+    "e": 255.4,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 255.4,
+    "e": 255.5,
+    "brk": false
+   },
+   {
+    "w": "beranak-pinak,",
+    "s": 255.5,
+    "e": 256.32,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 256.5,
+    "e": 256.62,
+    "brk": false
+   },
+   {
+    "w": "rasa",
+    "s": 256.62,
+    "e": 256.82,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 256.82,
+    "e": 257.02,
+    "brk": false
+   },
+   {
+    "w": "perlu",
+    "s": 257.02,
+    "e": 257.46,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 257.46,
+    "e": 258.06,
+    "brk": false
+   },
+   {
+    "w": "banyak",
+    "s": 258.06,
+    "e": 258.5,
+    "brk": false
+   },
+   {
+    "w": "ruang,",
+    "s": 258.5,
+    "e": 259.06,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 259.34,
+    "e": 259.5,
+    "brk": false
+   },
+   {
+    "w": "selesa",
+    "s": 259.5,
+    "e": 259.82,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 259.82,
+    "e": 259.94,
+    "brk": false
+   },
+   {
+    "w": "keluarga",
+    "s": 259.94,
+    "e": 260.38,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 260.38,
+    "e": 260.78,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 260.78,
+    "e": 261.08,
+    "brk": false
+   },
+   {
+    "w": "berjumpa",
+    "s": 261.08,
+    "e": 261.72,
+    "brk": false
+   },
+   {
+    "w": "saya.",
+    "s": 261.72,
+    "e": 261.86,
+    "brk": false
+   },
+   {
+    "w": "Nona,",
+    "s": 261.96,
+    "e": 262.12,
+    "brk": false
+   },
+   {
+    "w": "berdasarkan",
+    "s": 262.4,
+    "e": 262.9,
+    "brk": false
+   },
+   {
+    "w": "gaji",
+    "s": 262.9,
+    "e": 263.22,
+    "brk": false
+   },
+   {
+    "w": "saya,",
+    "s": 263.22,
+    "e": 263.58,
+    "brk": false
+   },
+   {
+    "w": "seorang",
+    "s": 263.9,
+    "e": 264.24,
+    "brk": false
+   },
+   {
+    "w": "sahaja",
+    "s": 264.24,
+    "e": 264.5,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 264.5,
+    "e": 264.58,
+    "brk": false
+   },
+   {
+    "w": "bekerja,",
+    "s": 264.58,
+    "e": 264.98,
+    "brk": false
+   },
+   {
+    "w": "isteri",
+    "s": 265.14,
+    "e": 265.36,
+    "brk": false
+   },
+   {
+    "w": "duduk",
+    "s": 265.36,
+    "e": 265.6,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 265.6,
+    "e": 265.7,
+    "brk": false
+   },
+   {
+    "w": "rumah,",
+    "s": 265.7,
+    "e": 266.04,
+    "brk": false
+   },
+   {
+    "w": "mampu",
+    "s": 266.44,
+    "e": 266.84,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 266.84,
+    "e": 267.0,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 267.0,
+    "e": 267.44,
+    "brk": false
+   },
+   {
+    "w": "dapatkan",
+    "s": 267.44,
+    "e": 268.9,
+    "brk": false
+   },
+   {
+    "w": "hutang",
+    "s": 268.9,
+    "e": 269.28,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 269.28,
+    "e": 269.5,
+    "brk": false
+   },
+   {
+    "w": "secukupnya",
+    "s": 269.5,
+    "e": 270.14,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 270.14,
+    "e": 270.6,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 270.6,
+    "e": 270.76,
+    "brk": false
+   },
+   {
+    "w": "upgrade",
+    "s": 270.76,
+    "e": 271.04,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 271.04,
+    "e": 271.16,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 271.16,
+    "e": 271.36,
+    "brk": false
+   },
+   {
+    "w": "lima",
+    "s": 271.36,
+    "e": 271.66,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 271.66,
+    "e": 271.92,
+    "brk": false
+   },
+   {
+    "w": "misalnya?",
+    "s": 271.92,
+    "e": 272.36,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 272.66,
+    "e": 272.96,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 272.96,
+    "e": 273.08,
+    "brk": false
+   },
+   {
+    "w": "situ",
+    "s": 273.08,
+    "e": 273.28,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 273.28,
+    "e": 273.54,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 273.54,
+    "e": 273.7,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 273.7,
+    "e": 273.88,
+    "brk": false
+   },
+   {
+    "w": "perkiraan",
+    "s": 273.88,
+    "e": 274.48,
+    "brk": false
+   },
+   {
+    "w": "dengan",
+    "s": 274.48,
+    "e": 274.74,
+    "brk": false
+   },
+   {
+    "w": "terperinci,",
+    "s": 274.74,
+    "e": 275.38,
+    "brk": false
+   },
+   {
+    "w": "tengok",
+    "s": 275.9,
+    "e": 276.32,
+    "brk": false
+   },
+   {
+    "w": "bajet",
+    "s": 276.32,
+    "e": 276.58,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 276.58,
+    "e": 276.86,
+    "brk": false
+   },
+   {
+    "w": "kerana",
+    "s": 276.86,
+    "e": 277.16,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 277.16,
+    "e": 277.38,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 277.38,
+    "e": 277.52,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 277.52,
+    "e": 277.64,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 277.64,
+    "e": 277.8,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 277.8,
+    "e": 278.1,
+    "brk": false
+   },
+   {
+    "w": "overstretch",
+    "s": 278.1,
+    "e": 278.68,
+    "brk": false
+   },
+   {
+    "w": "ataupun",
+    "s": 278.68,
+    "e": 279.44,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 279.44,
+    "e": 280.06,
+    "brk": false
+   },
+   {
+    "w": "hutang",
+    "s": 280.06,
+    "e": 280.28,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 280.28,
+    "e": 280.48,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 280.48,
+    "e": 280.8,
+    "brk": false
+   },
+   {
+    "w": "daripada",
+    "s": 280.8,
+    "e": 281.12,
+    "brk": false
+   },
+   {
+    "w": "apa",
+    "s": 281.12,
+    "e": 281.34,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 281.34,
+    "e": 281.44,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 281.44,
+    "e": 281.68,
+    "brk": false
+   }
+  ],
+  "in": 240.72,
+  "out": 281.5,
+  "duration": 39.0
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R03",
+  "slug": "perumahan-dan-persaraan",
+  "title": "Perumahan dan persaraan berkait rapat",
+  "segments": [
+   [
+    310.72,
+    348.42
+   ]
+  ],
+  "kicker": "13 tahun bantu orang jual beli rumah",
+  "hook": [
+   "Rumah di usia *30-an*",
+   "menentukan *persaraan*."
+  ],
+  "popups": [
+   {
+    "t": 314.7,
+    "text": "Perumahan = Persaraan",
+    "style": "gold",
+    "size": 70,
+    "sub": "housing shapes retirement"
+   },
+   {
+    "t": 325.2,
+    "text": "Berani ≠ Mampu",
+    "style": "cream",
+    "size": 90,
+    "sub": "courage is not affordability"
+   },
+   {
+    "t": 336.3,
+    "text": "Executive Maisonette",
+    "style": "navy",
+    "size": 70,
+    "sub": "the underrated upgrade"
+   },
+   {
+    "t": 347.0,
+    "text": "Privacy macam landed",
+    "style": "cream",
+    "size": 74,
+    "sub": "landed-style privacy"
+   }
+  ],
+  "subs": [
+   {
+    "s": 310.72,
+    "e": 314.1,
+    "en": "In my opinion, after 13 years helping people buy and sell,"
+   },
+   {
+    "s": 314.7,
+    "e": 316.7,
+    "en": "housing and retirement are closely linked."
+   },
+   {
+    "s": 317.1,
+    "e": 323.5,
+    "en": "The decisions we make in our 30s and 40s decide what our retirement looks like."
+   },
+   {
+    "s": 323.9,
+    "e": 327.1,
+    "en": "Some people have the courage but not the means."
+   },
+   {
+    "s": 327.2,
+    "e": 329.8,
+    "en": "They want to buy a condo but actually can't afford it."
+   },
+   {
+    "s": 330.1,
+    "e": 332.1,
+    "en": "So it's hard. What can Nona do?"
+   },
+   {
+    "s": 332.1,
+    "e": 334.2,
+    "en": "Usually I look at it from the budget."
+   },
+   {
+    "s": 334.9,
+    "e": 337.6,
+    "en": "Say they can only afford an Executive Maisonette."
+   },
+   {
+    "s": 337.6,
+    "e": 339.7,
+    "en": "Then no need to go all the way to private."
+   },
+   {
+    "s": 339.7,
+    "e": 346.0,
+    "en": "Because an Executive Maisonette is a type of housing I think is great. It has stairs."
+   },
+   {
+    "s": 347.0,
+    "e": 348.42,
+    "en": "Privacy like a landed home."
+   }
+  ],
+  "words": [
+   {
+    "w": "Sebenarnya",
+    "s": 310.72,
+    "e": 311.2,
+    "brk": false
+   },
+   {
+    "w": "pada",
+    "s": 311.2,
+    "e": 311.62,
+    "brk": false
+   },
+   {
+    "w": "pendapat",
+    "s": 311.62,
+    "e": 311.92,
+    "brk": false
+   },
+   {
+    "w": "Nona,",
+    "s": 311.92,
+    "e": 312.24,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 312.32,
+    "e": 312.42,
+    "brk": false
+   },
+   {
+    "w": "13",
+    "s": 312.42,
+    "e": 312.76,
+    "brk": false
+   },
+   {
+    "w": "tahun",
+    "s": 312.76,
+    "e": 313.04,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 313.04,
+    "e": 313.18,
+    "brk": false
+   },
+   {
+    "w": "bantu",
+    "s": 313.18,
+    "e": 313.4,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 313.4,
+    "e": 313.54,
+    "brk": false
+   },
+   {
+    "w": "jual",
+    "s": 313.54,
+    "e": 313.72,
+    "brk": false
+   },
+   {
+    "w": "dari",
+    "s": 313.72,
+    "e": 313.82,
+    "brk": false
+   },
+   {
+    "w": "rumah,",
+    "s": 313.82,
+    "e": 314.06,
+    "brk": false
+   },
+   {
+    "w": "perumahan",
+    "s": 314.74,
+    "e": 315.12,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 315.12,
+    "e": 315.32,
+    "brk": false
+   },
+   {
+    "w": "persaraan",
+    "s": 315.32,
+    "e": 315.86,
+    "brk": false
+   },
+   {
+    "w": "ini",
+    "s": 315.86,
+    "e": 315.94,
+    "brk": false
+   },
+   {
+    "w": "berkait",
+    "s": 315.94,
+    "e": 316.3,
+    "brk": false
+   },
+   {
+    "w": "rapat.",
+    "s": 316.3,
+    "e": 316.7,
+    "brk": false
+   },
+   {
+    "w": "Keputusan",
+    "s": 317.12,
+    "e": 317.6,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 317.6,
+    "e": 317.78,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 317.78,
+    "e": 318.0,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 318.0,
+    "e": 318.36,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 318.36,
+    "e": 318.62,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 318.62,
+    "e": 318.78,
+    "brk": false
+   },
+   {
+    "w": "muda,",
+    "s": 318.78,
+    "e": 319.16,
+    "brk": false
+   },
+   {
+    "w": "30-an,",
+    "s": 319.26,
+    "e": 319.82,
+    "brk": false
+   },
+   {
+    "w": "40-an,",
+    "s": 320.0,
+    "e": 320.48,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 320.84,
+    "e": 320.96,
+    "brk": false
+   },
+   {
+    "w": "menentukan",
+    "s": 320.96,
+    "e": 321.86,
+    "brk": false
+   },
+   {
+    "w": "bagaimana",
+    "s": 321.86,
+    "e": 322.5,
+    "brk": false
+   },
+   {
+    "w": "persaraan",
+    "s": 322.5,
+    "e": 322.98,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 322.98,
+    "e": 323.14,
+    "brk": false
+   },
+   {
+    "w": "nanti.",
+    "s": 323.14,
+    "e": 323.46,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 323.88,
+    "e": 324.04,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 324.04,
+    "e": 324.2,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 324.2,
+    "e": 324.38,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 324.38,
+    "e": 324.5,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 324.5,
+    "e": 324.8,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 324.8,
+    "e": 325.24,
+    "brk": false
+   },
+   {
+    "w": "keberanian",
+    "s": 325.24,
+    "e": 325.92,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 325.92,
+    "e": 326.3,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 326.3,
+    "e": 326.48,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 326.48,
+    "e": 326.56,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 326.56,
+    "e": 326.66,
+    "brk": false
+   },
+   {
+    "w": "kemampuan.",
+    "s": 326.66,
+    "e": 327.06,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 327.26,
+    "e": 327.7,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 327.7,
+    "e": 327.94,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 327.94,
+    "e": 328.12,
+    "brk": false
+   },
+   {
+    "w": "kondo",
+    "s": 328.12,
+    "e": 328.46,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 328.46,
+    "e": 328.76,
+    "brk": false
+   },
+   {
+    "w": "sebenarnya",
+    "s": 328.76,
+    "e": 329.0,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 329.0,
+    "e": 329.1,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 329.1,
+    "e": 329.16,
+    "brk": false
+   },
+   {
+    "w": "mampu.",
+    "s": 329.16,
+    "e": 329.72,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 330.12,
+    "e": 330.36,
+    "brk": false
+   },
+   {
+    "w": "susah.",
+    "s": 330.36,
+    "e": 330.74,
+    "brk": false
+   },
+   {
+    "w": "Apa",
+    "s": 330.98,
+    "e": 331.26,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 331.26,
+    "e": 331.4,
+    "brk": false
+   },
+   {
+    "w": "boleh",
+    "s": 331.4,
+    "e": 331.64,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 331.64,
+    "e": 331.86,
+    "brk": false
+   },
+   {
+    "w": "buat?",
+    "s": 331.86,
+    "e": 332.1,
+    "brk": false
+   },
+   {
+    "w": "Selalunya",
+    "s": 332.1,
+    "e": 332.7,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 332.7,
+    "e": 332.86,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 332.86,
+    "e": 333.02,
+    "brk": false
+   },
+   {
+    "w": "tengok",
+    "s": 333.02,
+    "e": 333.4,
+    "brk": false
+   },
+   {
+    "w": "dari",
+    "s": 333.4,
+    "e": 333.6,
+    "brk": false
+   },
+   {
+    "w": "segi",
+    "s": 333.6,
+    "e": 333.82,
+    "brk": false
+   },
+   {
+    "w": "bajet",
+    "s": 333.82,
+    "e": 334.18,
+    "brk": false
+   },
+   {
+    "w": "Contoh,",
+    "s": 334.88,
+    "e": 335.52,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 335.64,
+    "e": 335.78,
+    "brk": false
+   },
+   {
+    "w": "hanya",
+    "s": 335.78,
+    "e": 336.0,
+    "brk": false
+   },
+   {
+    "w": "mampu",
+    "s": 336.0,
+    "e": 336.32,
+    "brk": false
+   },
+   {
+    "w": "Executive",
+    "s": 336.32,
+    "e": 336.62,
+    "brk": false
+   },
+   {
+    "w": "Maisonette",
+    "s": 336.62,
+    "e": 337.14,
+    "brk": false
+   },
+   {
+    "w": "sahaja",
+    "s": 337.14,
+    "e": 337.56,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 337.56,
+    "e": 338.06,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 338.06,
+    "e": 338.22,
+    "brk": false
+   },
+   {
+    "w": "payahlah",
+    "s": 338.22,
+    "e": 338.66,
+    "brk": false
+   },
+   {
+    "w": "pergi",
+    "s": 338.66,
+    "e": 339.1,
+    "brk": false
+   },
+   {
+    "w": "sampai",
+    "s": 339.1,
+    "e": 339.32,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 339.32,
+    "e": 339.46,
+    "brk": false
+   },
+   {
+    "w": "private",
+    "s": 339.46,
+    "e": 339.72,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 339.72,
+    "e": 340.14,
+    "brk": false
+   },
+   {
+    "w": "Executive",
+    "s": 340.14,
+    "e": 340.56,
+    "brk": false
+   },
+   {
+    "w": "Maisonette",
+    "s": 340.56,
+    "e": 341.02,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 341.02,
+    "e": 341.12,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 341.12,
+    "e": 341.3,
+    "brk": false
+   },
+   {
+    "w": "sebenarnya",
+    "s": 341.3,
+    "e": 341.8,
+    "brk": false
+   },
+   {
+    "w": "Satu",
+    "s": 341.8,
+    "e": 342.42,
+    "brk": false
+   },
+   {
+    "w": "jenis",
+    "s": 342.42,
+    "e": 342.7,
+    "brk": false
+   },
+   {
+    "w": "perumahan",
+    "s": 342.7,
+    "e": 343.1,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 343.1,
+    "e": 343.34,
+    "brk": false
+   },
+   {
+    "w": "pada",
+    "s": 343.34,
+    "e": 343.54,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 343.54,
+    "e": 343.72,
+    "brk": false
+   },
+   {
+    "w": "baik",
+    "s": 343.72,
+    "e": 344.0,
+    "brk": false
+   },
+   {
+    "w": "Ada",
+    "s": 344.0,
+    "e": 344.58,
+    "brk": false
+   },
+   {
+    "w": "tangga",
+    "s": 344.58,
+    "e": 345.88,
+    "brk": false
+   },
+   {
+    "w": "Privacy",
+    "s": 347.0,
+    "e": 347.64,
+    "brk": false
+   },
+   {
+    "w": "kan",
+    "s": 347.64,
+    "e": 347.78,
+    "brk": false
+   },
+   {
+    "w": "macam",
+    "s": 347.78,
+    "e": 347.96,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 347.96,
+    "e": 348.12,
+    "brk": false
+   },
+   {
+    "w": "landed",
+    "s": 348.12,
+    "e": 348.42,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 348.42,
+    "e": 349.14,
+    "brk": false
+   }
+  ],
+  "in": 310.72,
+  "out": 348.42,
+  "duration": 37.7
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R04",
+  "slug": "strategi-private-ke-hdb",
+  "title": "Strategi: private dulu, patah balik HDB",
+  "segments": [
+   [
+    356.54,
+    390.14
+   ]
+  ],
+  "kicker": "Bagi yang mampu & berani",
+  "hook": [
+   "Private dulu,",
+   "patah balik *HDB*."
+  ],
+  "popups": [
+   {
+    "t": 364.2,
+    "text": "Patah balik HDB",
+    "style": "cream",
+    "size": 84,
+    "sub": "right-size later"
+   },
+   {
+    "t": 369.4,
+    "text": "Akaun persaraan penuh",
+    "style": "gold",
+    "size": 68,
+    "sub": "retirement account topped up"
+   },
+   {
+    "t": 375.4,
+    "text": "Your numbers dulu",
+    "style": "navy",
+    "size": 80,
+    "sub": "numbers before decisions"
+   },
+   {
+    "t": 386.4,
+    "text": "Ejen berlesen",
+    "style": "gold",
+    "size": 86,
+    "sub": "licensed & qualified"
+   }
+  ],
+  "subs": [
+   {
+    "s": 356.54,
+    "e": 359.4,
+    "en": "I do recommend they move to private property,"
+   },
+   {
+    "s": 359.44,
+    "e": 365.8,
+    "en": "because from experience, those who go private and later downsize back to HDB"
+   },
+   {
+    "s": 366.2,
+    "e": 368.8,
+    "en": "end up with more cash left over,"
+   },
+   {
+    "s": 368.8,
+    "e": 371.2,
+    "en": "so we top up the retirement account too."
+   },
+   {
+    "s": 371.2,
+    "e": 373.7,
+    "en": "Then at 65, CPF LIFE starts."
+   },
+   {
+    "s": 374.0,
+    "e": 377.5,
+    "en": "All of this I help with. We look at your numbers first,"
+   },
+   {
+    "s": 377.5,
+    "e": 381.6,
+    "en": "before deciding which upgrade suits you and your family."
+   },
+   {
+    "s": 382.2,
+    "e": 386.2,
+    "en": "Before making this decision, do the sums and discuss first."
+   },
+   {
+    "s": 386.4,
+    "e": 390.14,
+    "en": "Listen to a qualified, licensed agent."
+   }
+  ],
+  "words": [
+   {
+    "w": "Nona",
+    "s": 356.54,
+    "e": 357.06,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 357.06,
+    "e": 357.26,
+    "brk": false
+   },
+   {
+    "w": "sarankan",
+    "s": 357.26,
+    "e": 357.62,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 357.62,
+    "e": 357.82,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 357.82,
+    "e": 358.02,
+    "brk": false
+   },
+   {
+    "w": "Pindah",
+    "s": 358.02,
+    "e": 358.36,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 358.36,
+    "e": 358.48,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 358.48,
+    "e": 358.76,
+    "brk": false
+   },
+   {
+    "w": "private",
+    "s": 358.76,
+    "e": 359.44,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 359.44,
+    "e": 360.12,
+    "brk": false
+   },
+   {
+    "w": "berdasarkan",
+    "s": 360.12,
+    "e": 360.72,
+    "brk": false
+   },
+   {
+    "w": "pengalaman",
+    "s": 360.72,
+    "e": 361.32,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 361.32,
+    "e": 361.74,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 361.74,
+    "e": 361.98,
+    "brk": false
+   },
+   {
+    "w": "pindah",
+    "s": 361.98,
+    "e": 362.28,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 362.28,
+    "e": 362.38,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 362.38,
+    "e": 362.58,
+    "brk": false
+   },
+   {
+    "w": "private",
+    "s": 362.58,
+    "e": 363.02,
+    "brk": false
+   },
+   {
+    "w": "selalunya",
+    "s": 363.02,
+    "e": 363.68,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 363.68,
+    "e": 363.92,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 363.92,
+    "e": 364.18,
+    "brk": false
+   },
+   {
+    "w": "patah",
+    "s": 364.18,
+    "e": 364.54,
+    "brk": false
+   },
+   {
+    "w": "balik",
+    "s": 364.54,
+    "e": 364.88,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 364.88,
+    "e": 364.98,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 364.98,
+    "e": 365.16,
+    "brk": false
+   },
+   {
+    "w": "HDB,",
+    "s": 365.16,
+    "e": 365.8,
+    "brk": false
+   },
+   {
+    "w": "lebihan",
+    "s": 366.24,
+    "e": 367.42,
+    "brk": false
+   },
+   {
+    "w": "cash",
+    "s": 367.42,
+    "e": 367.78,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 367.78,
+    "e": 368.04,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 368.04,
+    "e": 368.22,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 368.22,
+    "e": 368.58,
+    "brk": false
+   },
+   {
+    "w": "lah",
+    "s": 368.58,
+    "e": 368.78,
+    "brk": false
+   },
+   {
+    "w": "jadi",
+    "s": 368.78,
+    "e": 369.4,
+    "brk": false
+   },
+   {
+    "w": "akaun",
+    "s": 369.4,
+    "e": 369.8,
+    "brk": false
+   },
+   {
+    "w": "persaraan",
+    "s": 369.8,
+    "e": 370.1,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 370.1,
+    "e": 370.26,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 370.26,
+    "e": 370.42,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 370.42,
+    "e": 370.54,
+    "brk": false
+   },
+   {
+    "w": "penuhkan",
+    "s": 370.54,
+    "e": 371.18,
+    "brk": false
+   },
+   {
+    "w": "kemudian",
+    "s": 371.18,
+    "e": 371.74,
+    "brk": false
+   },
+   {
+    "w": "nanti",
+    "s": 371.74,
+    "e": 371.9,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 371.9,
+    "e": 372.04,
+    "brk": false
+   },
+   {
+    "w": "65,",
+    "s": 372.04,
+    "e": 372.46,
+    "brk": false
+   },
+   {
+    "w": "CPF",
+    "s": 372.6,
+    "e": 372.92,
+    "brk": false
+   },
+   {
+    "w": "life",
+    "s": 372.92,
+    "e": 373.04,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 373.04,
+    "e": 373.22,
+    "brk": false
+   },
+   {
+    "w": "bermula,",
+    "s": 373.22,
+    "e": 373.7,
+    "brk": false
+   },
+   {
+    "w": "jadi",
+    "s": 374.06,
+    "e": 374.12,
+    "brk": false
+   },
+   {
+    "w": "semua",
+    "s": 374.12,
+    "e": 374.42,
+    "brk": false
+   },
+   {
+    "w": "ini",
+    "s": 374.42,
+    "e": 374.56,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 374.56,
+    "e": 374.7,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 374.7,
+    "e": 374.86,
+    "brk": false
+   },
+   {
+    "w": "bantu",
+    "s": 374.86,
+    "e": 375.36,
+    "brk": false
+   },
+   {
+    "w": "tengok",
+    "s": 375.36,
+    "e": 376.22,
+    "brk": false
+   },
+   {
+    "w": "your",
+    "s": 376.22,
+    "e": 376.9,
+    "brk": false
+   },
+   {
+    "w": "numbers",
+    "s": 376.9,
+    "e": 377.26,
+    "brk": false
+   },
+   {
+    "w": "dulu",
+    "s": 377.26,
+    "e": 377.52,
+    "brk": false
+   },
+   {
+    "w": "sebelum",
+    "s": 377.52,
+    "e": 378.12,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 378.12,
+    "e": 378.32,
+    "brk": false
+   },
+   {
+    "w": "tentukan",
+    "s": 378.32,
+    "e": 378.68,
+    "brk": false
+   },
+   {
+    "w": "apakah",
+    "s": 378.68,
+    "e": 379.38,
+    "brk": false
+   },
+   {
+    "w": "upgrade",
+    "s": 379.38,
+    "e": 379.86,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 379.86,
+    "e": 379.98,
+    "brk": false
+   },
+   {
+    "w": "sesuai",
+    "s": 379.98,
+    "e": 380.42,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 380.42,
+    "e": 380.6,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 380.6,
+    "e": 380.8,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 380.8,
+    "e": 380.92,
+    "brk": false
+   },
+   {
+    "w": "keluarga",
+    "s": 380.92,
+    "e": 381.24,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 381.24,
+    "e": 381.54,
+    "brk": false
+   },
+   {
+    "w": "sebelum",
+    "s": 382.22,
+    "e": 382.84,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 382.84,
+    "e": 382.94,
+    "brk": false
+   },
+   {
+    "w": "keputusan",
+    "s": 382.94,
+    "e": 383.48,
+    "brk": false
+   },
+   {
+    "w": "ini",
+    "s": 383.48,
+    "e": 383.64,
+    "brk": false
+   },
+   {
+    "w": "harus",
+    "s": 383.64,
+    "e": 383.96,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 383.96,
+    "e": 384.32,
+    "brk": false
+   },
+   {
+    "w": "kira-kira",
+    "s": 384.32,
+    "e": 384.92,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 384.92,
+    "e": 385.1,
+    "brk": false
+   },
+   {
+    "w": "berbincang",
+    "s": 385.1,
+    "e": 385.76,
+    "brk": false
+   },
+   {
+    "w": "dahulu,",
+    "s": 385.76,
+    "e": 386.22,
+    "brk": false
+   },
+   {
+    "w": "dengarlah",
+    "s": 386.44,
+    "e": 387.42,
+    "brk": false
+   },
+   {
+    "w": "daripada",
+    "s": 387.42,
+    "e": 388.18,
+    "brk": false
+   },
+   {
+    "w": "ejen",
+    "s": 388.18,
+    "e": 388.56,
+    "brk": false
+   },
+   {
+    "w": "berkelayakan",
+    "s": 388.56,
+    "e": 389.18,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 389.18,
+    "e": 389.36,
+    "brk": false
+   },
+   {
+    "w": "berlesen",
+    "s": 389.36,
+    "e": 390.14,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 390.14,
+    "e": 390.52,
+    "brk": false
+   }
+  ],
+  "in": 356.54,
+  "out": 390.14,
+  "duration": 33.6
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R05",
+  "slug": "go-for-the-biggest-hdb",
+  "title": "Go for the biggest HDB",
+  "segments": [
+   [
+    423.02,
+    465.14
+   ]
+  ],
+  "kicker": "Nasihat Nona",
+  "hook": [
+   "Kalau mampu,",
+   "go for the *biggest HDB*."
+  ],
+  "popups": [
+   {
+    "t": 426.3,
+    "text": "Biggest HDB",
+    "style": "gold",
+    "size": 96,
+    "sub": "jumbo · EM · EA"
+   },
+   {
+    "t": 435.5,
+    "text": "Dah tak buat lagi",
+    "style": "cream",
+    "size": 80,
+    "sub": "no longer built"
+   },
+   {
+    "t": 447.9,
+    "text": "Rare item",
+    "style": "navy",
+    "size": 96,
+    "sub": "scarcity = value"
+   },
+   {
+    "t": 457.8,
+    "text": "No longer in production",
+    "style": "gold",
+    "size": 64,
+    "sub": "the last EMs are ~36 years old"
+   }
+  ],
+  "subs": [
+   {
+    "s": 423.02,
+    "e": 427.7,
+    "en": "Like I said, if you can afford it, I always say go for the biggest HDB."
+   },
+   {
+    "s": 427.8,
+    "e": 434.0,
+    "en": "Meaning, if you can buy the biggest, buy a jumbo, an Executive Maisonette, an Executive Apartment. Why?"
+   },
+   {
+    "s": 434.18,
+    "e": 437.1,
+    "en": "The government no longer builds these."
+   },
+   {
+    "s": 437.68,
+    "e": 443.1,
+    "en": "The last Executive Maisonettes I know of are at Rivervale Crescent, about 36 years old now."
+   },
+   {
+    "s": 443.6,
+    "e": 445.5,
+    "en": "Since then they haven't built any."
+   },
+   {
+    "s": 445.54,
+    "e": 448.9,
+    "en": "So if you buy one, people say you're buying a rare item."
+   },
+   {
+    "s": 449.6,
+    "e": 455.6,
+    "en": "Because when we're old, the young ones will say: \"Eh auntie, your house has stairs! So unique.\""
+   },
+   {
+    "s": 455.6,
+    "e": 459.5,
+    "en": "And they'll pay for a home that's no longer in production."
+   },
+   {
+    "s": 459.5,
+    "e": 461.6,
+    "en": "If you want one, the government isn't building more."
+   },
+   {
+    "s": 461.56,
+    "e": 465.14,
+    "en": "So for those who can afford it, I'd say buy the biggest."
+   }
+  ],
+  "words": [
+   {
+    "w": "Seperti",
+    "s": 423.02,
+    "e": 423.58,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 423.58,
+    "e": 423.68,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 423.68,
+    "e": 423.8,
+    "brk": false
+   },
+   {
+    "w": "katakan,",
+    "s": 423.8,
+    "e": 424.14,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 424.28,
+    "e": 424.56,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 424.56,
+    "e": 424.96,
+    "brk": false
+   },
+   {
+    "w": "mampu,",
+    "s": 424.96,
+    "e": 425.6,
+    "brk": false
+   },
+   {
+    "w": "I",
+    "s": 425.82,
+    "e": 425.9,
+    "brk": false
+   },
+   {
+    "w": "always",
+    "s": 425.9,
+    "e": 426.2,
+    "brk": false
+   },
+   {
+    "w": "say",
+    "s": 426.2,
+    "e": 426.36,
+    "brk": false
+   },
+   {
+    "w": "go",
+    "s": 426.36,
+    "e": 426.64,
+    "brk": false
+   },
+   {
+    "w": "for",
+    "s": 426.64,
+    "e": 426.78,
+    "brk": false
+   },
+   {
+    "w": "the",
+    "s": 426.78,
+    "e": 426.92,
+    "brk": false
+   },
+   {
+    "w": "biggest",
+    "s": 426.92,
+    "e": 427.12,
+    "brk": false
+   },
+   {
+    "w": "HDB.",
+    "s": 427.12,
+    "e": 427.7,
+    "brk": false
+   },
+   {
+    "w": "Bermaksud,",
+    "s": 427.82,
+    "e": 428.26,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 428.42,
+    "e": 428.68,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 428.68,
+    "e": 428.9,
+    "brk": false
+   },
+   {
+    "w": "boleh",
+    "s": 428.9,
+    "e": 429.16,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 429.16,
+    "e": 429.36,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 429.36,
+    "e": 429.44,
+    "brk": false
+   },
+   {
+    "w": "paling",
+    "s": 429.44,
+    "e": 429.6,
+    "brk": false
+   },
+   {
+    "w": "besar,",
+    "s": 429.6,
+    "e": 429.86,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 429.98,
+    "e": 430.2,
+    "brk": false
+   },
+   {
+    "w": "jumbo,",
+    "s": 430.2,
+    "e": 430.74,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 431.22,
+    "e": 431.46,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 431.46,
+    "e": 431.76,
+    "brk": false
+   },
+   {
+    "w": "maisonette,",
+    "s": 431.76,
+    "e": 432.34,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 432.46,
+    "e": 432.62,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 432.62,
+    "e": 432.92,
+    "brk": false
+   },
+   {
+    "w": "apartment",
+    "s": 432.92,
+    "e": 433.38,
+    "brk": false
+   },
+   {
+    "w": "kerana",
+    "s": 433.38,
+    "e": 433.74,
+    "brk": false
+   },
+   {
+    "w": "apa.",
+    "s": 433.74,
+    "e": 434.0,
+    "brk": false
+   },
+   {
+    "w": "Rumah-rumah",
+    "s": 434.18,
+    "e": 434.96,
+    "brk": false
+   },
+   {
+    "w": "sebegini,",
+    "s": 434.96,
+    "e": 435.44,
+    "brk": false
+   },
+   {
+    "w": "pemerintah",
+    "s": 435.56,
+    "e": 435.96,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 435.96,
+    "e": 436.28,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 436.28,
+    "e": 436.48,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 436.48,
+    "e": 436.64,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 436.64,
+    "e": 436.82,
+    "brk": false
+   },
+   {
+    "w": "lagi.",
+    "s": 436.82,
+    "e": 437.12,
+    "brk": false
+   },
+   {
+    "w": "Executive",
+    "s": 437.68,
+    "e": 438.02,
+    "brk": false
+   },
+   {
+    "w": "maisonette",
+    "s": 438.02,
+    "e": 438.48,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 438.48,
+    "e": 438.58,
+    "brk": false
+   },
+   {
+    "w": "terakhir",
+    "s": 438.58,
+    "e": 438.98,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 438.98,
+    "e": 439.12,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 439.12,
+    "e": 439.32,
+    "brk": false
+   },
+   {
+    "w": "tahu",
+    "s": 439.32,
+    "e": 439.64,
+    "brk": false
+   },
+   {
+    "w": "adalah",
+    "s": 439.64,
+    "e": 439.92,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 439.92,
+    "e": 440.06,
+    "brk": false
+   },
+   {
+    "w": "kawasan",
+    "s": 440.06,
+    "e": 440.3,
+    "brk": false
+   },
+   {
+    "w": "Rivervale",
+    "s": 440.3,
+    "e": 440.64,
+    "brk": false
+   },
+   {
+    "w": "Crescent,",
+    "s": 440.64,
+    "e": 441.04,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 441.36,
+    "e": 441.46,
+    "brk": false
+   },
+   {
+    "w": "kurang",
+    "s": 441.46,
+    "e": 441.76,
+    "brk": false
+   },
+   {
+    "w": "36",
+    "s": 441.76,
+    "e": 442.26,
+    "brk": false
+   },
+   {
+    "w": "tahun",
+    "s": 442.26,
+    "e": 442.7,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 442.7,
+    "e": 442.82,
+    "brk": false
+   },
+   {
+    "w": "sekarang.",
+    "s": 442.82,
+    "e": 443.12,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 443.64,
+    "e": 444.02,
+    "brk": false
+   },
+   {
+    "w": "sejak",
+    "s": 444.02,
+    "e": 444.24,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 444.24,
+    "e": 444.34,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 444.34,
+    "e": 444.54,
+    "brk": false
+   },
+   {
+    "w": "kerajaan",
+    "s": 444.54,
+    "e": 444.82,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 444.82,
+    "e": 444.98,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 444.98,
+    "e": 445.08,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 445.08,
+    "e": 445.22,
+    "brk": false
+   },
+   {
+    "w": "lagi.",
+    "s": 445.22,
+    "e": 445.54,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 445.54,
+    "e": 446.1,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 446.1,
+    "e": 446.36,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 446.36,
+    "e": 446.6,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 446.6,
+    "e": 447.0,
+    "brk": false
+   },
+   {
+    "w": "Orang",
+    "s": 447.0,
+    "e": 447.26,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 447.26,
+    "e": 447.48,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 447.48,
+    "e": 447.68,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 447.68,
+    "e": 447.96,
+    "brk": false
+   },
+   {
+    "w": "rare",
+    "s": 447.96,
+    "e": 448.32,
+    "brk": false
+   },
+   {
+    "w": "item",
+    "s": 448.32,
+    "e": 448.86,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 449.62,
+    "e": 450.06,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 450.06,
+    "e": 450.28,
+    "brk": false
+   },
+   {
+    "w": "nanti",
+    "s": 450.28,
+    "e": 450.56,
+    "brk": false
+   },
+   {
+    "w": "Bila",
+    "s": 450.56,
+    "e": 450.7,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 450.7,
+    "e": 450.84,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 450.84,
+    "e": 451.0,
+    "brk": false
+   },
+   {
+    "w": "tua",
+    "s": 451.0,
+    "e": 451.18,
+    "brk": false
+   },
+   {
+    "w": "kan",
+    "s": 451.18,
+    "e": 451.38,
+    "brk": false
+   },
+   {
+    "w": "Budak-budak",
+    "s": 451.38,
+    "e": 451.66,
+    "brk": false
+   },
+   {
+    "w": "baru",
+    "s": 451.66,
+    "e": 451.9,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 451.9,
+    "e": 452.02,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 452.02,
+    "e": 452.32,
+    "brk": false
+   },
+   {
+    "w": "Eh",
+    "s": 452.32,
+    "e": 452.62,
+    "brk": false
+   },
+   {
+    "w": "auntie",
+    "s": 452.62,
+    "e": 453.12,
+    "brk": false
+   },
+   {
+    "w": "rumahnya",
+    "s": 453.12,
+    "e": 453.6,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 453.6,
+    "e": 453.72,
+    "brk": false
+   },
+   {
+    "w": "tangga lah",
+    "s": 453.72,
+    "e": 454.52,
+    "brk": false
+   },
+   {
+    "w": "Macam",
+    "s": 454.52,
+    "e": 455.32,
+    "brk": false
+   },
+   {
+    "w": "unik",
+    "s": 455.32,
+    "e": 455.62,
+    "brk": false
+   },
+   {
+    "w": "Dan",
+    "s": 455.62,
+    "e": 455.76,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 455.76,
+    "e": 456.02,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 456.02,
+    "e": 456.54,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 456.54,
+    "e": 457.06,
+    "brk": false
+   },
+   {
+    "w": "Rumah",
+    "s": 457.06,
+    "e": 457.64,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 457.64,
+    "e": 457.82,
+    "brk": false
+   },
+   {
+    "w": "no",
+    "s": 457.82,
+    "e": 458.02,
+    "brk": false
+   },
+   {
+    "w": "longer",
+    "s": 458.02,
+    "e": 458.3,
+    "brk": false
+   },
+   {
+    "w": "in",
+    "s": 458.3,
+    "e": 458.44,
+    "brk": false
+   },
+   {
+    "w": "production",
+    "s": 458.44,
+    "e": 458.76,
+    "brk": false
+   },
+   {
+    "w": "Dah",
+    "s": 458.76,
+    "e": 458.96,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 458.96,
+    "e": 459.1,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 459.1,
+    "e": 459.28,
+    "brk": false
+   },
+   {
+    "w": "lagi",
+    "s": 459.28,
+    "e": 459.5,
+    "brk": false
+   },
+   {
+    "w": "Kalau",
+    "s": 459.5,
+    "e": 459.66,
+    "brk": false
+   },
+   {
+    "w": "you",
+    "s": 459.66,
+    "e": 459.82,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 459.82,
+    "e": 459.94,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 459.94,
+    "e": 460.14,
+    "brk": false
+   },
+   {
+    "w": "Pemerintah",
+    "s": 460.14,
+    "e": 460.8,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 460.8,
+    "e": 460.9,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 460.9,
+    "e": 461.0,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 461.0,
+    "e": 461.24,
+    "brk": false
+   },
+   {
+    "w": "lagi",
+    "s": 461.24,
+    "e": 461.56,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 461.56,
+    "e": 462.06,
+    "brk": false
+   },
+   {
+    "w": "bagi",
+    "s": 462.06,
+    "e": 462.9,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 462.9,
+    "e": 463.06,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 463.06,
+    "e": 463.2,
+    "brk": false
+   },
+   {
+    "w": "mampu",
+    "s": 463.2,
+    "e": 463.72,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 463.72,
+    "e": 463.96,
+    "brk": false
+   },
+   {
+    "w": "rasa",
+    "s": 463.96,
+    "e": 464.16,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 464.16,
+    "e": 464.5,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 464.5,
+    "e": 464.6,
+    "brk": false
+   },
+   {
+    "w": "paling",
+    "s": 464.6,
+    "e": 464.82,
+    "brk": false
+   },
+   {
+    "w": "besar",
+    "s": 464.82,
+    "e": 465.14,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 465.14,
+    "e": 465.4,
+    "brk": false
+   }
+  ],
+  "in": 423.02,
+  "out": 465.14,
+  "duration": 42.1
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R06",
+  "slug": "kisah-pakcik-tampines",
+  "title": "Kisah pakcik Tampines: $300k cash & CPF LIFE penuh",
+  "segments": [
+   [
+    465.64,
+    476.2
+   ],
+   [
+    487.1,
+    520.9
+   ]
+  ],
+  "kicker": "Kisah benar pelanggan",
+  "hook": [
+   "3-bilik → EA → 3-bilik.",
+   "Lebih *$300k* cash di bank."
+  ],
+  "popups": [
+   {
+    "t": 469.8,
+    "text": "3-bilik Tampines",
+    "style": "cream",
+    "size": 80,
+    "sub": "chapter 1: newlyweds"
+   },
+   {
+    "t": 473.8,
+    "text": "Executive Apartment",
+    "style": "gold",
+    "size": 70,
+    "sub": "chapter 2: three daughters"
+   },
+   {
+    "t": 497.9,
+    "text": "Right-size",
+    "style": "navy",
+    "size": 96,
+    "sub": "chapter 3: near the polyclinic"
+   },
+   {
+    "t": 514.4,
+    "text": "$300,000 cash",
+    "style": "gold",
+    "size": 90,
+    "sub": "plus full retirement account"
+   },
+   {
+    "t": 519.5,
+    "text": "CPF LIFE penuh",
+    "style": "cream",
+    "size": 84,
+    "sub": "full monthly payout for life",
+    "dur": 1.5
+   }
+  ],
+  "subs": [
+   {
+    "s": 465.64,
+    "e": 467.6,
+    "en": "I have a case. This uncle,"
+   },
+   {
+    "s": 467.66,
+    "e": 470.9,
+    "en": "when he was newly married, bought a 3-room in Tampines."
+   },
+   {
+    "s": 470.94,
+    "e": 476.2,
+    "en": "When he had three daughters, he moved to an Executive Apartment, also in Tampines."
+   },
+   {
+    "s": 487.1,
+    "e": 490.6,
+    "en": "When he reached his 60s, 68 if I'm not mistaken,"
+   },
+   {
+    "s": 490.78,
+    "e": 493.9,
+    "en": "he said: it's just auntie and me now. The kids have all moved out."
+   },
+   {
+    "s": 493.96,
+    "e": 496.1,
+    "en": "This Executive Apartment is too big."
+   },
+   {
+    "s": 496.5,
+    "e": 497.5,
+    "en": "So what did he want?"
+   },
+   {
+    "s": 497.56,
+    "e": 501.9,
+    "en": "A 3-room near Tampines Interchange, near the polyclinic."
+   },
+   {
+    "s": 502.3,
+    "e": 505.0,
+    "en": "Because when you're older, collecting medicine nearby is easier."
+   },
+   {
+    "s": 505.16,
+    "e": 508.1,
+    "en": "So what did Nona do? I sold the Executive Apartment."
+   },
+   {
+    "s": 508.3,
+    "e": 512.3,
+    "en": "We moved to a 3-room right next to Tampines Polyclinic."
+   },
+   {
+    "s": 512.48,
+    "e": 515.7,
+    "en": "And in the bank he had over $300,000 cash."
+   },
+   {
+    "s": 516.0,
+    "e": 517.7,
+    "en": "His Retirement Account was full too."
+   },
+   {
+    "s": 517.9,
+    "e": 520.9,
+    "en": "Meaning every month he gets the full CPF LIFE payout."
+   }
+  ],
+  "words": [
+   {
+    "w": "Nona",
+    "s": 465.64,
+    "e": 466.16,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 466.16,
+    "e": 466.3,
+    "brk": false
+   },
+   {
+    "w": "satu",
+    "s": 466.3,
+    "e": 466.5,
+    "brk": false
+   },
+   {
+    "w": "kes",
+    "s": 466.5,
+    "e": 466.74,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 466.74,
+    "e": 466.84,
+    "brk": false
+   },
+   {
+    "w": "Di",
+    "s": 466.84,
+    "e": 466.92,
+    "brk": false
+   },
+   {
+    "w": "mana",
+    "s": 466.92,
+    "e": 467.06,
+    "brk": false
+   },
+   {
+    "w": "pakcik",
+    "s": 467.06,
+    "e": 467.54,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 467.54,
+    "e": 467.66,
+    "brk": false
+   },
+   {
+    "w": "Bila",
+    "s": 467.66,
+    "e": 468.18,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 468.18,
+    "e": 468.32,
+    "brk": false
+   },
+   {
+    "w": "berusaha",
+    "s": 468.32,
+    "e": 468.8,
+    "brk": false
+   },
+   {
+    "w": "baru",
+    "s": 468.8,
+    "e": 469.18,
+    "brk": false
+   },
+   {
+    "w": "kahwin",
+    "s": 469.18,
+    "e": 469.52,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 469.52,
+    "e": 469.76,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 469.76,
+    "e": 469.9,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 469.9,
+    "e": 470.0,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 470.0,
+    "e": 470.18,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 470.18,
+    "e": 470.36,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 470.36,
+    "e": 470.48,
+    "brk": false
+   },
+   {
+    "w": "Tampines",
+    "s": 470.48,
+    "e": 470.94,
+    "brk": false
+   },
+   {
+    "w": "Kemudian",
+    "s": 470.94,
+    "e": 471.64,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 471.64,
+    "e": 471.82,
+    "brk": false
+   },
+   {
+    "w": "anaknya",
+    "s": 471.82,
+    "e": 472.18,
+    "brk": false
+   },
+   {
+    "w": "Sudah",
+    "s": 472.18,
+    "e": 472.4,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 472.4,
+    "e": 472.52,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 472.52,
+    "e": 472.74,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 472.74,
+    "e": 472.88,
+    "brk": false
+   },
+   {
+    "w": "anak",
+    "s": 472.88,
+    "e": 473.06,
+    "brk": false
+   },
+   {
+    "w": "perempuan",
+    "s": 473.06,
+    "e": 473.54,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 473.54,
+    "e": 473.74,
+    "brk": false
+   },
+   {
+    "w": "pindah",
+    "s": 473.74,
+    "e": 474.04,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 474.04,
+    "e": 474.16,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 474.16,
+    "e": 474.62,
+    "brk": false
+   },
+   {
+    "w": "apartment",
+    "s": 474.62,
+    "e": 475.16,
+    "brk": false
+   },
+   {
+    "w": "di",
+    "s": 475.16,
+    "e": 475.5,
+    "brk": false
+   },
+   {
+    "w": "Tampines",
+    "s": 475.5,
+    "e": 475.92,
+    "brk": false
+   },
+   {
+    "w": "juga.",
+    "s": 475.92,
+    "e": 476.2,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 487.1,
+    "e": 487.58,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 487.58,
+    "e": 488.06,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 488.06,
+    "e": 488.22,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 488.22,
+    "e": 488.42,
+    "brk": false
+   },
+   {
+    "w": "60-an.",
+    "s": 488.42,
+    "e": 489.18,
+    "brk": false
+   },
+   {
+    "w": "68",
+    "s": 489.38,
+    "e": 489.86,
+    "brk": false
+   },
+   {
+    "w": "kalau tak",
+    "s": 489.86,
+    "e": 490.2,
+    "brk": false
+   },
+   {
+    "w": "silap",
+    "s": 490.2,
+    "e": 490.38,
+    "brk": false
+   },
+   {
+    "w": "saya.",
+    "s": 490.38,
+    "e": 490.6,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 490.78,
+    "e": 490.78,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 490.78,
+    "e": 491.06,
+    "brk": false
+   },
+   {
+    "w": "makcik",
+    "s": 491.06,
+    "e": 491.94,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 491.94,
+    "e": 492.12,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 492.12,
+    "e": 492.32,
+    "brk": false
+   },
+   {
+    "w": "dua",
+    "s": 492.32,
+    "e": 492.46,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 492.46,
+    "e": 492.68,
+    "brk": false
+   },
+   {
+    "w": "sahaja.",
+    "s": 492.68,
+    "e": 493.02,
+    "brk": false
+   },
+   {
+    "w": "Anak-anak",
+    "s": 493.1,
+    "e": 493.38,
+    "brk": false
+   },
+   {
+    "w": "semua",
+    "s": 493.38,
+    "e": 493.54,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 493.54,
+    "e": 493.64,
+    "brk": false
+   },
+   {
+    "w": "keluar.",
+    "s": 493.64,
+    "e": 493.86,
+    "brk": false
+   },
+   {
+    "w": "Rumah",
+    "s": 493.96,
+    "e": 494.26,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 494.26,
+    "e": 494.72,
+    "brk": false
+   },
+   {
+    "w": "apartment",
+    "s": 494.72,
+    "e": 495.0,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 495.0,
+    "e": 495.1,
+    "brk": false
+   },
+   {
+    "w": "terlalu",
+    "s": 495.1,
+    "e": 495.64,
+    "brk": false
+   },
+   {
+    "w": "besar.",
+    "s": 495.64,
+    "e": 496.08,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 496.5,
+    "e": 496.74,
+    "brk": false
+   },
+   {
+    "w": "apa",
+    "s": 496.74,
+    "e": 496.98,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 496.98,
+    "e": 497.12,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 497.12,
+    "e": 497.26,
+    "brk": false
+   },
+   {
+    "w": "nak?",
+    "s": 497.26,
+    "e": 497.42,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 497.56,
+    "e": 497.64,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 497.64,
+    "e": 497.86,
+    "brk": false
+   },
+   {
+    "w": "pakcik",
+    "s": 497.86,
+    "e": 498.26,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 498.26,
+    "e": 498.38,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 498.38,
+    "e": 498.64,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 498.64,
+    "e": 498.92,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 498.92,
+    "e": 499.38,
+    "brk": false
+   },
+   {
+    "w": "dekat",
+    "s": 499.38,
+    "e": 499.96,
+    "brk": false
+   },
+   {
+    "w": "dengan",
+    "s": 499.96,
+    "e": 500.16,
+    "brk": false
+   },
+   {
+    "w": "Tampines",
+    "s": 500.16,
+    "e": 500.6,
+    "brk": false
+   },
+   {
+    "w": "Interchange",
+    "s": 500.6,
+    "e": 501.04,
+    "brk": false
+   },
+   {
+    "w": "dekat",
+    "s": 501.04,
+    "e": 501.28,
+    "brk": false
+   },
+   {
+    "w": "dengan",
+    "s": 501.28,
+    "e": 501.42,
+    "brk": false
+   },
+   {
+    "w": "poliklinik.",
+    "s": 501.42,
+    "e": 501.94,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 502.3,
+    "e": 502.74,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 502.74,
+    "e": 502.92,
+    "brk": false
+   },
+   {
+    "w": "tua",
+    "s": 502.92,
+    "e": 503.24,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 503.24,
+    "e": 503.5,
+    "brk": false
+   },
+   {
+    "w": "pergi",
+    "s": 503.5,
+    "e": 503.72,
+    "brk": false
+   },
+   {
+    "w": "klinik",
+    "s": 503.72,
+    "e": 504.12,
+    "brk": false
+   },
+   {
+    "w": "ambil",
+    "s": 504.12,
+    "e": 504.34,
+    "brk": false
+   },
+   {
+    "w": "ubat",
+    "s": 504.34,
+    "e": 504.54,
+    "brk": false
+   },
+   {
+    "w": "senang",
+    "s": 504.54,
+    "e": 504.86,
+    "brk": false
+   },
+   {
+    "w": "kan.",
+    "s": 504.86,
+    "e": 505.0,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 505.16,
+    "e": 505.48,
+    "brk": false
+   },
+   {
+    "w": "apa",
+    "s": 505.48,
+    "e": 505.68,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 505.68,
+    "e": 505.78,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 505.78,
+    "e": 505.9,
+    "brk": false
+   },
+   {
+    "w": "buat?",
+    "s": 505.9,
+    "e": 506.2,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 506.36,
+    "e": 506.58,
+    "brk": false
+   },
+   {
+    "w": "jualkan",
+    "s": 506.58,
+    "e": 507.02,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 507.02,
+    "e": 507.22,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 507.22,
+    "e": 507.62,
+    "brk": false
+   },
+   {
+    "w": "apartment.",
+    "s": 507.62,
+    "e": 508.06,
+    "brk": false
+   },
+   {
+    "w": "Kita",
+    "s": 508.3,
+    "e": 508.72,
+    "brk": false
+   },
+   {
+    "w": "pindah",
+    "s": 508.72,
+    "e": 509.14,
+    "brk": false
+   },
+   {
+    "w": "ke",
+    "s": 509.14,
+    "e": 509.26,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 509.26,
+    "e": 509.42,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 509.42,
+    "e": 509.7,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 509.7,
+    "e": 509.96,
+    "brk": false
+   },
+   {
+    "w": "dekat",
+    "s": 509.96,
+    "e": 510.38,
+    "brk": false
+   },
+   {
+    "w": "sebelah",
+    "s": 510.38,
+    "e": 511.04,
+    "brk": false
+   },
+   {
+    "w": "Tampines",
+    "s": 511.04,
+    "e": 511.76,
+    "brk": false
+   },
+   {
+    "w": "Poliklinik.",
+    "s": 511.76,
+    "e": 512.34,
+    "brk": false
+   },
+   {
+    "w": "Dan",
+    "s": 512.48,
+    "e": 512.82,
+    "brk": false
+   },
+   {
+    "w": "dalam",
+    "s": 512.82,
+    "e": 513.22,
+    "brk": false
+   },
+   {
+    "w": "bank",
+    "s": 513.22,
+    "e": 513.56,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 513.56,
+    "e": 513.82,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 513.82,
+    "e": 514.12,
+    "brk": false
+   },
+   {
+    "w": "lebih",
+    "s": 514.12,
+    "e": 514.46,
+    "brk": false
+   },
+   {
+    "w": "$300,000",
+    "s": 514.46,
+    "e": 515.34,
+    "brk": false
+   },
+   {
+    "w": "cash.",
+    "s": 515.34,
+    "e": 515.7,
+    "brk": false
+   },
+   {
+    "w": "Retirement",
+    "s": 516.04,
+    "e": 516.44,
+    "brk": false
+   },
+   {
+    "w": "account",
+    "s": 516.44,
+    "e": 516.76,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 516.76,
+    "e": 516.92,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 516.92,
+    "e": 517.06,
+    "brk": false
+   },
+   {
+    "w": "penuh.",
+    "s": 517.06,
+    "e": 517.66,
+    "brk": false
+   },
+   {
+    "w": "Bermaksud",
+    "s": 517.92,
+    "e": 518.42,
+    "brk": false
+   },
+   {
+    "w": "bulan-bulan",
+    "s": 518.42,
+    "e": 519.34,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 519.34,
+    "e": 519.46,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 519.46,
+    "e": 519.58,
+    "brk": false
+   },
+   {
+    "w": "dapat",
+    "s": 519.58,
+    "e": 519.74,
+    "brk": false
+   },
+   {
+    "w": "CPF",
+    "s": 519.74,
+    "e": 520.16,
+    "brk": false
+   },
+   {
+    "w": "life",
+    "s": 520.16,
+    "e": 520.34,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 520.34,
+    "e": 520.5,
+    "brk": false
+   },
+   {
+    "w": "penuh",
+    "s": 520.5,
+    "e": 520.8,
+    "brk": false
+   },
+   {
+    "w": "lah.",
+    "s": 520.8,
+    "e": 520.9,
+    "brk": false
+   }
+  ],
+  "in": 465.64,
+  "out": 520.9,
+  "duration": 44.4
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R07",
+  "slug": "bayar-habis-sebelum-55",
+  "title": "Bayar habis sebelum 55",
+  "segments": [
+   [
+    528.52,
+    562.68
+   ]
+  ],
+  "kicker": "Untuk anda yang 30-an, 40-an",
+  "hook": [
+   "Stretch boleh. Tapi",
+   "*bayar habis* sebelum *55*."
+  ],
+  "popups": [
+   {
+    "t": 535.4,
+    "text": "Bayar habis sebelum 55",
+    "style": "gold",
+    "size": 66,
+    "sub": "clear it before 55"
+   },
+   {
+    "t": 547.3,
+    "text": "CPF contribution ↓",
+    "style": "cream",
+    "size": 80,
+    "sub": "drops after 55"
+   },
+   {
+    "t": 553.0,
+    "text": "$1,000 → $500",
+    "style": "navy",
+    "size": 90,
+    "sub": "the other half comes from cash"
+   },
+   {
+    "t": 559.6,
+    "text": "Top up cash",
+    "style": "gold",
+    "size": 90,
+    "sub": "what we want to avoid"
+   }
+  ],
+  "subs": [
+   {
+    "s": 528.52,
+    "e": 531.6,
+    "en": "For those of you who may have the means, in your 30s and 40s,"
+   },
+   {
+    "s": 531.7,
+    "e": 533.9,
+    "en": "and feel you can stretch a little,"
+   },
+   {
+    "s": 533.9,
+    "e": 537.3,
+    "en": "you must have a plan to pay it off before 55."
+   },
+   {
+    "s": 538.2,
+    "e": 538.8,
+    "en": "Why?"
+   },
+   {
+    "s": 538.98,
+    "e": 543.2,
+    "en": "At 55 our Retirement Account kicks in."
+   },
+   {
+    "s": 543.2,
+    "e": 546.8,
+    "en": "Some don't meet the Full Retirement Sum, so all sorts of problems."
+   },
+   {
+    "s": 546.8,
+    "e": 549.6,
+    "en": "And our CPF contribution also drops."
+   },
+   {
+    "s": 549.54,
+    "e": 552.1,
+    "en": "If you used to have $1,000 to pay the home loan,"
+   },
+   {
+    "s": 552.1,
+    "e": 556.1,
+    "en": "later it drops by 50% to only $500."
+   },
+   {
+    "s": 556.06,
+    "e": 557.4,
+    "en": "So $500 has to come out in cash."
+   },
+   {
+    "s": 557.4,
+    "e": 560.6,
+    "en": "That's when you hear people say: eh, I have to top up cash for my house."
+   },
+   {
+    "s": 561.2,
+    "e": 562.68,
+    "en": "That's what we want to avoid."
+   }
+  ],
+  "words": [
+   {
+    "w": "Bagi",
+    "s": 528.52,
+    "e": 528.68,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 528.68,
+    "e": 528.9,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 528.9,
+    "e": 529.08,
+    "brk": false
+   },
+   {
+    "w": "mungkin",
+    "s": 529.08,
+    "e": 529.3,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 529.3,
+    "e": 529.54,
+    "brk": false
+   },
+   {
+    "w": "kemampuan,",
+    "s": 529.54,
+    "e": 530.14,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 530.36,
+    "e": 530.46,
+    "brk": false
+   },
+   {
+    "w": "30-an,",
+    "s": 530.46,
+    "e": 531.0,
+    "brk": false
+   },
+   {
+    "w": "40-an.",
+    "s": 531.08,
+    "e": 531.6,
+    "brk": false
+   },
+   {
+    "w": "Anda",
+    "s": 531.72,
+    "e": 532.02,
+    "brk": false
+   },
+   {
+    "w": "rasa",
+    "s": 532.02,
+    "e": 532.18,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 532.18,
+    "e": 532.34,
+    "brk": false
+   },
+   {
+    "w": "mampu",
+    "s": 532.34,
+    "e": 532.82,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 532.82,
+    "e": 532.98,
+    "brk": false
+   },
+   {
+    "w": "stretch",
+    "s": 532.98,
+    "e": 533.48,
+    "brk": false
+   },
+   {
+    "w": "sikit.",
+    "s": 533.48,
+    "e": 533.9,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 533.9,
+    "e": 534.5,
+    "brk": false
+   },
+   {
+    "w": "mesti",
+    "s": 534.5,
+    "e": 534.78,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 534.78,
+    "e": 534.92,
+    "brk": false
+   },
+   {
+    "w": "perancangan",
+    "s": 534.92,
+    "e": 535.3,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 535.3,
+    "e": 535.48,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 535.48,
+    "e": 535.76,
+    "brk": false
+   },
+   {
+    "w": "habis",
+    "s": 535.76,
+    "e": 536.1,
+    "brk": false
+   },
+   {
+    "w": "sebelum",
+    "s": 536.1,
+    "e": 536.62,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 536.62,
+    "e": 536.82,
+    "brk": false
+   },
+   {
+    "w": "55",
+    "s": 536.82,
+    "e": 537.2,
+    "brk": false
+   },
+   {
+    "w": "kenapa?",
+    "s": 538.26,
+    "e": 538.74,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 538.98,
+    "e": 539.16,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 539.16,
+    "e": 539.38,
+    "brk": false
+   },
+   {
+    "w": "55",
+    "s": 539.38,
+    "e": 539.74,
+    "brk": false
+   },
+   {
+    "w": "kan",
+    "s": 539.74,
+    "e": 540.26,
+    "brk": false
+   },
+   {
+    "w": "persaraan",
+    "s": 541.04,
+    "e": 541.52,
+    "brk": false
+   },
+   {
+    "w": "our",
+    "s": 541.52,
+    "e": 542.0,
+    "brk": false
+   },
+   {
+    "w": "retirement",
+    "s": 542.0,
+    "e": 542.32,
+    "brk": false
+   },
+   {
+    "w": "account",
+    "s": 542.32,
+    "e": 542.62,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 542.62,
+    "e": 542.76,
+    "brk": false
+   },
+   {
+    "w": "mula",
+    "s": 542.76,
+    "e": 543.16,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 543.16,
+    "e": 543.92,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 543.92,
+    "e": 544.08,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 544.08,
+    "e": 544.28,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 544.28,
+    "e": 544.44,
+    "brk": false
+   },
+   {
+    "w": "meet",
+    "s": 544.44,
+    "e": 544.64,
+    "brk": false
+   },
+   {
+    "w": "the",
+    "s": 544.64,
+    "e": 544.78,
+    "brk": false
+   },
+   {
+    "w": "full",
+    "s": 544.78,
+    "e": 544.96,
+    "brk": false
+   },
+   {
+    "w": "retirement",
+    "s": 544.96,
+    "e": 545.32,
+    "brk": false
+   },
+   {
+    "w": "sum",
+    "s": 545.32,
+    "e": 545.68,
+    "brk": false
+   },
+   {
+    "w": "jadi",
+    "s": 545.68,
+    "e": 545.9,
+    "brk": false
+   },
+   {
+    "w": "macam-macam",
+    "s": 545.9,
+    "e": 546.34,
+    "brk": false
+   },
+   {
+    "w": "masalah",
+    "s": 546.34,
+    "e": 546.76,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 546.76,
+    "e": 547.3,
+    "brk": false
+   },
+   {
+    "w": "CPF",
+    "s": 547.3,
+    "e": 547.78,
+    "brk": false
+   },
+   {
+    "w": "contribution",
+    "s": 547.78,
+    "e": 548.2,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 548.2,
+    "e": 548.56,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 548.56,
+    "e": 548.72,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 548.72,
+    "e": 548.92,
+    "brk": false
+   },
+   {
+    "w": "berkurangan",
+    "s": 548.92,
+    "e": 549.54,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 549.54,
+    "e": 550.24,
+    "brk": false
+   },
+   {
+    "w": "dulu",
+    "s": 550.24,
+    "e": 550.5,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 550.5,
+    "e": 550.72,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 550.72,
+    "e": 550.9,
+    "brk": false
+   },
+   {
+    "w": "1000",
+    "s": 550.9,
+    "e": 551.22,
+    "brk": false
+   },
+   {
+    "w": "boleh",
+    "s": 551.22,
+    "e": 551.58,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 551.58,
+    "e": 551.8,
+    "brk": false
+   },
+   {
+    "w": "duit",
+    "s": 551.8,
+    "e": 551.88,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 551.88,
+    "e": 552.1,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 552.1,
+    "e": 552.58,
+    "brk": false
+   },
+   {
+    "w": "nanti",
+    "s": 552.58,
+    "e": 552.82,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 552.82,
+    "e": 552.94,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 552.94,
+    "e": 553.04,
+    "brk": false
+   },
+   {
+    "w": "kurang",
+    "s": 553.04,
+    "e": 553.34,
+    "brk": false
+   },
+   {
+    "w": "50%",
+    "s": 553.34,
+    "e": 554.06,
+    "brk": false
+   },
+   {
+    "w": "menjadi",
+    "s": 554.06,
+    "e": 554.72,
+    "brk": false
+   },
+   {
+    "w": "500",
+    "s": 554.72,
+    "e": 555.32,
+    "brk": false
+   },
+   {
+    "w": "sahaja",
+    "s": 555.32,
+    "e": 556.06,
+    "brk": false
+   },
+   {
+    "w": "jadi",
+    "s": 556.06,
+    "e": 556.48,
+    "brk": false
+   },
+   {
+    "w": "500",
+    "s": 556.48,
+    "e": 556.72,
+    "brk": false
+   },
+   {
+    "w": "kena",
+    "s": 556.72,
+    "e": 556.98,
+    "brk": false
+   },
+   {
+    "w": "keluar",
+    "s": 556.98,
+    "e": 557.16,
+    "brk": false
+   },
+   {
+    "w": "cash",
+    "s": 557.16,
+    "e": 557.4,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 557.4,
+    "e": 557.56,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 557.56,
+    "e": 557.64,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 557.64,
+    "e": 557.78,
+    "brk": false
+   },
+   {
+    "w": "dengar",
+    "s": 557.78,
+    "e": 557.96,
+    "brk": false
+   },
+   {
+    "w": "orang",
+    "s": 557.96,
+    "e": 558.08,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 558.08,
+    "e": 558.32,
+    "brk": false
+   },
+   {
+    "w": "eh",
+    "s": 558.32,
+    "e": 558.62,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 558.62,
+    "e": 558.86,
+    "brk": false
+   },
+   {
+    "w": "aku",
+    "s": 558.86,
+    "e": 559.16,
+    "brk": false
+   },
+   {
+    "w": "je",
+    "s": 559.16,
+    "e": 559.38,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 559.38,
+    "e": 559.6,
+    "brk": false
+   },
+   {
+    "w": "kena",
+    "s": 559.6,
+    "e": 559.78,
+    "brk": false
+   },
+   {
+    "w": "top",
+    "s": 559.78,
+    "e": 559.92,
+    "brk": false
+   },
+   {
+    "w": "up",
+    "s": 559.92,
+    "e": 560.02,
+    "brk": false
+   },
+   {
+    "w": "cash",
+    "s": 560.02,
+    "e": 560.52,
+    "brk": false
+   },
+   {
+    "w": "tu",
+    "s": 561.24,
+    "e": 561.72,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 561.72,
+    "e": 561.86,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 561.86,
+    "e": 562.02,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 562.02,
+    "e": 562.14,
+    "brk": false
+   },
+   {
+    "w": "elakkan",
+    "s": 562.14,
+    "e": 562.68,
+    "brk": false
+   }
+  ],
+  "in": 528.52,
+  "out": 562.68,
+  "duration": 34.2
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R08",
+  "slug": "bukan-ejen-jual-beli-bye-bye",
+  "title": "Bukan ejen jual, beli, bye-bye",
+  "segments": [
+   [
+    566.5,
+    588.76
+   ]
+  ],
+  "kicker": "Cara Nona bekerja",
+  "hook": [
+   "Bukan ejen",
+   "jual, beli, *bye-bye*."
+  ],
+  "popups": [
+   {
+    "t": 570.2,
+    "text": "Jual. Beli. Bye-bye.",
+    "style": "navy",
+    "size": 76,
+    "sub": "the usual way"
+   },
+   {
+    "t": 577.1,
+    "text": "Tanggungjawab",
+    "style": "gold",
+    "size": 86,
+    "sub": "responsibility"
+   },
+   {
+    "t": 585.7,
+    "text": "55 = rumah habis bayar",
+    "style": "cream",
+    "size": 66,
+    "sub": "the plan"
+   }
+  ],
+  "subs": [
+   {
+    "s": 566.5,
+    "e": 568.0,
+    "en": "All of this, Nona will help with,"
+   },
+   {
+    "s": 568.0,
+    "e": 571.4,
+    "en": "because usually a property agent does the sale and then it's bye-bye."
+   },
+   {
+    "s": 571.66,
+    "e": 575.3,
+    "en": "Bye, see you around. Usually that's the job."
+   },
+   {
+    "s": 575.58,
+    "e": 579.8,
+    "en": "But for me, I have a responsibility to help them plan."
+   },
+   {
+    "s": 580.0,
+    "e": 584.1,
+    "en": "Especially if they're in their 30s or 40s: yes, take the 25-year loan."
+   },
+   {
+    "s": 584.3,
+    "e": 585.0,
+    "en": "Then what?"
+   },
+   {
+    "s": 585.66,
+    "e": 588.76,
+    "en": "The plan is: by 55, the house is fully paid."
+   }
+  ],
+  "words": [
+   {
+    "w": "Jadi",
+    "s": 566.5,
+    "e": 566.58,
+    "brk": false
+   },
+   {
+    "w": "semua",
+    "s": 566.58,
+    "e": 566.88,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 566.88,
+    "e": 567.02,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 567.02,
+    "e": 567.16,
+    "brk": false
+   },
+   {
+    "w": "akan",
+    "s": 567.16,
+    "e": 567.34,
+    "brk": false
+   },
+   {
+    "w": "bantu",
+    "s": 567.34,
+    "e": 567.92,
+    "brk": false
+   },
+   {
+    "w": "kerana",
+    "s": 567.92,
+    "e": 568.52,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 568.52,
+    "e": 568.78,
+    "brk": false
+   },
+   {
+    "w": "biasanya",
+    "s": 568.78,
+    "e": 569.3,
+    "brk": false
+   },
+   {
+    "w": "ejen",
+    "s": 569.3,
+    "e": 569.5,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 569.5,
+    "e": 569.76,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 569.76,
+    "e": 570.24,
+    "brk": false
+   },
+   {
+    "w": "jual",
+    "s": 570.24,
+    "e": 570.52,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 570.52,
+    "e": 570.72,
+    "brk": false
+   },
+   {
+    "w": "lepas",
+    "s": 570.72,
+    "e": 570.94,
+    "brk": false
+   },
+   {
+    "w": "itu",
+    "s": 570.94,
+    "e": 571.02,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 571.02,
+    "e": 571.1,
+    "brk": false
+   },
+   {
+    "w": "bye-bye.",
+    "s": 571.1,
+    "e": 571.4,
+    "brk": false
+   },
+   {
+    "w": "Bye,",
+    "s": 571.66,
+    "e": 571.96,
+    "brk": false
+   },
+   {
+    "w": "pandang-pandang",
+    "s": 572.34,
+    "e": 572.7,
+    "brk": false
+   },
+   {
+    "w": "engkau",
+    "s": 572.7,
+    "e": 572.9,
+    "brk": false
+   },
+   {
+    "w": "lah.",
+    "s": 572.9,
+    "e": 573.16,
+    "brk": false
+   },
+   {
+    "w": "Selalunya",
+    "s": 573.46,
+    "e": 573.94,
+    "brk": false
+   },
+   {
+    "w": "lah,",
+    "s": 573.94,
+    "e": 574.08,
+    "brk": false
+   },
+   {
+    "w": "memang",
+    "s": 574.16,
+    "e": 574.28,
+    "brk": false
+   },
+   {
+    "w": "tugas",
+    "s": 574.28,
+    "e": 574.7,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 574.7,
+    "e": 574.86,
+    "brk": false
+   },
+   {
+    "w": "macam",
+    "s": 574.86,
+    "e": 575.04,
+    "brk": false
+   },
+   {
+    "w": "tu.",
+    "s": 575.04,
+    "e": 575.28,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 575.58,
+    "e": 575.8,
+    "brk": false
+   },
+   {
+    "w": "pada",
+    "s": 575.8,
+    "e": 576.0,
+    "brk": false
+   },
+   {
+    "w": "diri",
+    "s": 576.0,
+    "e": 576.28,
+    "brk": false
+   },
+   {
+    "w": "saya,",
+    "s": 576.28,
+    "e": 576.54,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 577.0,
+    "e": 577.16,
+    "brk": false
+   },
+   {
+    "w": "tanggungjawab",
+    "s": 577.16,
+    "e": 577.7,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 577.7,
+    "e": 577.86,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 577.86,
+    "e": 578.14,
+    "brk": false
+   },
+   {
+    "w": "bantu",
+    "s": 578.14,
+    "e": 578.6,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 578.6,
+    "e": 578.9,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 578.9,
+    "e": 579.16,
+    "brk": false
+   },
+   {
+    "w": "perancangan.",
+    "s": 579.16,
+    "e": 579.76,
+    "brk": false
+   },
+   {
+    "w": "Lagi-lagi",
+    "s": 580.0,
+    "e": 580.4,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 580.4,
+    "e": 580.56,
+    "brk": false
+   },
+   {
+    "w": "mereka",
+    "s": 580.56,
+    "e": 580.8,
+    "brk": false
+   },
+   {
+    "w": "30-an,",
+    "s": 580.8,
+    "e": 581.42,
+    "brk": false
+   },
+   {
+    "w": "40-an,",
+    "s": 581.56,
+    "e": 582.1,
+    "brk": false
+   },
+   {
+    "w": "yes,",
+    "s": 582.5,
+    "e": 582.7,
+    "brk": false
+   },
+   {
+    "w": "ambil",
+    "s": 582.94,
+    "e": 583.18,
+    "brk": false
+   },
+   {
+    "w": "hutang",
+    "s": 583.18,
+    "e": 583.46,
+    "brk": false
+   },
+   {
+    "w": "25",
+    "s": 583.46,
+    "e": 583.78,
+    "brk": false
+   },
+   {
+    "w": "tahun.",
+    "s": 583.78,
+    "e": 584.14,
+    "brk": false
+   },
+   {
+    "w": "Kemudian",
+    "s": 584.3,
+    "e": 584.6,
+    "brk": false
+   },
+   {
+    "w": "macam",
+    "s": 584.6,
+    "e": 584.78,
+    "brk": false
+   },
+   {
+    "w": "mana?",
+    "s": 584.78,
+    "e": 585.04,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 585.66,
+    "e": 586.14,
+    "brk": false
+   },
+   {
+    "w": "perancangannya",
+    "s": 586.14,
+    "e": 586.62,
+    "brk": false
+   },
+   {
+    "w": "ialah",
+    "s": 586.62,
+    "e": 586.86,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 586.86,
+    "e": 587.18,
+    "brk": false
+   },
+   {
+    "w": "55,",
+    "s": 587.18,
+    "e": 587.62,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 587.84,
+    "e": 588.08,
+    "brk": false
+   },
+   {
+    "w": "habis",
+    "s": 588.08,
+    "e": 588.4,
+    "brk": false
+   },
+   {
+    "w": "bayar.",
+    "s": 588.4,
+    "e": 588.76,
+    "brk": false
+   }
+  ],
+  "in": 566.5,
+  "out": 588.76,
+  "duration": 22.3
+ },
+ {
+  "name": "Nona Kirana",
+  "role": "Barakah Homes Realty · PropNex",
+  "handle": "@nonakirana",
+  "cta_big": "Perlukah anda upgrade?",
+  "cta_small": "Kira your numbers dulu. WhatsApp Nona 8268 1111 atau DM sahaja.",
+  "face": [
+   540,
+   1100
+  ],
+  "id": "R09",
+  "slug": "kakak-55-abang-60-property-pledging",
+  "title": "Kakak 55, Abang 60, dan magic trick CPF",
+  "segments": [
+   [
+    589.14,
+    650.78
+   ]
+  ],
+  "kicker": "Kisah benar pelanggan",
+  "hook": [
+   "Nak *downgrade*, tapi",
+   "anak-anak tak nak keluar."
+  ],
+  "popups": [
+   {
+    "t": 592.1,
+    "text": "Kakak 55 · Abang 60",
+    "style": "cream",
+    "size": 74,
+    "sub": "still paying the loan"
+   },
+   {
+    "t": 598.6,
+    "text": "Anak tunggu BTO",
+    "style": "navy",
+    "size": 80,
+    "sub": "nobody can move out"
+   },
+   {
+    "t": 616.1,
+    "text": "Terperangkap",
+    "style": "gold",
+    "size": 90,
+    "sub": "can't downgrade, loan still running"
+   },
+   {
+    "t": 631.2,
+    "text": "Magic trick",
+    "style": "cream",
+    "size": 96,
+    "sub": "property pledging"
+   },
+   {
+    "t": 636.9,
+    "text": "Property pledging",
+    "style": "gold",
+    "size": 74,
+    "sub": "use retirement savings to clear the loan"
+   },
+   {
+    "t": 644.5,
+    "text": "Polisi CPF",
+    "style": "navy",
+    "size": 90,
+    "sub": "check if you qualify"
+   }
+  ],
+  "subs": [
+   {
+    "s": 589.14,
+    "e": 592.1,
+    "en": "I once visited a home where the wife was fussing with her husband."
+   },
+   {
+    "s": 592.06,
+    "e": 593.7,
+    "en": "She's 55, he's 60."
+   },
+   {
+    "s": 593.72,
+    "e": 595.1,
+    "en": "Why was she fussing?"
+   },
+   {
+    "s": 595.2,
+    "e": 596.8,
+    "en": "\"We actually want to downgrade,"
+   },
+   {
+    "s": 596.8,
+    "e": 602.4,
+    "en": "but look at these kids, all waiting for BTO, just back from studies, nobody wants to move out."
+   },
+   {
+    "s": 602.38,
+    "e": 603.8,
+    "en": "How can we downgrade?\""
+   },
+   {
+    "s": 604.04,
+    "e": 607.7,
+    "en": "They live in an Executive Maisonette: four bedrooms, comfortable."
+   },
+   {
+    "s": 607.9,
+    "e": 609.4,
+    "en": "But the loan is still there."
+   },
+   {
+    "s": 609.4,
+    "e": 612.2,
+    "en": "\"How do we pay? My husband no longer works.\""
+   },
+   {
+    "s": 612.18,
+    "e": 615.4,
+    "en": "Logically they should downgrade: move to a 3-room, pay it off."
+   },
+   {
+    "s": 615.42,
+    "e": 619.2,
+    "en": "But their life situation doesn't allow them to downgrade,"
+   },
+   {
+    "s": 620.18,
+    "e": 622.7,
+    "en": "because the kids won't leave, and you love your kids."
+   },
+   {
+    "s": 622.88,
+    "e": 627.2,
+    "en": "That's why: imagine if they'd bought early and planned to pay it off,"
+   },
+   {
+    "s": 627.2,
+    "e": 629.9,
+    "en": "they wouldn't need to sell under pressure."
+   },
+   {
+    "s": 629.9,
+    "e": 632.0,
+    "en": "But Nona had a magic trick."
+   },
+   {
+    "s": 632.0,
+    "e": 635.2,
+    "en": "What I told them then: do property pledging."
+   },
+   {
+    "s": 635.89,
+    "e": 640.3,
+    "en": "Property pledging: take money from your retirement savings to pay off the loan."
+   },
+   {
+    "s": 640.95,
+    "e": 643.7,
+    "en": "This is one option we can take,"
+   },
+   {
+    "s": 643.7,
+    "e": 645.8,
+    "en": "but it's a CPF policy."
+   },
+   {
+    "s": 645.8,
+    "e": 650.78,
+    "en": "You need to know whether or not you qualify for property pledging."
+   }
+  ],
+  "words": [
+   {
+    "w": "Nona",
+    "s": 589.14,
+    "e": 589.3,
+    "brk": false
+   },
+   {
+    "w": "pernah",
+    "s": 589.3,
+    "e": 589.48,
+    "brk": false
+   },
+   {
+    "w": "pergi",
+    "s": 589.48,
+    "e": 589.7,
+    "brk": false
+   },
+   {
+    "w": "satu",
+    "s": 589.7,
+    "e": 589.88,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 589.88,
+    "e": 590.16,
+    "brk": false
+   },
+   {
+    "w": "ni,",
+    "s": 590.16,
+    "e": 590.36,
+    "brk": false
+   },
+   {
+    "w": "kakak",
+    "s": 590.7,
+    "e": 590.94,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 590.94,
+    "e": 591.02,
+    "brk": false
+   },
+   {
+    "w": "duduk",
+    "s": 591.02,
+    "e": 591.22,
+    "brk": false
+   },
+   {
+    "w": "bising-bising",
+    "s": 591.22,
+    "e": 591.62,
+    "brk": false
+   },
+   {
+    "w": "dengan",
+    "s": 591.62,
+    "e": 591.78,
+    "brk": false
+   },
+   {
+    "w": "abang.",
+    "s": 591.78,
+    "e": 592.06,
+    "brk": false
+   },
+   {
+    "w": "Kakak",
+    "s": 592.06,
+    "e": 592.5,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 592.5,
+    "e": 592.6,
+    "brk": false
+   },
+   {
+    "w": "55,",
+    "s": 592.6,
+    "e": 592.88,
+    "brk": false
+   },
+   {
+    "w": "abang",
+    "s": 593.16,
+    "e": 593.4,
+    "brk": false
+   },
+   {
+    "w": "60",
+    "s": 593.4,
+    "e": 593.72,
+    "brk": false
+   },
+   {
+    "w": "Kenapa",
+    "s": 593.72,
+    "e": 594.48,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 594.48,
+    "e": 594.6,
+    "brk": false
+   },
+   {
+    "w": "bising-bising?",
+    "s": 594.6,
+    "e": 595.04,
+    "brk": false
+   },
+   {
+    "w": "Kita",
+    "s": 595.2,
+    "e": 595.62,
+    "brk": false
+   },
+   {
+    "w": "sebenarnya",
+    "s": 595.62,
+    "e": 596.16,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 596.16,
+    "e": 596.32,
+    "brk": false
+   },
+   {
+    "w": "downgrade",
+    "s": 596.32,
+    "e": 596.8,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 596.8,
+    "e": 597.3,
+    "brk": false
+   },
+   {
+    "w": "tengoklah",
+    "s": 597.3,
+    "e": 597.7,
+    "brk": false
+   },
+   {
+    "w": "budak-budak",
+    "s": 597.7,
+    "e": 598.14,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 598.14,
+    "e": 598.26,
+    "brk": false
+   },
+   {
+    "w": "semua",
+    "s": 598.26,
+    "e": 598.58,
+    "brk": false
+   },
+   {
+    "w": "Tengah",
+    "s": 598.58,
+    "e": 598.94,
+    "brk": false
+   },
+   {
+    "w": "tunggu",
+    "s": 598.94,
+    "e": 599.14,
+    "brk": false
+   },
+   {
+    "w": "BTO,",
+    "s": 599.14,
+    "e": 599.56,
+    "brk": false
+   },
+   {
+    "w": "baru",
+    "s": 599.78,
+    "e": 599.9,
+    "brk": false
+   },
+   {
+    "w": "balik",
+    "s": 599.9,
+    "e": 600.12,
+    "brk": false
+   },
+   {
+    "w": "belajar",
+    "s": 600.12,
+    "e": 600.6,
+    "brk": false
+   },
+   {
+    "w": "Semua",
+    "s": 600.6,
+    "e": 601.54,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 601.54,
+    "e": 601.64,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 601.64,
+    "e": 601.72,
+    "brk": false
+   },
+   {
+    "w": "keluar",
+    "s": 601.72,
+    "e": 601.88,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 601.88,
+    "e": 602.38,
+    "brk": false
+   },
+   {
+    "w": "Macam",
+    "s": 602.38,
+    "e": 602.92,
+    "brk": false
+   },
+   {
+    "w": "mana",
+    "s": 602.92,
+    "e": 603.06,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 603.06,
+    "e": 603.2,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 603.2,
+    "e": 603.32,
+    "brk": false
+   },
+   {
+    "w": "downgrade?",
+    "s": 603.32,
+    "e": 603.72,
+    "brk": false
+   },
+   {
+    "w": "Kerana",
+    "s": 604.04,
+    "e": 604.48,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 604.48,
+    "e": 604.62,
+    "brk": false
+   },
+   {
+    "w": "tinggal",
+    "s": 604.62,
+    "e": 604.82,
+    "brk": false
+   },
+   {
+    "w": "dalam",
+    "s": 604.82,
+    "e": 605.02,
+    "brk": false
+   },
+   {
+    "w": "executive",
+    "s": 605.02,
+    "e": 605.34,
+    "brk": false
+   },
+   {
+    "w": "maisonette",
+    "s": 605.34,
+    "e": 605.94,
+    "brk": false
+   },
+   {
+    "w": "Jadi",
+    "s": 605.94,
+    "e": 606.52,
+    "brk": false
+   },
+   {
+    "w": "empat",
+    "s": 606.52,
+    "e": 606.78,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 606.78,
+    "e": 606.92,
+    "brk": false
+   },
+   {
+    "w": "tidur",
+    "s": 606.92,
+    "e": 607.1,
+    "brk": false
+   },
+   {
+    "w": "selesa",
+    "s": 607.1,
+    "e": 607.52,
+    "brk": false
+   },
+   {
+    "w": "kan?",
+    "s": 607.52,
+    "e": 607.72,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 607.9,
+    "e": 608.42,
+    "brk": false
+   },
+   {
+    "w": "hutang",
+    "s": 608.42,
+    "e": 608.82,
+    "brk": false
+   },
+   {
+    "w": "ni",
+    "s": 608.82,
+    "e": 608.92,
+    "brk": false
+   },
+   {
+    "w": "masih",
+    "s": 608.92,
+    "e": 609.1,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 609.1,
+    "e": 609.4,
+    "brk": false
+   },
+   {
+    "w": "Dia",
+    "s": 609.4,
+    "e": 610.0,
+    "brk": false
+   },
+   {
+    "w": "kata",
+    "s": 610.0,
+    "e": 610.18,
+    "brk": false
+   },
+   {
+    "w": "macam",
+    "s": 610.18,
+    "e": 610.38,
+    "brk": false
+   },
+   {
+    "w": "mana",
+    "s": 610.38,
+    "e": 610.56,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 610.56,
+    "e": 610.7,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 610.7,
+    "e": 611.0,
+    "brk": false
+   },
+   {
+    "w": "Pasal",
+    "s": 611.0,
+    "e": 611.22,
+    "brk": false
+   },
+   {
+    "w": "abang",
+    "s": 611.22,
+    "e": 611.42,
+    "brk": false
+   },
+   {
+    "w": "pun",
+    "s": 611.42,
+    "e": 611.52,
+    "brk": false
+   },
+   {
+    "w": "dah",
+    "s": 611.52,
+    "e": 611.64,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 611.64,
+    "e": 611.72,
+    "brk": false
+   },
+   {
+    "w": "bekerja",
+    "s": 611.72,
+    "e": 612.18,
+    "brk": false
+   },
+   {
+    "w": "Memang",
+    "s": 612.18,
+    "e": 612.88,
+    "brk": false
+   },
+   {
+    "w": "logik",
+    "s": 612.88,
+    "e": 613.28,
+    "brk": false
+   },
+   {
+    "w": "kena",
+    "s": 613.28,
+    "e": 613.46,
+    "brk": false
+   },
+   {
+    "w": "downgrade",
+    "s": 613.46,
+    "e": 613.88,
+    "brk": false
+   },
+   {
+    "w": "Pindah",
+    "s": 613.88,
+    "e": 614.32,
+    "brk": false
+   },
+   {
+    "w": "je",
+    "s": 614.32,
+    "e": 614.46,
+    "brk": false
+   },
+   {
+    "w": "tiga",
+    "s": 614.46,
+    "e": 614.64,
+    "brk": false
+   },
+   {
+    "w": "bilik",
+    "s": 614.64,
+    "e": 614.82,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 614.82,
+    "e": 615.04,
+    "brk": false
+   },
+   {
+    "w": "habis",
+    "s": 615.04,
+    "e": 615.42,
+    "brk": false
+   },
+   {
+    "w": "Tapi",
+    "s": 615.42,
+    "e": 616.06,
+    "brk": false
+   },
+   {
+    "w": "keadaan",
+    "s": 616.06,
+    "e": 616.62,
+    "brk": false
+   },
+   {
+    "w": "kehidupan",
+    "s": 616.62,
+    "e": 617.08,
+    "brk": false
+   },
+   {
+    "w": "tidak",
+    "s": 617.08,
+    "e": 617.32,
+    "brk": false
+   },
+   {
+    "w": "membenarkan",
+    "s": 617.32,
+    "e": 618.02,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 618.02,
+    "e": 618.32,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 618.32,
+    "e": 618.68,
+    "brk": false
+   },
+   {
+    "w": "downgrade",
+    "s": 618.68,
+    "e": 619.16,
+    "brk": false
+   },
+   {
+    "w": "Pasal",
+    "s": 620.18,
+    "e": 620.7,
+    "brk": false
+   },
+   {
+    "w": "anak-anak",
+    "s": 620.7,
+    "e": 621.14,
+    "brk": false
+   },
+   {
+    "w": "takkan",
+    "s": 621.14,
+    "e": 621.48,
+    "brk": false
+   },
+   {
+    "w": "nak",
+    "s": 621.48,
+    "e": 621.62,
+    "brk": false
+   },
+   {
+    "w": "pergi",
+    "s": 621.62,
+    "e": 621.68,
+    "brk": false
+   },
+   {
+    "w": "sayang",
+    "s": 621.68,
+    "e": 622.24,
+    "brk": false
+   },
+   {
+    "w": "anak",
+    "s": 622.24,
+    "e": 622.5,
+    "brk": false
+   },
+   {
+    "w": "kan.",
+    "s": 622.5,
+    "e": 622.7,
+    "brk": false
+   },
+   {
+    "w": "Sebab",
+    "s": 622.88,
+    "e": 623.32,
+    "brk": false
+   },
+   {
+    "w": "tu",
+    "s": 623.32,
+    "e": 623.48,
+    "brk": false
+   },
+   {
+    "w": "bayangkan",
+    "s": 623.48,
+    "e": 624.06,
+    "brk": false
+   },
+   {
+    "w": "kalau",
+    "s": 624.06,
+    "e": 624.44,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 624.44,
+    "e": 624.68,
+    "brk": false
+   },
+   {
+    "w": "beli",
+    "s": 624.68,
+    "e": 625.0,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 625.0,
+    "e": 625.26,
+    "brk": false
+   },
+   {
+    "w": "tu",
+    "s": 625.26,
+    "e": 625.36,
+    "brk": false
+   },
+   {
+    "w": "awal",
+    "s": 625.36,
+    "e": 625.78,
+    "brk": false
+   },
+   {
+    "w": "dan",
+    "s": 625.78,
+    "e": 625.94,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 625.94,
+    "e": 626.04,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 626.04,
+    "e": 626.14,
+    "brk": false
+   },
+   {
+    "w": "perancangan",
+    "s": 626.14,
+    "e": 626.54,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 626.54,
+    "e": 626.68,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 626.68,
+    "e": 626.86,
+    "brk": false
+   },
+   {
+    "w": "habis",
+    "s": 626.86,
+    "e": 627.18,
+    "brk": false
+   },
+   {
+    "w": "tak",
+    "s": 627.18,
+    "e": 627.58,
+    "brk": false
+   },
+   {
+    "w": "perlulah",
+    "s": 627.58,
+    "e": 628.06,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 628.06,
+    "e": 628.26,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 628.26,
+    "e": 628.52,
+    "brk": false
+   },
+   {
+    "w": "jual",
+    "s": 628.52,
+    "e": 628.76,
+    "brk": false
+   },
+   {
+    "w": "rumah",
+    "s": 628.76,
+    "e": 628.96,
+    "brk": false
+   },
+   {
+    "w": "bila",
+    "s": 628.96,
+    "e": 629.18,
+    "brk": false
+   },
+   {
+    "w": "terdesak",
+    "s": 629.18,
+    "e": 629.9,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 629.9,
+    "e": 630.74,
+    "brk": false
+   },
+   {
+    "w": "Nona",
+    "s": 630.74,
+    "e": 630.92,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 630.92,
+    "e": 631.18,
+    "brk": false
+   },
+   {
+    "w": "magic",
+    "s": 631.18,
+    "e": 631.76,
+    "brk": false
+   },
+   {
+    "w": "trick",
+    "s": 631.76,
+    "e": 631.96,
+    "brk": false
+   },
+   {
+    "w": "apa",
+    "s": 631.96,
+    "e": 632.22,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 632.22,
+    "e": 632.48,
+    "brk": false
+   },
+   {
+    "w": "saya",
+    "s": 632.48,
+    "e": 632.64,
+    "brk": false
+   },
+   {
+    "w": "beritahu",
+    "s": 632.64,
+    "e": 632.88,
+    "brk": false
+   },
+   {
+    "w": "dia",
+    "s": 632.88,
+    "e": 633.04,
+    "brk": false
+   },
+   {
+    "w": "pada",
+    "s": 633.04,
+    "e": 633.64,
+    "brk": false
+   },
+   {
+    "w": "ketika",
+    "s": 633.64,
+    "e": 633.96,
+    "brk": false
+   },
+   {
+    "w": "tu",
+    "s": 633.96,
+    "e": 634.12,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 634.12,
+    "e": 634.34,
+    "brk": false
+   },
+   {
+    "w": "property",
+    "s": 634.34,
+    "e": 634.66,
+    "brk": false
+   },
+   {
+    "w": "pledging",
+    "s": 634.66,
+    "e": 635.12,
+    "brk": false
+   },
+   {
+    "w": "property",
+    "s": 635.89,
+    "e": 636.41,
+    "brk": false
+   },
+   {
+    "w": "pledging,",
+    "s": 636.41,
+    "e": 636.81,
+    "brk": false
+   },
+   {
+    "w": "keluarkan",
+    "s": 636.87,
+    "e": 637.21,
+    "brk": false
+   },
+   {
+    "w": "duit",
+    "s": 637.21,
+    "e": 637.55,
+    "brk": false
+   },
+   {
+    "w": "daripada",
+    "s": 637.55,
+    "e": 638.01,
+    "brk": false
+   },
+   {
+    "w": "wang",
+    "s": 638.01,
+    "e": 638.45,
+    "brk": false
+   },
+   {
+    "w": "persaraan",
+    "s": 638.45,
+    "e": 638.93,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 638.93,
+    "e": 639.11,
+    "brk": false
+   },
+   {
+    "w": "bayar",
+    "s": 639.11,
+    "e": 639.43,
+    "brk": false
+   },
+   {
+    "w": "habis",
+    "s": 639.43,
+    "e": 639.69,
+    "brk": false
+   },
+   {
+    "w": "hutangnya.",
+    "s": 639.69,
+    "e": 640.25,
+    "brk": false
+   },
+   {
+    "w": "Ini",
+    "s": 640.95,
+    "e": 641.47,
+    "brk": false
+   },
+   {
+    "w": "satu",
+    "s": 641.47,
+    "e": 641.73,
+    "brk": false
+   },
+   {
+    "w": "perkara",
+    "s": 642.35,
+    "e": 642.87,
+    "brk": false
+   },
+   {
+    "w": "yang",
+    "s": 642.87,
+    "e": 643.03,
+    "brk": false
+   },
+   {
+    "w": "kita",
+    "s": 643.03,
+    "e": 643.21,
+    "brk": false
+   },
+   {
+    "w": "boleh",
+    "s": 643.21,
+    "e": 643.43,
+    "brk": false
+   },
+   {
+    "w": "ambil",
+    "s": 643.43,
+    "e": 643.69,
+    "brk": false
+   },
+   {
+    "w": "tahulah",
+    "s": 643.69,
+    "e": 644.17,
+    "brk": false
+   },
+   {
+    "w": "tapi",
+    "s": 644.17,
+    "e": 644.39,
+    "brk": false
+   },
+   {
+    "w": "ini",
+    "s": 644.39,
+    "e": 644.53,
+    "brk": false
+   },
+   {
+    "w": "merupakan",
+    "s": 644.53,
+    "e": 644.93,
+    "brk": false
+   },
+   {
+    "w": "polisi",
+    "s": 644.93,
+    "e": 645.25,
+    "brk": false
+   },
+   {
+    "w": "CPF",
+    "s": 645.25,
+    "e": 645.77,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 645.77,
+    "e": 646.21,
+    "brk": false
+   },
+   {
+    "w": "perlu",
+    "s": 646.21,
+    "e": 646.71,
+    "brk": false
+   },
+   {
+    "w": "tahu",
+    "s": 646.71,
+    "e": 647.21,
+    "brk": false
+   },
+   {
+    "w": "sama",
+    "s": 647.21,
+    "e": 647.47,
+    "brk": false
+   },
+   {
+    "w": "ada",
+    "s": 647.47,
+    "e": 647.59,
+    "brk": false
+   },
+   {
+    "w": "anda",
+    "s": 647.59,
+    "e": 647.75,
+    "brk": false
+   },
+   {
+    "w": "layak",
+    "s": 647.75,
+    "e": 648.27,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 648.27,
+    "e": 648.45,
+    "brk": false
+   },
+   {
+    "w": "tidak",
+    "s": 648.45,
+    "e": 648.71,
+    "brk": false
+   },
+   {
+    "w": "untuk",
+    "s": 648.71,
+    "e": 649.55,
+    "brk": false
+   },
+   {
+    "w": "buat",
+    "s": 649.55,
+    "e": 649.85,
+    "brk": false
+   },
+   {
+    "w": "property",
+    "s": 649.85,
+    "e": 650.17,
+    "brk": false
+   },
+   {
+    "w": "pledging.",
+    "s": 650.18,
+    "e": 650.78,
+    "brk": false
+   }
+  ],
+  "in": 589.14,
+  "out": 650.78,
+  "duration": 61.6
+ }
+]
