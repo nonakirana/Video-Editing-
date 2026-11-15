@@ -64,7 +64,7 @@
    {
     "s": 168.26,
     "e": 171.2,
-    "en": "Good afternoon, Tiji and Arzak."
+    "en": "Good afternoon, TG and RZ."
    },
    {
     "s": 171.7,
@@ -121,7 +121,7 @@
     "brk": false
    },
    {
-    "w": "Tiji",
+    "w": "TG",
     "s": 169.68,
     "e": 170.12,
     "brk": false
@@ -133,7 +133,7 @@
     "brk": false
    },
    {
-    "w": "Arzak",
+    "w": "RZ",
     "s": 170.54,
     "e": 171.12,
     "brk": false

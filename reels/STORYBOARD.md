@@ -1,6 +1,6 @@
 # Barakah Homes reels from the Warna 94.2FM interview
 
-Source: 13 min 14 s vertical phone recording (1080×1920, 60 fps) of Nona Kirana's guest slot on Warna 94.2FM with hosts Tiji and Arzak, in Malay. Topic: *Perlukah kita upgrade?* (Should we upgrade?). The first 2 min 40 s is pre-show audio (traffic, weather, ads) and is not used.
+Source: 13 min 14 s vertical phone recording (1080×1920, 60 fps) of Nona Kirana's guest slot on Warna 94.2FM with hosts TG and RZ, in Malay. Topic: *Perlukah kita upgrade?* (Should we upgrade?). The first 2 min 40 s is pre-show audio (traffic, weather, ads) and is not used.
 
 ## 1. Proposal: nine reels, one interview
 
@@ -80,8 +80,8 @@ Frame thumbnails are in `storyboard.png` (one row per reel: hook, name plate, po
 
 **Spoken (Malay) and English line:**
 
-- `02:48.26` Selamat petang, Tiji dan Arzak  
-  _Good afternoon, Tiji and Arzak._
+- `02:48.26` Selamat petang, TG dan RZ  
+  _Good afternoon, TG and RZ._
 - `02:51.70` Tak ada, hari ni saya datang sebagai ejen rumah  
   _No, today I'm here as a property agent._
 - `02:55.10` Kalau dulu saya jual suara saya Sekarang saya jual rumah  
@@ -106,7 +106,7 @@ Dulu saya jual suara. Sekarang saya jual rumah. 🎙️➡️🏠
 
 13 tahun lepas saya tukar kerjaya. Kepuasan dia berbeza: dulu gembira bila pendengar happy, sekarang gembira bila pelanggan capai matlamat kehidupan mereka.
 
-Terima kasih Warna 94.2FM, Tiji & Arzak, kerana jemput saya balik ke studio. Rindu!
+Terima kasih Warna 94.2FM, TG & RZ, kerana jemput saya balik ke studio. Rindu!
 
 13 years ago I swapped the mic for a licence. Different job, same purpose: helping people get to where they want to be.
 

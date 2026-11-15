@@ -15,7 +15,7 @@ FIX = {
     "apartman": "apartment", "apartemen.": "apartment.", "RM300": "$300", "RM500,000": "$500,000",
     "-penak,": "-pinak,", "bertahulian": "berkelayakan", "pesaran": "persaraan", "mengembirakan": "menggembirakan",
     "capaikan": "capai", "tanggalah": "tangga lah", "penyakit,": "penyiar,", "penyakit": "penyiar",
-    "TG": "Tiji", "RZ": "Arzak", "islam": "silap", "budget": "bajet", "agent": "ejen", "government": "kerajaan",
+    "islam": "silap", "budget": "bajet", "agent": "ejen", "government": "kerajaan",
     "Pelajir.": "pledging.",
 }
 DROP = {"Seperti"}  # stray fragment at 10:50.0 (speech-to-text artefact before "pledging")
@@ -54,7 +54,7 @@ clips.append(dict(COMMON, id="R01", slug="dari-dj-ke-ejen-rumah",
     popups=[pop(176.0, "Jual Suara", "navy", sub="Warna 94.2FM", dur=1.7), pop(177.9, "Jual Rumah", "gold", sub="Barakah Homes"),
             pop(215.2, "Kepuasan berbeza", "cream", size=84, sub="a different kind of fulfilment"),
             pop(228.4, "Matlamat kehidupan", "gold", size=80, sub="life goals")],
-    subs=[sub(168.26, 171.2, "Good afternoon, Tiji and Arzak."),
+    subs=[sub(168.26, 171.2, "Good afternoon, TG and RZ."),
           sub(171.7, 175.1, "No, today I'm here as a property agent."),
           sub(175.1, 178.3, "Back then I sold my voice. Now I sell homes."),
           sub(178.3, 179.0, "Masya Allah!"),

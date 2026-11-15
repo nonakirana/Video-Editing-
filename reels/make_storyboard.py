@@ -21,7 +21,7 @@ def clip_time(c, src_t):
 # ---------- hand-written post copy ----------
 POSTS = {
 "R01": dict(angle="Origin story. Warm, personal, high shareability among radio listeners who remember her voice.",
-    caption="Dulu saya jual suara. Sekarang saya jual rumah. 🎙️➡️🏠\n\n13 tahun lepas saya tukar kerjaya. Kepuasan dia berbeza: dulu gembira bila pendengar happy, sekarang gembira bila pelanggan capai matlamat kehidupan mereka.\n\nTerima kasih Warna 94.2FM, Tiji & Arzak, kerana jemput saya balik ke studio. Rindu!\n\n13 years ago I swapped the mic for a licence. Different job, same purpose: helping people get to where they want to be.",
+    caption="Dulu saya jual suara. Sekarang saya jual rumah. 🎙️➡️🏠\n\n13 tahun lepas saya tukar kerjaya. Kepuasan dia berbeza: dulu gembira bila pendengar happy, sekarang gembira bila pelanggan capai matlamat kehidupan mereka.\n\nTerima kasih Warna 94.2FM, TG & RZ, kerana jemput saya balik ke studio. Rindu!\n\n13 years ago I swapped the mic for a licence. Different job, same purpose: helping people get to where they want to be.",
     tags="#NonaKirana #BarakahHomes #PropNex #Warna942 #EjenRumah #RealEstateSingapore #PropertyAgentSG #HDB #KerjayaBaru"),
 "R02": dict(angle="Myth-buster. Reframes 'upgrade' for young HDB families; invites the DM.",
     caption="Upgrade tak semestinya pindah ke private. 🏠\n\nRamai bermula dengan 3-bilik BTO, kemudian bila anak dah ramai, mereka perlukan ruang. Soalan biasa: \"Nona, gaji seorang je, mampu tak nak upgrade ke 5-bilik?\"\n\nJawapan saya sentiasa bermula dengan kira-kira yang terperinci. Kita tak nak overstretch. Kita tak nak bayar hutang rumah lebih daripada apa yang kita mampu.\n\nUpgrading doesn't have to mean private property. It means the right-sized home for this chapter, within a budget that lets you sleep at night.\n\nNak kira your numbers? DM saya \"UPGRADE\".",
@@ -53,7 +53,7 @@ ORDER = ["R01", "R05", "R06", "R02", "R07", "R03", "R09", "R04", "R08"]
 
 md = []
 md.append("# Barakah Homes reels from the Warna 94.2FM interview\n")
-md.append("Source: 13 min 14 s vertical phone recording (1080×1920, 60 fps) of Nona Kirana's guest slot on Warna 94.2FM with hosts Tiji and Arzak, in Malay. Topic: *Perlukah kita upgrade?* (Should we upgrade?). The first 2 min 40 s is pre-show audio (traffic, weather, ads) and is not used.\n")
+md.append("Source: 13 min 14 s vertical phone recording (1080×1920, 60 fps) of Nona Kirana's guest slot on Warna 94.2FM with hosts TG and RZ, in Malay. Topic: *Perlukah kita upgrade?* (Should we upgrade?). The first 2 min 40 s is pre-show audio (traffic, weather, ads) and is not used.\n")
 md.append("## 1. Proposal: nine reels, one interview\n")
 md.append("Every clip starts on the first word of a sentence and ends on the last word of one, with 0.25 s of breathing room before and 0.55 s after. Where a clip skips studio banter, the join lands on a sentence boundary and is covered by a punch-in cut and a cream flash.\n")
 md.append("| # | Reel | Source timecodes | Length | Why this moment |\n|---|------|------------------|--------|-----------------|")
