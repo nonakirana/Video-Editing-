@@ -31,7 +31,8 @@ MUTED = (200, 192, 178)
 SAFE_L, SAFE_R = 64, 920
 SAFE_W = SAFE_R - SAFE_L            # 856px usable width
 SAFE_CX = (SAFE_L + SAFE_R) // 2    # 492: horizontal centre of the safe column
-TEXT_TOP, TEXT_BOTTOM = 1000, 1400   # measured: her chin never goes below y≈950 in the chosen clips
+TEXT_TOP, TEXT_BOTTOM = 1000, 1400
+POP_LINE = 1168                      # pop-up cards end above this line; the caption pill starts below it   # measured: her chin never goes below y≈950 in the chosen clips
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "assets")
@@ -436,10 +437,24 @@ def render(spec, src, out_path, workdir):
                 frame.alpha_composite(im, (int(x), spec.get("lt_y", TEXT_TOP + 30)))
             # logo watermark (top right, below status bar)
             frame.alpha_composite(L_logo, (64, 290)) if t >= hook_dur else None
-            # captions (pushed below the hook block while it is on screen, measured from the layer itself)
+            # ---- text stack: pop-up card, Malay caption pill, English line, laid out from measured heights ----
             cap_y = spec.get("cap_y", 1250)
             hook_bottom = spec.get("hook_y", TEXT_TOP) + L_hook.height
-            hook_vis = 1.0 if t < hook_dur - 0.4 else 1 - ease_in_out((t - (hook_dur - 0.4)) / 0.4)
+            hook_vis = 1.0 if t < hook_dur - 0.4 else max(0.0, 1 - ease_in_out((t - (hook_dur - 0.4)) / 0.4))
+            # active pop-up and its on-screen bottom edge (the layer carries a 66 px shadow pad on each side)
+            active = None; pop_bottom = None
+            for p in popups:
+                dur = p.get("dur", 2.0)
+                if p["t"] <= t <= p["t"] + dur:
+                    k = t - p["t"]
+                    sc = spring(k / 0.55) if k < 0.55 else 1.0
+                    a = 1.0 if k < dur - 0.3 else 1 - ease_in_out((k - (dur - 0.3)) / 0.3)
+                    rot = p.get("rot", -3) * (1 - ease_out_cubic(k / 0.6)) + p.get("rest_rot", -2)
+                    vis_h = (p["layer"].height - 132) * sc
+                    pcy = min(p.get("y", 1085), POP_LINE - vis_h / 2)      # never below the pop-up line
+                    active = (p, pcy, sc, a, rot); pop_bottom = pcy + vis_h / 2 + 8
+                    break
+            cap_im = None; cap_cy = cap_y
             for ci, c in enumerate(chunks):
                 if c["s"] - 0.05 <= t <= c["e"] + 0.25:
                     hi = -1
@@ -447,30 +462,29 @@ def render(spec, src, out_path, workdir):
                         if w["s"] <= t: hi = wi
                     key = (ci, hi)
                     if key not in cap_cache: cap_cache[key] = layer_caption([w["w"] for w in c["words"]], hi, spec.get("cap_size", 54))
-                    im = cap_cache[key]
-                    need = hook_bottom + 22 + (im.height / 2 - 20) - cap_y   # 20 = transparent margin of the pill image
-                    if need > 0 and hook_vis > 0: cap_y = cap_y + need * hook_vis
-                    # pop on each new word
+                    cap_im = cap_cache[key]
+                    vis = cap_im.height - 40
+                    top = cap_y - vis / 2
+                    if hook_vis > 0: top = max(top, top + (hook_bottom + 22 - top) * hook_vis)
+                    if pop_bottom is not None: top = max(top, pop_bottom + 14)
+                    cap_cy = top + vis / 2
                     tw = c["words"][hi]["s"] if hi >= 0 else c["s"]
                     sc = 1 + 0.06 * (1 - ease_out_cubic((t - tw) / 0.16))
-                    paste_center(frame, im, SAFE_CX, cap_y, scale=sc)
+                    paste_center(frame, cap_im, SAFE_CX, cap_cy, scale=sc)
                     break
-            # english subtitle
-            for si, s in enumerate(subs):
-                if s["s"] <= t <= s["e"] + 0.3:
-                    if si not in sub_cache: sub_cache[si] = layer_subtitle(s["text"], spec.get("sub_size", 32))
-                    a = ease_out_cubic((t - s["s"]) / 0.25) * (1 - hook_vis)   # English line waits until the hook leaves
-                    paste_center(frame, sub_cache[si], SAFE_CX, cap_y + 70 + sub_cache[si].height / 2, alpha=a)
+            # english line under the pill
+            for si, s_ in enumerate(subs):
+                if s_["s"] <= t <= s_["e"] + 0.3:
+                    if si not in sub_cache: sub_cache[si] = layer_subtitle(s_["text"], spec.get("sub_size", 32))
+                    a = ease_out_cubic((t - s_["s"]) / 0.25) * (1 - hook_vis)
+                    pill_half = (cap_im.height - 40) / 2 if cap_im is not None else 50
+                    paste_center(frame, sub_cache[si], SAFE_CX, cap_cy + pill_half + 14 + sub_cache[si].height / 2, alpha=a)
                     break
-            # popups
-            for p in popups:
-                dur = p.get("dur", 2.0)
-                if p["t"] <= t <= p["t"] + dur:
-                    k = (t - p["t"])
-                    sc = spring(k / 0.55) if k < 0.55 else 1.0
-                    a = 1.0 if k < dur - 0.3 else 1 - ease_in_out((k - (dur - 0.3)) / 0.3)
-                    rot = p.get("rot", -3) * (1 - ease_out_cubic(k / 0.6)) + p.get("rest_rot", -2)
-                    paste_center(frame, p["layer"], p.get("x", SAFE_CX), p.get("y", 1085), scale=sc * (1 if k < dur - 0.3 else 1 - 0.1 * (1 - a)), alpha=a, rot=rot)
+            # pop-up card
+            if active:
+                p, pcy, sc, a, rot = active
+                dur = p.get("dur", 2.0); k = t - p["t"]
+                paste_center(frame, p["layer"], p.get("x", SAFE_CX), pcy, scale=sc * (1 if k < dur - 0.3 else 1 - 0.1 * (1 - a)), alpha=a, rot=rot)
             # quick cream flash on hard joins between segments
             for ss in seg_starts:
                 if 0 <= t - ss < 0.2:

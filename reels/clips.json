@@ -5423,7 +5423,7 @@
    {
     "s": 571.66,
     "e": 575.3,
-    "en": "Bye, see you around. Usually that's the job."
+    "en": "Bye, you're on your own now. Usually that's the job."
    },
    {
     "s": 575.58,
@@ -5562,7 +5562,7 @@
     "brk": false
    },
    {
-    "w": "pandang-pandang",
+    "w": "pandai-pandai",
     "s": 572.34,
     "e": 572.7,
     "brk": false
@@ -5896,7 +5896,7 @@
    {
     "s": 589.14,
     "e": 592.1,
-    "en": "I once visited a home where the wife was fussing with her husband."
+    "en": "I once visited a home where the wife was whispering to her husband."
    },
    {
     "s": 592.06,
@@ -5906,7 +5906,7 @@
    {
     "s": 593.72,
     "e": 595.1,
-    "en": "Why was she fussing?"
+    "en": "Why was she whispering?"
    },
    {
     "s": 595.2,
@@ -6050,7 +6050,7 @@
     "brk": false
    },
    {
-    "w": "bising-bising",
+    "w": "bisik-bisik",
     "s": 591.22,
     "e": 591.62,
     "brk": false
@@ -6110,7 +6110,7 @@
     "brk": false
    },
    {
-    "w": "bising-bising?",
+    "w": "bisik-bisik?",
     "s": 594.6,
     "e": 595.04,
     "brk": false

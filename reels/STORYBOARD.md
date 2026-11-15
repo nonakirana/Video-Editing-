@@ -460,8 +460,8 @@ Nak buat perancangan? DM "55".
   _All of this, Nona will help with,_
 - `09:28.00` memang biasanya ejen rumah dia jual beli lepas itu dia bye-bye.  
   _because usually a property agent does the sale and then it's bye-bye._
-- `09:31.66` Bye, pandang-pandang engkau lah. Selalunya lah, memang tugas kita macam tu.  
-  _Bye, see you around. Usually that's the job._
+- `09:31.66` Bye, pandai-pandai engkau lah. Selalunya lah, memang tugas kita macam tu.  
+  _Bye, you're on your own now. Usually that's the job._
 - `09:35.58` Tapi pada diri saya, ada tanggungjawab untuk saya bantu mereka buat perancangan.  
   _But for me, I have a responsibility to help them plan._
 - `09:40.00` Lagi-lagi kalau mereka 30-an, 40-an, yes, ambil hutang 25 tahun.  
@@ -504,12 +504,12 @@ Most agents close the deal and move on. I stay for the plan.
 
 **Spoken (Malay) and English line:**
 
-- `09:49.14` Nona pernah pergi satu rumah ni, kakak ni duduk bising-bising dengan abang. Kakak  
-  _I once visited a home where the wife was fussing with her husband._
+- `09:49.14` Nona pernah pergi satu rumah ni, kakak ni duduk bisik-bisik dengan abang. Kakak  
+  _I once visited a home where the wife was whispering to her husband._
 - `09:52.06` Kakak dah 55, abang 60  
   _She's 55, he's 60._
-- `09:53.72` Kenapa dia bising-bising?  
-  _Why was she fussing?_
+- `09:53.72` Kenapa dia bisik-bisik?  
+  _Why was she whispering?_
 - `09:55.20` Kita sebenarnya nak downgrade  
   _"We actually want to downgrade,_
 - `09:56.80` Tapi tengoklah budak-budak ni semua Tengah tunggu BTO, baru balik belajar Semua tak nak keluar rumah  
