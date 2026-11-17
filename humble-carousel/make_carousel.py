@@ -6,34 +6,41 @@ Output: slides/01.png ... slides/05.png  (1080x1350, IG portrait)
 Layout follows the "social card" reference: profile row on top, rounded photo
 card, big headline underneath with one accent line, counter pill top-right,
 "Swipe" on the cover. Colours and logo are Barakah Homes Realty.
+
+Headline markup:  *word*  -> cursive (Dancing Script),  \\n -> forced line break
+                  **word** -> bold (Inter Display Bold)
 """
-from PIL import Image, ImageDraw, ImageFont
-import os
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+import os, re
 
 W, H = 1080, 1350
 NAVY = (27, 42, 63)
 GOLD = (164, 122, 60)
 CREAM = (246, 241, 232)
-CREAM_DEEP = (236, 228, 214)
 WHITE = (255, 255, 255)
 MUTED = (140, 132, 120)
 HANDLE = "nonakirana"
 BRAND = "Barakah Homes Realty"
 N = 5
 
+HERE = os.path.dirname(os.path.abspath(__file__))
 DISPLAY_B = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
 DISPLAY_M = "/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf"
 SANS = "/usr/share/fonts/opentype/inter/Inter-Medium.otf"
 SANS_B = "/usr/share/fonts/opentype/inter/Inter-SemiBold.otf"
+CURSIVE = os.path.join(HERE, "fonts", "DancingScript.ttf")
+CURSIVE_SCALE = 1.32   # cursive is drawn larger so its x-height matches Inter
 
-HERE = os.path.dirname(os.path.abspath(__file__))
 P = lambda n: os.path.join(HERE, "photos", n)
 OUT = os.path.join(HERE, "slides")
 os.makedirs(OUT, exist_ok=True)
 
 
-def font(path, size):
-    return ImageFont.truetype(path, size)
+def font(path, size, variation=None):
+    f = ImageFont.truetype(path, size)
+    if variation:
+        f.set_variation_by_name(variation)
+    return f
 
 
 def cover_crop(img, w, h, focus=(0.5, 0.5)):
@@ -42,6 +49,12 @@ def cover_crop(img, w, h, focus=(0.5, 0.5)):
     img = img.resize((round(img.width * s), round(img.height * s)), Image.LANCZOS)
     x = round((img.width - w) * focus[0]); y = round((img.height - h) * focus[1])
     return img.crop((x, y, x + w, y + h))
+
+
+def contain(img, w, h):
+    img = img.convert("RGB")
+    s = min(w / img.width, h / img.height)
+    return img.resize((round(img.width * s), round(img.height * s)), Image.LANCZOS)
 
 
 def rounded_mask(size, r, scale=4):
@@ -56,29 +69,67 @@ def circle_mask(size, scale=4):
     return m.resize((size, size), Image.LANCZOS)
 
 
-def wrap(draw, text, f, max_w):
-    lines, cur = [], ""
-    for word in text.split():
-        t = (cur + " " + word).strip()
-        if draw.textlength(t, font=f) <= max_w:
-            cur = t
+# ---------- rich text: regular / **bold** / *cursive* ----------
+TOKEN = re.compile(r"\*\*(.+?)\*\*|\*(.+?)\*|([^*]+)")
+
+
+def tokens(text):
+    """Split markup into (word, style) pairs, style in {'r','b','c'}."""
+    out = []
+    for m in TOKEN.finditer(text):
+        if m.group(1) is not None: style, s = "b", m.group(1)
+        elif m.group(2) is not None: style, s = "c", m.group(2)
+        else: style, s = "r", m.group(3)
+        for w in s.split():
+            out.append((w, style))
+    return out
+
+
+def rich_fonts(size, base="r"):
+    fr = font(DISPLAY_M if base == "r" else DISPLAY_B, size)
+    fb = font(DISPLAY_B, size)
+    fc = font(CURSIVE, round(size * CURSIVE_SCALE), "Bold")
+    return {"r": fr, "b": fb, "c": fc}
+
+
+def rich_lines(draw, text, fonts, max_w):
+    """Greedy wrap of styled words; returns list of lines, each a list of (word, style)."""
+    space = draw.textlength(" ", font=fonts["r"])
+    lines, cur, cur_w = [], [], 0
+    for w, st in tokens(text):
+        ww = draw.textlength(w, font=fonts[st])
+        add = ww if not cur else space + ww
+        if cur and cur_w + add > max_w:
+            lines.append(cur); cur, cur_w = [(w, st)], ww
         else:
-            lines.append(cur); cur = word
+            cur.append((w, st)); cur_w += add
     if cur: lines.append(cur)
     return lines
 
 
-def draw_par(draw, text, f, x, y, max_w, fill, lh=1.12):
-    for line in wrap(draw, text, f, max_w):
-        draw.text((x, y), line, font=f, fill=fill)
-        y += round(f.size * lh)
+def draw_rich(draw, text, size, x, y, max_w, fill, base="r", lh=1.14, cursive_fill=None):
+    """Draw markup text; words share one baseline per line. Returns y after the block."""
+    fonts = rich_fonts(size, base)
+    space = draw.textlength(" ", font=fonts["r"])
+    asc = fonts["r"].getmetrics()[0]
+    line_h = round(size * lh)
+    for seg in text.split("\n"):
+      for line in rich_lines(draw, seg, fonts, max_w):
+        cx = x
+        base_y = y + asc
+        for w, st in line:
+            col = cursive_fill if (st == "c" and cursive_fill) else fill
+            draw.text((cx, base_y), w, font=fonts[st], fill=col, anchor="ls")
+            cx += draw.textlength(w, font=fonts[st]) + space
+        y += line_h
     return y
 
 
 # ---------- brand pieces ----------
 _logo = Image.open(P("barakah-logo.png")).convert("RGBA")
 _logo = _logo.crop(_logo.getbbox())
-LOGO_MARK = _logo.crop((0, 0, _logo.width, 1191)).crop(_logo.crop((0, 0, _logo.width, 1191)).getbbox())
+LOGO_MARK = _logo.crop((0, 0, _logo.width, 1191))
+LOGO_MARK = LOGO_MARK.crop(LOGO_MARK.getbbox())
 
 
 def paste_scaled(img, src, x, y, width):
@@ -103,9 +154,6 @@ def ig_glyph(size, color, stroke=None):
     return g.resize((size, size), Image.LANCZOS)
 
 
-
-
-
 def avatar(size):
     src = Image.open(P("portrait.jpg")).convert("RGB").crop((310, 70, 650, 410))
     src = src.resize((size, size), Image.LANCZOS).convert("RGBA")
@@ -114,7 +162,8 @@ def avatar(size):
 
 
 # ---------- slide template ----------
-def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, swipe=False, cta=False):
+def slide(n, photo, focus, headline, accent, card_h=700, hl_size=78, footer=None, swipe=False, cta=False, fit=False, precrop=None):
+    """fit=True shows the whole photo (no crop) scaled down inside the card over a blurred fill."""
     img = Image.new("RGBA", (W, H), CREAM + (255,))
     d = ImageDraw.Draw(img)
     M = 64
@@ -128,7 +177,6 @@ def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, s
     d.text((hx, ay + 2), HANDLE, font=fh, fill=NAVY)
     gx = hx + int(d.textlength(HANDLE, font=fh)) + 14
     img.alpha_composite(ig_glyph(34, GOLD + (255,)), (gx, ay + 6))
-    # brand line with logo mark
     mw, mh = paste_scaled(img, LOGO_MARK, hx, ay + 52, 26)
     d.text((hx + mw + 10, ay + 50), BRAND, font=font(SANS, 26), fill=MUTED)
 
@@ -143,7 +191,22 @@ def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, s
     # photo card
     cy = 210
     cw = W - 2 * M
-    ph_img = cover_crop(Image.open(P(photo)), cw, card_h, focus).convert("RGBA")
+    src = Image.open(P(photo))
+    if precrop:
+        src = src.crop(precrop)
+    if fit:
+        bg = cover_crop(src, cw, card_h, (0.5, 0.3)).filter(ImageFilter.GaussianBlur(28))
+        bg = Image.blend(bg, Image.new("RGB", bg.size, NAVY), 0.35).convert("RGBA")
+        fg = contain(src, cw - 48, card_h - 48).convert("RGBA")
+        fg.putalpha(rounded_mask(fg.size, 18))
+        ph_img = bg
+        fx, fy = (cw - fg.width) // 2, (card_h - fg.height) // 2
+        sh = Image.new("RGBA", bg.size, (0, 0, 0, 0))
+        ImageDraw.Draw(sh).rounded_rectangle((fx, fy + 8, fx + fg.width, fy + fg.height + 8), 18, fill=(0, 0, 0, 90))
+        ph_img = Image.alpha_composite(ph_img, sh.filter(ImageFilter.GaussianBlur(10)))
+        ph_img.alpha_composite(fg, (fx, fy))
+    else:
+        ph_img = cover_crop(src, cw, card_h, focus).convert("RGBA")
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(shadow).rounded_rectangle((M, cy + 10, M + cw, cy + card_h + 10), 28, fill=NAVY + (28,))
     img = Image.alpha_composite(img, shadow)
@@ -153,13 +216,10 @@ def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, s
     img.alpha_composite(card, (M, cy))
     d = ImageDraw.Draw(img)
 
-    # headline
+    # headline (navy, cursive words in gold) + accent line (gold bold)
     y = cy + card_h + 56
-    f_hl = font(DISPLAY_M, hl_size)
-    f_acc = font(DISPLAY_B, hl_size)
-    for line in lines:
-        y = draw_par(d, line, f_hl, M, y, cw, NAVY)
-    y = draw_par(d, accent, f_acc, M, y, cw, GOLD)
+    y = draw_rich(d, headline, hl_size, M, y, cw, NAVY, base="r", cursive_fill=GOLD)
+    y = draw_rich(d, accent, hl_size, M, y, cw, GOLD, base="b")
 
     # footer
     fy = H - 92
@@ -171,7 +231,6 @@ def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, s
         t = "Swipe  →"
         d.text((W - M - d.textlength(t, font=fs), fy - 4), t, font=fs, fill=NAVY)
     if cta:
-        # full logo bottom-right
         lw = 150
         s = lw / _logo.width
         lg = _logo.resize((lw, round(_logo.height * s)), Image.LANCZOS)
@@ -183,33 +242,33 @@ def slide(n, photo, focus, lines, accent, card_h=700, hl_size=78, footer=None, s
 # ================= SLIDES =================
 
 slide(1, "with-leaders.jpg", (0.5, 0.42),
-      ["I was a champion", "at my last agency."],
-      "Here, I'm number 200.",
-      card_h=660, hl_size=80,
+      "I was a *champion*\nat my last agency.",
+      "Here, I'm **number 200.**",
+      card_h=730, hl_size=60, fit=True, precrop=(0, 0, 1450, 2250),
       footer="On feeling small again.", swipe=True)
 
 slide(2, "board-200.jpg", (0.5, 0.38),
-      ["For years I was used to", "seeing my name at the top."],
-      "Being a champion felt normal.",
-      card_h=640, hl_size=66,
+      "For years I was used to\nseeing my name *at the top.*",
+      "Being a champion felt **normal.**",
+      card_h=640, hl_size=62,
       footer="The comfortable part.")
 
 slide(3, "trophy-stage.jpg", (0.55, 0.25),
-      ["Then I joined a company", "with 500 champions."],
-      "And I placed 200th.",
-      card_h=660, hl_size=70,
+      "Then I joined a company\nwith *500 champions.*",
+      "And I placed **200th.**",
+      card_h=660, hl_size=66,
       footer="PropNex Top 500 Producers, Q3 2026.")
 
 slide(4, "seated.jpg", (0.5, 0.3),
-      ["In a room full of champions,", "you feel small."],
-      "It humbles me. And I'm grateful.",
-      card_h=660, hl_size=64,
+      "In a room full of champions,\nyou feel *small.*",
+      "It *humbles* me. And I'm **grateful.**",
+      card_h=660, hl_size=62,
       footer="The honest part.")
 
 slide(5, "trophy-close.jpg", (0.5, 0.3),
-      ["Small keeps me hungry.", "Humble keeps me going."],
-      "Not complacent. Not done.",
-      card_h=640, hl_size=66,
+      "Small keeps me *hungry.*\nHumble keeps me *going.*",
+      "Not complacent. **Not done.**",
+      card_h=640, hl_size=62,
       footer="Follow @nonakirana for the climb.", cta=True)
 
 print("done")

@@ -2,12 +2,13 @@
 
 5-slide Instagram carousel for Nona Kirana / Barakah Homes Realty, on being a former champion who now feels small at PropNex, and why that keeps her from being complacent.
 
-Design follows the "social card" reference (profile row, rounded photo card, big headline with one accent line, counter pill, Swipe arrow) recoloured in Barakah Homes navy, gold and cream, with the Barakah Homes logo mark and an Instagram glyph next to the handle.
+Design follows the "social card" reference (profile row, rounded photo card, big headline with one accent line, counter pill, Swipe arrow) recoloured in Barakah Homes navy, gold and cream, with the Barakah Homes logo mark and an Instagram glyph next to the handle. Headlines mix Inter Display (regular and bold) with gold cursive words in Dancing Script; mark them in `make_carousel.py` as `*cursive*` and `**bold**`. Slide 1 shows the full group photo uncropped, scaled down over a blurred fill.
 
 - `slides/01.png` … `slides/05.png` — ready to upload, 1080×1350.
 - `caption.md` — caption, hashtags and posting notes.
 - `make_carousel.py` — regenerates the slides from `photos/` (`python3 make_carousel.py`).
 - `photos/` — source photos, the studio portrait used for the avatar, and the Barakah Homes logo.
+- `fonts/` — Dancing Script (cursive accent words) and Great Vibes, both SIL Open Font License.
 - `storyboard.png` — contact sheet of all five slides.
 
 ## Slide order
