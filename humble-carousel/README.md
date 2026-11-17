@@ -7,7 +7,7 @@ Design follows the "social card" reference (profile row, rounded photo card, big
 - `slides/01.png` … `slides/05.png` — ready to upload, 1080×1350.
 - `caption.md` — caption, hashtags and posting notes.
 - `make_carousel.py` — regenerates the slides from `photos/` (`python3 make_carousel.py`).
-- `photos/` — source photos and the Barakah Homes logo.
+- `photos/` — source photos, the studio portrait used for the avatar, and the Barakah Homes logo.
 - `storyboard.png` — contact sheet of all five slides.
 
 ## Slide order

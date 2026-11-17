@@ -107,7 +107,7 @@ def ig_glyph(size, color, stroke=None):
 
 
 def avatar(size):
-    src = Image.open(P("seated.jpg")).convert("RGB").crop((600, 520, 1220, 1140))
+    src = Image.open(P("portrait.jpg")).convert("RGB").crop((310, 70, 650, 410))
     src = src.resize((size, size), Image.LANCZOS).convert("RGBA")
     src.putalpha(circle_mask(size))
     return src
