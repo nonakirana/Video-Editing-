@@ -244,7 +244,7 @@ def slide(n, photo, focus, headline, accent, card_h=700, hl_size=78, footer=None
 slide(1, "with-leaders.jpg", (0.5, 0.42),
       "I was a *champion*\nat my last agency.",
       "Here, I'm **number 200.**",
-      card_h=730, hl_size=60, fit=True, precrop=(0, 0, 1450, 2250),
+      card_h=700, hl_size=66, precrop=(0, 690, 1450, 1800),
       footer="On feeling small again.", swipe=True)
 
 slide(2, "board-200.jpg", (0.5, 0.38),
