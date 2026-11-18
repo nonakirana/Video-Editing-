@@ -265,10 +265,10 @@ slide(2, "family-birthday.jpg", (0.5, 0.45),
       footer="Where it started.")
 
 slide(3, "family-trip.jpg", (0.5, 0.5),
-      "My aunt paid for\nmy *RES* course fees.",
+      "I borrowed money from\nmy *mother* to pay for\nmy RES course.",
       "She is **my purpose** to do well.",
-      card_h=600, hl_size=70,
-      footer="The person who believed first.")
+      card_h=600, hl_size=62,
+      footer="Where my purpose began.")
 
 slide(4, "family-birthday.jpg", (0.62, 0.7),
       "I do this for\nmy *children.*",

@@ -4,7 +4,7 @@ I was the Top New Achiever in my company. This is why I did it.
 
 I came from a simple, poor and broken family. Your typical sad story. But I wanted to break the cycle and change our lives.
 
-But I couldn't even afford the start. My aunt paid for my RES (Real Estate Salesperson) course fees. She didn't have to. She did it anyway, because she believed in me before I had a single result to show her. Every award since then has her name on it, quietly. She is my purpose to do well.
+But I couldn't even afford the start. I had to borrow money from my mother to pay for my RES (Real Estate Salesperson) course. She lent it to me before I had a single result to show her. Every award since then has her name on it, quietly. She is my purpose to do well.
 
 And then there are my children. Everything I build is so they never have to know the struggle I knew. Not the worry, not the shame, not the "maybe next time".
 
