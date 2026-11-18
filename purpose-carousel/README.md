@@ -7,7 +7,7 @@ Same social-card design as `humble-carousel/` in Barakah Homes navy, gold and cr
 - `slides/01.png` … `slides/06.png` — ready to upload, 1080×1350.
 - `caption.md` — caption, hashtags and posting notes.
 - `make_carousel.py` — regenerates the slides from `photos/` (`python3 make_carousel.py`).
-- `photos/` — the three source photos, the studio portrait used for the avatar, and the Barakah Homes logo.
+- `photos/` — the source photos, the studio portrait used for the avatar, and the Barakah Homes logo.
 - `fonts/` — Dancing Script and Great Vibes (SIL Open Font License).
 - `storyboard.png` — contact sheet of all six slides.
 - `barakah-purpose-carousel.zip` — the six slides zipped.
@@ -21,7 +21,7 @@ On the 2016 award photo, the previous agency's logo and the two "ERA" words in t
 | 01 | I was the *Top New Achiever* in my company. | This is **why** I did it. | 2016 award stage, logo and ERA words blurred |
 | 02 | I came from a simple, poor and *broken* family. Your typical sad story. | But I wanted to **break the cycle** and change our lives. | Family birthday |
 | 03 | I borrowed money from my *mother* to pay for my RES course. | She is **my purpose** to do well. | Family trip |
-| 04 | I do this for my *children.* | So they never know **the struggle.** | Birthday, cropped to the children |
+| 04 | I do this for my *children.* | So they never know **the struggle.** | Family photo with the children |
 | 05 | I was *hungry* then. | I'm **still hungry** now. | Award stage, cropped to Nona |
 | 06 | What's *your* purpose? | Tell me **in the comments.** | Family trip, with Barakah Homes logo |
 

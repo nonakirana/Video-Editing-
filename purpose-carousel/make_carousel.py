@@ -270,10 +270,10 @@ slide(3, "family-trip.jpg", (0.5, 0.5),
       card_h=600, hl_size=62,
       footer="Where my purpose began.")
 
-slide(4, "family-birthday.jpg", (0.62, 0.7),
-      "I do this for\nmy *children.*",
+slide(4, "family-hotel.jpg", (0.5, 0.0),
+      "I do this for my *children.*",
       "So they never know **the struggle.**",
-      card_h=640, hl_size=60, precrop=(560, 300, 1320, 970),
+      card_h=760, hl_size=56,
       footer="The reason I keep going.")
 
 slide(5, "award-2016.jpg", (0.5, 0.45),
