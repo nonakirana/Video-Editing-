@@ -12,14 +12,14 @@ Same social-card design as `humble-carousel/` in Barakah Homes navy, gold and cr
 - `storyboard.png` — contact sheet of all six slides.
 - `barakah-purpose-carousel.zip` — the six slides zipped.
 
-The previous agency's logo on the 2016 award photo is pixelated and blurred before cropping (`ERA_LOGO` box, `blur=` argument).
+On the 2016 award photo, the previous agency's logo and the two "ERA" words in the congratulations text are pixelated and blurred before cropping (`ERA_LOGO` boxes, `blur=` argument). The tiny ERA marks on the sash and lapel pins are not blurred.
 
 ## Slide order
 
 | # | Headline | Accent line | Photo |
 |---|----------|-------------|-------|
-| 01 | I was the *Top New Achiever* in my company. | This is **why** I did it. | 2016 award stage, logo blurred |
-| 02 | I came from a poor, *broken* family. | I wanted to **change our story.** | Family birthday |
+| 01 | I was the *Top New Achiever* in my company. | This is **why** I did it. | 2016 award stage, logo and ERA words blurred |
+| 02 | I came from a simple, poor and *broken* family. Your typical sad story. | But I wanted to **break the cycle** and change our lives. | Family birthday |
 | 03 | My aunt paid for my *RES* course fees. | She is **my purpose** to do well. | Family trip |
 | 04 | I do this for my *children.* | So they never know **the struggle.** | Birthday, cropped to the children |
 | 05 | I was *hungry* then. | I'm **still hungry** now. | Award stage, cropped to Nona |

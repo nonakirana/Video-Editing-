@@ -194,8 +194,10 @@ def slide(n, photo, focus, headline, accent, card_h=700, hl_size=78, footer=None
     src = Image.open(P(photo)).convert("RGB")
     if blur:   # hide logos: heavy blur + pixelate inside each box
         for box in blur:
+            block = box[4] if len(box) > 4 else 18
+            box = box[:4]
             region = src.crop(box)
-            small = region.resize((max(1, region.width // 18), max(1, region.height // 18)), Image.BILINEAR)
+            small = region.resize((max(1, region.width // block), max(1, region.height // block)), Image.BILINEAR)
             region = small.resize(region.size, Image.BILINEAR).filter(ImageFilter.GaussianBlur(6))
             src.paste(region, box[:2])
     if precrop:
@@ -246,7 +248,9 @@ def slide(n, photo, focus, headline, accent, card_h=700, hl_size=78, footer=None
 
 
 # ================= SLIDES =================
-ERA_LOGO = [(80, 5, 215, 160)]   # top-left agency logo on the 2016 award photo
+ERA_LOGO = [(80, 5, 196, 160),          # top-left agency logo on the 2016 award photo
+            (890, 88, 952, 122, 6),     # "ERA" in "ERA Top New Achiever 2015"
+            (900, 122, 962, 156, 6)]    # "ERA" in "ERA Top 18th Achiever 2015"
 
 slide(1, "award-2016.jpg", (0.5, 0.5),
       "I was the *Top New Achiever*\nin my company.",
@@ -255,9 +259,9 @@ slide(1, "award-2016.jpg", (0.5, 0.5),
       footer="My purpose.", swipe=True)
 
 slide(2, "family-birthday.jpg", (0.5, 0.45),
-      "I came from a poor,\n*broken* family.",
-      "I wanted to **change our story.**",
-      card_h=660, hl_size=64,
+      "I came from a simple,\npoor and *broken* family.\nYour typical sad story.",
+      "But I wanted to **break the cycle** and change our lives.",
+      card_h=560, hl_size=58,
       footer="Where it started.")
 
 slide(3, "family-trip.jpg", (0.5, 0.5),
