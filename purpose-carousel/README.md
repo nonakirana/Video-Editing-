@@ -23,6 +23,6 @@ On the 2016 award photo, the previous agency's logo and the two "ERA" words in t
 | 03 | I borrowed money from my *mother* to pay for my RES course. | She is **my purpose** to do well. | Family trip |
 | 04 | I do this for my *children.* | So they never know **the struggle.** | Family photo with the children |
 | 05 | I was *hungry* then. | I'm **still hungry** now. | Award stage, cropped to Nona |
-| 06 | What's *your* purpose? | Tell me **in the comments.** | Family trip, with Barakah Homes logo |
+| 06 | What's *your* purpose? | Tell me **in the comments.** | Tiger zoo family photo, with Barakah Homes logo |
 
 Markup in the headline strings: `*word*` = cursive, `**word**` = bold, `\n` = forced line break.

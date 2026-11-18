@@ -282,10 +282,10 @@ slide(5, "award-2016.jpg", (0.5, 0.45),
       card_h=680, hl_size=78, precrop=(400, 200, 1000, 728), blur=ERA_LOGO,
       footer="Same fire, bigger why.")
 
-slide(6, "family-trip.jpg", (0.5, 0.5),
+slide(6, "family-zoo.jpg", (0.5, 0.5),
       "What's *your* purpose?",
       "Tell me **in the comments.**",
-      card_h=620, hl_size=78, precrop=(120, 100, 1200, 739),
+      card_h=660, hl_size=78,
       footer="Follow @nonakirana for more.", cta=True)
 
 print("done")
